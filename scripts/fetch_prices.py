@@ -95,16 +95,71 @@ def get_sp500_tickers() -> list[str]:
         return get_sp500_tickers_from_wikipedia()
 
 
-def get_nasdaq100_tickers() -> list[str]:
-    url = "https://en.wikipedia.org/wiki/Nasdaq-100"
+# 나스닥100 실시간 스크레이핑이 전부 막혔을 때 쓰는 최후의 비상용 명단입니다.
+# 위키피디아 "Nasdaq-100" 문서에서 2026-08-26에 받아온 스냅샷이라 시간이 지나면
+# 편입/편출 종목이 실제와 달라질 수 있어요. 다른 방법이 다 실패했을 때만 씁니다.
+NASDAQ100_FALLBACK_TICKERS = [
+    "ADBE", "AMD", "ABNB", "ALNY", "GOOGL", "GOOG", "AMZN", "AEP", "AMGN", "ADI",
+    "AAPL", "AMAT", "APP", "ARM", "ASML", "ADSK", "ADP", "AXON", "BKR", "BKNG",
+    "AVGO", "CDNS", "CHTR", "CTAS", "CSCO", "CCEP", "CTSH", "CMCSA", "CEG", "CPRT",
+    "CSGP", "COST", "CRWD", "CSX", "DDOG", "DXCM", "FANG", "DASH", "EA", "EXC",
+    "FAST", "FER", "FTNT", "GEHC", "GILD", "HON", "IDXX", "INSM", "INTC", "INTU",
+    "ISRG", "KDP", "KLAC", "KHC", "LRCX", "LIN", "MAR", "MRVL", "MELI", "META",
+    "MCHP", "MU", "MSFT", "MSTR", "MDLZ", "MPWR", "MNST", "NFLX", "NVDA", "NXPI",
+    "ORLY", "ODFL", "PCAR", "PLTR", "PANW", "PAYX", "PYPL", "PDD", "PEP", "QCOM",
+    "REGN", "ROP", "ROST", "SNDK", "STX", "SHOP", "SBUX", "SNPS", "TMUS", "TTWO",
+    "TSLA", "TXN", "TRI", "VRSK", "VRTX", "WMT", "WBD", "WDC", "WDAY", "XEL", "ZS",
+]
+
+
+def _find_ticker_column(table: "pd.DataFrame") -> str | None:
+    """표의 컬럼명이 'Ticker'가 아니라 'Ticker[a]', ('Ticker','') 같은 멀티인덱스거나
+    대소문자가 다른 경우까지 넓게 잡아서 티커 컬럼을 찾아봅니다."""
+    for col in table.columns:
+        flat = " ".join(str(p) for p in col) if isinstance(col, tuple) else str(col)
+        flat_clean = re.sub(r"\[.*?\]", "", flat).strip().lower()
+        if flat_clean in ("ticker", "symbol", "ticker symbol"):
+            return col
+    return None
+
+
+def get_nasdaq100_tickers_from_wikipedia(url: str) -> list[str]:
     resp = requests.get(url, headers=HTTP_HEADERS, timeout=20)
     resp.raise_for_status()
     tables = pd.read_html(io.StringIO(resp.text))
     for t in tables:
-        cols = [str(c) for c in t.columns]
-        if "Ticker" in cols:
-            return [str(x).replace(".", "-") for x in t["Ticker"].tolist()]
-    raise RuntimeError("나스닥100 표를 찾지 못했습니다. 위키 페이지 구조가 바뀐 것 같아요.")
+        col = _find_ticker_column(t)
+        if col is not None:
+            tickers = [str(x).replace(".", "-") for x in t[col].tolist()]
+            tickers = [x for x in tickers if TICKER_PATTERN.match(x)]
+            if len(tickers) >= 90:  # 나스닥100은 90~110개 안팎이어야 정상
+                return tickers
+    raise RuntimeError(f"'{url}' 에서 나스닥100 표를 찾지 못했습니다. 페이지 구조가 바뀐 것 같아요.")
+
+
+def get_nasdaq100_tickers() -> list[str]:
+    """여러 소스를 순서대로 시도합니다. 다 실패하면 마지막으로 고정된 비상용 명단을 씁니다.
+    (이 함수 자체는 예외를 던지지 않도록 설계했어요 — 티커 목록 하나 때문에
+    전체 파이프라인이 죽는 걸 막기 위해서입니다.)"""
+    attempts = [
+        ("위키피디아(일반 문서)", "https://en.wikipedia.org/wiki/Nasdaq-100"),
+        # REST API 경로는 캐시 서버가 달라서, 일반 문서 요청이 막혀도 통할 때가 있습니다.
+        ("위키피디아(REST API)", "https://en.wikipedia.org/api/rest_v1/page/html/Nasdaq-100"),
+    ]
+    for label, url in attempts:
+        try:
+            tickers = get_nasdaq100_tickers_from_wikipedia(url)
+            print(f"나스닥100 티커를 {label}에서 받아왔습니다 ({len(tickers)}개).", file=sys.stderr)
+            return tickers
+        except Exception as e:
+            print(f"[경고] 나스닥100 티커 수집 실패 - {label}: {e}", file=sys.stderr)
+
+    print(
+        f"[경고] 나스닥100 티커를 실시간으로 가져오지 못해 비상용 고정 명단을 사용합니다 "
+        f"({len(NASDAQ100_FALLBACK_TICKERS)}개, 2026-08-26 기준 스냅샷 — 최신 편입/편출과 다를 수 있어요).",
+        file=sys.stderr,
+    )
+    return list(NASDAQ100_FALLBACK_TICKERS)
 
 
 def get_universe() -> list[str]:
