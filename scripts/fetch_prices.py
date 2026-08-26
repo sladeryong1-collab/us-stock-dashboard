@@ -6,21 +6,25 @@
 
 동작 순서:
   1) tickers_cache.json이 있고 최신(TICKER_CACHE_MAX_AGE_DAYS 이내)이면 그대로 사용,
-     아니면 위키피디아에서 S&P500 + 나스닥100 리스트를 새로 받아서 캐시 갱신
+     아니면 S&P500은 SPY 홀딩스 파일(1순위)/위키피디아(대체), 나스닥100은 위키피디아에서
+     리스트를 새로 받아서 캐시 갱신
   2) 종목을 배치(BATCH_SIZE)로 쪼개서 종가 + 전일대비 등락률을 수집
   3) 결과를 data/prices.json 으로 저장 (index.html이 이 파일을 읽어서 표시)
 
 실패한 배치는 재시도하고, 그래도 안 되면 해당 종목만 "실패" 표시하고 넘어갑니다.
 """
 
+import io
 import json
 import random
+import re
 import sys
 import time
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
 import pandas as pd
+import requests
 import yfinance as yf
 
 # ── 설정값 ──────────────────────────────────────────────
@@ -36,17 +40,66 @@ OUTPUT_PATH = ROOT / "data" / "prices.json"
 
 KST = timezone(timedelta(hours=9))
 
+# 위키피디아 등은 브라우저처럼 보이는 User-Agent가 없으면 403으로 막는 경우가 많아서
+# requests로 직접 받을 때는 항상 이 헤더를 같이 보냅니다.
+HTTP_HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                  "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+}
+TICKER_PATTERN = re.compile(r"^[A-Z]{1,6}([.\-][A-Z]{1,2})?$")
 
-def get_sp500_tickers() -> list[str]:
+
+def get_sp500_tickers_from_spy() -> list[str]:
+    """SPY(State Street) 공식 보유종목 파일에서 S&P500 티커를 가져옵니다.
+    위키피디아보다 신뢰도가 높은 1차 소스라 이걸 먼저 시도합니다."""
+    url = "https://www.ssga.com/library-content/products/fund-data/etfs/us/holdings-daily-us-en-spy.xlsx"
+    resp = requests.get(url, headers=HTTP_HEADERS, timeout=20)
+    resp.raise_for_status()
+
+    raw = pd.read_excel(io.BytesIO(resp.content), header=None)
+    header_row = None
+    for i, row in raw.iterrows():
+        if row.astype(str).str.strip().eq("Ticker").any():
+            header_row = i
+            break
+    if header_row is None:
+        raise RuntimeError("SPY holdings 파일에서 'Ticker' 헤더 행을 찾지 못했습니다.")
+
+    table = pd.read_excel(io.BytesIO(resp.content), header=header_row)
+    tickers = table["Ticker"].dropna().astype(str).str.strip()
+    tickers = tickers[tickers.str.match(TICKER_PATTERN)]
+    tickers = tickers.str.replace(".", "-", regex=False).tolist()
+
+    if len(tickers) < 400:  # 정상이면 500개 안팎 — 너무 적으면 파싱이 잘못된 것
+        raise RuntimeError(f"SPY holdings에서 티커가 너무 적게({len(tickers)}개) 파싱됐습니다.")
+    return tickers
+
+
+def get_sp500_tickers_from_wikipedia() -> list[str]:
+    """SPY 파일을 못 받아왔을 때 쓰는 대체 소스."""
     url = "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
-    table = pd.read_html(url)[0]
+    resp = requests.get(url, headers=HTTP_HEADERS, timeout=20)
+    resp.raise_for_status()
+    table = pd.read_html(io.StringIO(resp.text))[0]
     tickers = table["Symbol"].tolist()
     return [t.replace(".", "-") for t in tickers]
 
 
+def get_sp500_tickers() -> list[str]:
+    try:
+        tickers = get_sp500_tickers_from_spy()
+        print(f"S&P500 티커를 SPY 홀딩스 파일에서 받아왔습니다 ({len(tickers)}개).", file=sys.stderr)
+        return tickers
+    except Exception as e:
+        print(f"[경고] SPY 홀딩스 실패({e}) → 위키피디아로 대체합니다.", file=sys.stderr)
+        return get_sp500_tickers_from_wikipedia()
+
+
 def get_nasdaq100_tickers() -> list[str]:
     url = "https://en.wikipedia.org/wiki/Nasdaq-100"
-    tables = pd.read_html(url)
+    resp = requests.get(url, headers=HTTP_HEADERS, timeout=20)
+    resp.raise_for_status()
+    tables = pd.read_html(io.StringIO(resp.text))
     for t in tables:
         cols = [str(c) for c in t.columns]
         if "Ticker" in cols:
@@ -85,7 +138,7 @@ def load_or_update_tickers() -> list[str]:
         json.dumps({"fetched_at": datetime.now(timezone.utc).isoformat(), "tickers": tickers}, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
-    print(f"종목 리스트를 새로 받아서 캐시에 저장했습니다 ({len(tickers)}종목).")
+    print(f"종목 리스트를 새로 받아서 캐시에 저장했습니다 ({len(tickers)}개).")
     return tickers
 
 
@@ -120,7 +173,6 @@ def fetch_batch(tickers: list[str]) -> list[dict]:
         last_date = df.index[-1].strftime("%Y-%m-%d")
         is_suspicious = bool(last["Open"] == last["High"] == last["Low"] == last["Close"])
 
-        # 전일대비 등락률 계산 (데이터가 2일 이상 있어야 계산 가능)
         change_pct = None
         if len(df) >= 2:
             prev_close = df.iloc[-2]["Close"]
