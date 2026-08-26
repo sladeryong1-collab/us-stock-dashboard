@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>미국 종가 대시보드 (나스닥100 + S&amp;P500)</title>
+<style>
+  :root {
+    color-scheme: light;
+    --surface-1: #fcfcfb;
+    --surface-2: #f3f2ef;
+    --border: #e3e1db;
+    --text-primary: #0b0b0b;
+    --text-secondary: #52514e;
+    --up: #e34948;      /* red = 상승 (한국 관행) */
+    --down: #2a78d6;    /* blue = 하락 */
+    --neutral: #52514e;
+    --warning: #fab219;
+    --critical: #d03b3b;
+    --row-hover: #f3f2ef;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      color-scheme: dark;
+      --surface-1: #1a1a19;
+      --surface-2: #232322;
+      --border: #34332f;
+      --text-primary: #ffffff;
+      --text-secondary: #c3c2b7;
+      --up: #e66767;
+      --down: #3987e5;
+      --neutral: #c3c2b7;
+      --row-hover: #232322;
+    }
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --surface-1: #1a1a19;
+    --surface-2: #232322;
+    --border: #34332f;
+    --text-primary: #ffffff;
+    --text-secondary: #c3c2b7;
+    --up: #e66767;
+    --down: #3987e5;
+    --neutral: #c3c2b7;
+    --row-hover: #232322;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--surface-1);
+    color: var(--text-primary);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Apple SD Gothic Neo",
+      "Noto Sans KR", Roboto, sans-serif;
+    padding: 24px 16px 64px;
+  }
+  .wrap { max-width: 960px; margin: 0 auto; }
+
+  header { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px; margin-bottom: 4px; }
+  h1 { font-size: 1.3rem; margin: 0; }
+  .meta { color: var(--text-secondary); font-size: 0.85rem; }
+
+  .toolbar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 16px 0; }
+  input[type="search"] {
+    flex: 1; min-width: 160px;
+    padding: 8px 12px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: var(--surface-2);
+    color: var(--text-primary);
+    font-size: 0.9rem;
+  }
+  input[type="search"]:focus { outline: 2px solid var(--down); outline-offset: 1px; }
+
+  .stat-row { display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 4px; }
+  .stat { font-size: 0.8rem; color: var(--text-secondary); }
+  .stat b { color: var(--text-primary); }
+
+  button#theme-toggle {
+    border: 1px solid var(--border);
+    background: var(--surface-2);
+    color: var(--text-primary);
+    border-radius: 8px;
+    padding: 8px 12px;
+    font-size: 0.85rem;
+    cursor: pointer;
+  }
+
+  .table-scroll { overflow-x: auto; border: 1px solid var(--border); border-radius: 10px; }
+  table { width: 100%; border-collapse: collapse; font-size: 0.88rem; min-width: 480px; }
+  thead th {
+    position: sticky; top: 0;
+    background: var(--surface-2);
+    text-align: right;
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--border);
+    color: var(--text-secondary);
+    font-weight: 600;
+    cursor: pointer;
+    user-select: none;
+    white-space: nowrap;
+  }
+  thead th:first-child, thead th:nth-child(2) { text-align: left; }
+  thead th .arrow { font-size: 0.7em; opacity: 0.6; margin-left: 2px; }
+  tbody td { padding: 8px 12px; text-align: right; border-bottom: 1px solid var(--border); white-space: nowrap; }
+  tbody td:first-child, tbody td:nth-child(2) { text-align: left; }
+  tbody tr:last-child td { border-bottom: none; }
+  tbody tr:hover { background: var(--row-hover); }
+  .ticker { font-weight: 600; }
+
+  .chg { font-variant-numeric: tabular-nums; }
+  .chg.up { color: var(--up); }
+  .chg.down { color: var(--down); }
+  .chg.flat { color: var(--neutral); }
+
+  .flag {
+    display: inline-block;
+    font-size: 0.72rem;
+    padding: 1px 6px;
+    border-radius: 999px;
+    margin-left: 6px;
+    vertical-align: middle;
+  }
+  .flag.suspicious { background: color-mix(in srgb, var(--warning) 22%, transparent); color: var(--warning); }
+  .flag.failed { background: color-mix(in srgb, var(--critical) 22%, transparent); color: var(--critical); }
+
+  .empty-state { text-align: center; padding: 48px 16px; color: var(--text-secondary); font-size: 0.9rem; }
+  footer { margin-top: 24px; color: var(--text-secondary); font-size: 0.78rem; text-align: center; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>🇺🇸 나스닥100 + S&amp;P500 종가</h1>
+      <button id="theme-toggle" type="button" aria-label="테마 전환">🌓</button>
+    </header>
+    <div class="meta" id="last-updated">데이터를 불러오는 중...</div>
+
+    <div class="toolbar">
+      <input id="search" type="search" placeholder="티커 검색 (예: AAPL)" autocomplete="off" />
+    </div>
+    <div class="stat-row">
+      <span class="stat">전체 <b id="stat-total">-</b>종목</span>
+      <span class="stat">상승 <b id="stat-up" style="color:var(--up)">-</b></span>
+      <span class="stat">하락 <b id="stat-down" style="color:var(--down)">-</b></span>
+      <span class="stat">수집 실패 <b id="stat-failed">-</b></span>
+    </div>
+
+    <div class="table-scroll">
+      <table id="price-table" aria-live="polite">
+        <thead>
+          <tr>
+            <th data-key="ticker">티커<span class="arrow"></span></th>
+            <th data-key="date">일자<span class="arrow"></span></th>
+            <th data-key="close">종가<span class="arrow"></span></th>
+            <th data-key="change_pct">등락률<span class="arrow"></span></th>
+          </tr>
+        </thead>
+        <tbody id="table-body"></tbody>
+      </table>
+    </div>
+    <div class="empty-state" id="empty-state" hidden>표시할 종목이 없어요. 검색어를 확인해주세요.</div>
+
+    <footer>
+      매일 08:00(KST) 자동 갱신 · GitHub Actions로 수집 · 데이터 출처: Yahoo Finance(yfinance)
+    </footer>
+  </div>
+
+<script>
+(function () {
+  "use strict";
+
+  // ── 테마 토글 (localStorage로 사용자 선택 기억) ──────────────
+  var root = document.documentElement;
+  try {
+    var saved = localStorage.getItem("theme");
+    if (saved === "light" || saved === "dark") root.setAttribute("data-theme", saved);
+  } catch (e) {}
+
+  document.getElementById("theme-toggle").addEventListener("click", function () {
+    var current = root.getAttribute("data-theme");
+    var next = current === "dark" ? "light" : current === "light" ? null : "dark";
+    if (next) root.setAttribute("data-theme", next); else root.removeAttribute("data-theme");
+    try {
+      if (next) localStorage.setItem("theme", next); else localStorage.removeItem("theme");
+    } catch (e) {}
+  });
+
+  // ── 상태 ──────────────────────────────────────────────
+  var allRows = [];
+  var sortKey = "ticker";
+  var sortDir = 1;
+
+  function fmtNum(n, digits) {
+    if (n === null || n === undefined || Number.isNaN(n)) return "—";
+    return n.toLocaleString("en-US", { minimumFractionDigits: digits, maximumFractionDigits: digits });
+  }
+
+  function render() {
+    var q = document.getElementById("search").value.trim().toUpperCase();
+    var rows = allRows.filter(function (r) {
+      return !q || r.ticker.toUpperCase().indexOf(q) !== -1;
+    });
+
+    rows.sort(function (a, b) {
+      var av = a[sortKey], bv = b[sortKey];
+      if (av === null || av === undefined) av = sortKey === "ticker" || sortKey === "date" ? "" : -Infinity;
+      if (bv === null || bv === undefined) bv = sortKey === "ticker" || sortKey === "date" ? "" : -Infinity;
+      if (av < bv) return -1 * sortDir;
+      if (av > bv) return 1 * sortDir;
+      return 0;
+    });
+
+    var tbody = document.getElementById("table-body");
+    tbody.innerHTML = "";
+
+    var up = 0, down = 0, failed = 0;
+    allRows.forEach(function (r) {
+      if (r.status === "failed" || r.status === "no_data" || r.status === "batch_failed") failed++;
+      else if (typeof r.change_pct === "number") {
+        if (r.change_pct > 0) up++; else if (r.change_pct < 0) down++;
+      }
+    });
+    document.getElementById("stat-total").textContent = allRows.length;
+    document.getElementById("stat-up").textContent = up;
+    document.getElementById("stat-down").textContent = down;
+    document.getElementById("stat-failed").textContent = failed;
+
+    document.getElementById("empty-state").hidden = rows.length !== 0;
+
+    rows.forEach(function (r) {
+      var tr = document.createElement("tr");
+
+      var isFailed = r.status === "failed" || r.status === "no_data" || r.status === "batch_failed";
+      var chgClass = "flat", chgText = "—", arrow = "";
+      if (!isFailed && typeof r.change_pct === "number") {
+        if (r.change_pct > 0) { chgClass = "up"; arrow = "▲ "; }
+        else if (r.change_pct < 0) { chgClass = "down"; arrow = "▼ "; }
+        chgText = arrow + fmtNum(Math.abs(r.change_pct), 2) + "%";
+      }
+
+      var flag = "";
+      if (isFailed) flag = '<span class="flag failed">수집 실패</span>';
+      else if (r.status === "suspicious") flag = '<span class="flag suspicious">⚠ 확인 필요</span>';
+
+      tr.innerHTML =
+        '<td class="ticker">' + r.ticker + flag + '</td>' +
+        '<td>' + (r.date || "—") + '</td>' +
+        '<td>' + (isFailed ? "—" : fmtNum(r.close, 2)) + '</td>' +
+        '<td class="chg ' + chgClass + '">' + chgText + '</td>';
+      tbody.appendChild(tr);
+    });
+  }
+
+  document.querySelectorAll("thead th").forEach(function (th) {
+    th.addEventListener("click", function () {
+      var key = th.getAttribute("data-key");
+      if (sortKey === key) sortDir *= -1; else { sortKey = key; sortDir = 1; }
+      document.querySelectorAll("thead .arrow").forEach(function (a) { a.textContent = ""; });
+      th.querySelector(".arrow").textContent = sortDir === 1 ? "▲" : "▼";
+      render();
+    });
+  });
+
+  document.getElementById("search").addEventListener("input", render);
+
+  // ── 데이터 로드 ──────────────────────────────────────────
+  fetch("data/prices.json", { cache: "no-store" })
+    .then(function (res) { return res.json(); })
+    .then(function (data) {
+      allRows = data.rows || [];
+      var lu = document.getElementById("last-updated");
+      if (data.last_updated) {
+        var d = new Date(data.last_updated);
+        lu.textContent = "마지막 갱신: " + d.toLocaleString("ko-KR", { dateStyle: "medium", timeStyle: "short" });
+      } else {
+        lu.textContent = "아직 갱신된 데이터가 없어요 (첫 GitHub Actions 실행을 기다리는 중).";
+      }
+      render();
+    })
+    .catch(function (err) {
+      document.getElementById("last-updated").textContent = "데이터를 불러오지 못했습니다: " + err;
+    });
+})();
+</script>
+</body>
+</html>
