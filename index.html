@@ -215,8 +215,8 @@
 
   // ── 상태 ──────────────────────────────────────────────
   var allRows = [];
-  var sortKey = "ticker";
-  var sortDir = 1;
+  var sortKey = "market_cap_b";
+  var sortDir = -1;
 
   function fmtNum(n, digits) {
     if (n === null || n === undefined || Number.isNaN(n)) return "—";
@@ -313,6 +313,10 @@
 
   document.getElementById("search").addEventListener("input", render);
   document.getElementById("sector-filter").addEventListener("change", render);
+
+  // 기본 정렬(시가총액 내림차순)에 맞춰 헤더에 화살표 표시
+  var initialArrowTh = document.querySelector('thead th[data-key="' + sortKey + '"] .arrow');
+  if (initialArrowTh) initialArrowTh.textContent = sortDir === 1 ? "▲" : "▼";
 
   // ── 데이터 로드 ──────────────────────────────────────────
   fetch("data/prices.json", { cache: "no-store" })
