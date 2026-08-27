@@ -1,12 +1,12 @@
+# -*- coding: utf-8 -*-
 """
-나스닥100 + S&P500 종가 자동 수집 스크립트 (GitHub Actions용)
-================================================================
-이 스크립트는 GitHub Actions에서 매일 실행되는 걸 전제로 만들었어요.
+나스닥100 + S&P500 종가/섹터/시가총액 수집 스크립트
 (인터넷 제한이 없는 환경에서 도는 걸 가정합니다.)
 
 동작 순서:
-  1) tickers_cache.json이 있고 최신(TICKER_CACHE_MAX_AGE_DAYS 이내)이면 그대로 사용.
-     없거나 오래됐으면 새로 받아옵니다:
+  1) tickers_cache.json이 있고 최신(TICKER_CACHE_MAX_AGE_DAYS 이내)이고
+     "섹터 정보가 실제로 채워져 있으면" 그대로 사용.
+     없거나 오래됐거나 섹터가 비어있으면 새로 받아옵니다:
        - 티커 + 종목명 + 섹터: S&P500은 SPY 홀딩스 파일(1순위)/위키피디아(대체),
          나스닥100은 위키피디아에서 가져옵니다.
        - 발행주식수: 종목마다 개별 조회가 필요해서(야후 파이낸스) 느리기 때문에,
@@ -17,6 +17,26 @@
   3) 결과를 data/prices.json 으로 저장 (index.html이 이 파일을 읽어서 표시)
 
 실패한 배치는 재시도하고, 그래도 안 되면 해당 종목만 "실패" 표시하고 넘어갑니다.
+
+──────────────────────────────────────────────────────────────
+[2026-08-27 수정] 섹터가 전부 "-"로 나오는 문제 수정
+  원인 1: SPY 홀딩스 파일(SPDR 공식 xlsx)의 "Sector" 컬럼 값이 이번 배포본에서는
+          종목별로 실제 섹터명이 아니라 문자열 "-"만 들어있었습니다. 컬럼 자체는
+          정상적으로 찾아졌기 때문에 예외가 안 나고 그대로 "-"가 저장돼버렸어요.
+          → 이제 "-" 같은 값은 "섹터 없음(None)"으로 취급하고, 유효한 섹터 비율이
+            너무 낮으면 SPY 소스를 실패로 간주해서 위키피디아로 자동 대체합니다.
+  원인 2: 나스닥100 위키피디아 표 파싱이 실패해서(표 구조 인식 실패) 나스닥100
+          전용 종목(ARM, MSTR, PDD 등)은 이름/섹터가 아예 None이었습니다.
+          → 실패 시 각 표의 컬럼명을 로그로 남겨서 다음에 왜 실패했는지 바로
+            보이게 했고, "90개 이상인 첫 표"가 아니라 "유효 티커가 가장 많이
+            나온 표"를 선택하도록 완화해서 표 순서가 바뀌어도 더 잘 버티게
+            했습니다.
+  원인 3: tickers_cache.json 캐시는 "meta/shares 키가 있고 7일 이내면" 무조건
+          재사용했기 때문에, 한 번 "-"로 잘못 저장되면 코드를 고쳐도 캐시
+          때문에 최대 7일간 계속 "-"가 나왔습니다.
+          → 캐시를 불러올 때 섹터가 실제로 채워져 있는 비율도 같이 확인해서,
+            너무 낮으면 캐시가 최신이어도 다시 받아오도록 했습니다.
+──────────────────────────────────────────────────────────────
 """
 
 import io
@@ -46,10 +66,12 @@ TICKER_CACHE_PATH = ROOT / "tickers_cache.json"
 TICKER_CACHE_MAX_AGE_DAYS = 7
 OUTPUT_PATH = ROOT / "data" / "prices.json"
 
+# 캐시(혹은 방금 받아온 메타데이터)의 섹터 값 중 이 비율 미만만 "유효"하면
+# 못 믿을 데이터로 보고 다시 받아옵니다. (예: SPY 파일이 전부 "-"만 내려줄 때)
+MIN_VALID_SECTOR_RATIO = 0.5
+
 KST = timezone(timedelta(hours=9))
 
-# 위키피디아 등은 브라우저처럼 보이는 User-Agent가 없으면 403으로 막는 경우가 많아서
-# requests로 직접 받을 때는 항상 이 헤더를 같이 보냅니다.
 HTTP_HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
                   "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
@@ -74,6 +96,28 @@ ICB_TO_GICS_SECTOR = {
     "Real Estate": "Real Estate",
 }
 
+# 이런 값들은 "섹터가 있는 척하는 빈 값"으로 보고 None 취급합니다.
+_INVALID_SECTOR_VALUES = {"-", "--", "", "n/a", "na", "none", "null", "nan"}
+
+
+def _clean_sector(value) -> str | None:
+    """SPY 파일이나 위키 표에서 막 뽑아온 섹터 원문 값을 정리합니다.
+    "-" 처럼 실제로는 값이 없는데 빈 문자열이 아니라서 걸러지지 않던 값들을
+    여기서 전부 None으로 통일해요."""
+    if value is None:
+        return None
+    text = str(value).strip()
+    if not text or text.lower() in _INVALID_SECTOR_VALUES:
+        return None
+    return text
+
+
+def _valid_sector_ratio(meta: dict[str, dict]) -> float:
+    if not meta:
+        return 0.0
+    valid = sum(1 for info in meta.values() if _clean_sector(info.get("sector")))
+    return valid / len(meta)
+
 
 def _flatten_col(col) -> str:
     """DataFrame 컬럼명이 ('A','B') 같은 멀티인덱스 튜플이어도 문자열로 펴줍니다."""
@@ -92,7 +136,12 @@ def _find_column(table: "pd.DataFrame", candidates: tuple[str, ...]):
 
 def get_sp500_records_from_spy() -> list[dict]:
     """SPY(State Street) 공식 보유종목 파일에서 S&P500 티커/종목명/섹터를 가져옵니다.
-    위키피디아보다 신뢰도가 높은 1차 소스라 이걸 먼저 시도합니다."""
+    위키피디아보다 신뢰도가 높은 1차 소스라 이걸 먼저 시도합니다.
+
+    단, 이 파일의 "Sector" 컬럼이 (버전에 따라) 종목별 실제 섹터명 대신
+    "-" 같은 자리표시자만 채워져 있을 때가 있어서, 그런 경우는 이 소스를
+    실패로 간주하고 위키피디아 대체 경로로 넘어가도록 예외를 던집니다.
+    """
     url = "https://www.ssga.com/library-content/products/fund-data/etfs/us/holdings-daily-us-en-spy.xlsx"
     resp = requests.get(url, headers=HTTP_HEADERS, timeout=20)
     resp.raise_for_status()
@@ -119,17 +168,27 @@ def get_sp500_records_from_spy() -> list[dict]:
             {
                 "ticker": ticker.replace(".", "-"),
                 "name": (str(row[name_col]).strip() if name_col is not None and pd.notna(row[name_col]) else None),
-                "sector": (str(row[sector_col]).strip() if sector_col is not None and pd.notna(row[sector_col]) else None),
+                "sector": _clean_sector(row[sector_col]) if sector_col is not None else None,
             }
         )
 
-    if len(records) < 400:  # 정상이면 500개 안팎 — 너무 적으면 파싱이 잘못된 것
+    if len(records) < 400:
         raise RuntimeError(f"SPY holdings에서 티커가 너무 적게({len(records)}개) 파싱됐습니다.")
+
+    valid_sector = sum(1 for r in records if r["sector"])
+    ratio = valid_sector / len(records)
+    if sector_col is None or ratio < MIN_VALID_SECTOR_RATIO:
+        raise RuntimeError(
+            f"SPY holdings의 섹터 컬럼({sector_col})이 신뢰할 수 없습니다 "
+            f"(유효 섹터 {valid_sector}/{len(records)} = {ratio:.0%}). "
+            "위키피디아로 대체합니다."
+        )
+
     return records
 
 
 def get_sp500_records_from_wikipedia() -> list[dict]:
-    """SPY 파일을 못 받아왔을 때 쓰는 대체 소스."""
+    """SPY 파일을 못 받아왔을 때(또는 섹터가 못 미더울 때) 쓰는 대체 소스."""
     url = "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
     resp = requests.get(url, headers=HTTP_HEADERS, timeout=20)
     resp.raise_for_status()
@@ -148,7 +207,7 @@ def get_sp500_records_from_wikipedia() -> list[dict]:
             {
                 "ticker": ticker.replace(".", "-"),
                 "name": (str(row[name_col]).strip() if name_col is not None and pd.notna(row[name_col]) else None),
-                "sector": (str(row[sector_col]).strip() if sector_col is not None and pd.notna(row[sector_col]) else None),
+                "sector": _clean_sector(row[sector_col]) if sector_col is not None else None,
             }
         )
     return records
@@ -186,8 +245,12 @@ def get_nasdaq100_records_from_wikipedia(url: str) -> list[dict]:
     resp = requests.get(url, headers=HTTP_HEADERS, timeout=20)
     resp.raise_for_status()
     tables = pd.read_html(io.StringIO(resp.text))
-    for t in tables:
+
+    best_records: list[dict] = []
+    debug_info = []
+    for idx, t in enumerate(tables):
         ticker_col = _find_column(t, ("ticker", "symbol", "ticker symbol"))
+        debug_info.append(f"  표 {idx}: 컬럼={list(t.columns)[:8]} (행 {len(t)}개)")
         if ticker_col is None:
             continue
         name_col = _find_column(t, ("company", "name", "security"))
@@ -198,9 +261,8 @@ def get_nasdaq100_records_from_wikipedia(url: str) -> list[dict]:
             ticker = str(row[ticker_col]).replace(".", "-").strip()
             if not TICKER_PATTERN.match(ticker):
                 continue
-            sector = None
-            if sector_col is not None and pd.notna(row[sector_col]):
-                sector = str(row[sector_col]).strip()
+            sector = _clean_sector(row[sector_col]) if sector_col is not None else None
+            if sector is not None:
                 sector = ICB_TO_GICS_SECTOR.get(sector, sector)
             records.append(
                 {
@@ -210,18 +272,31 @@ def get_nasdaq100_records_from_wikipedia(url: str) -> list[dict]:
                 }
             )
 
-        if len(records) >= 90:  # 나스닥100은 90~110개 안팎이어야 정상
-            return records
-    raise RuntimeError(f"'{url}' 에서 나스닥100 표를 찾지 못했습니다. 페이지 구조가 바뀐 것 같아요.")
+        # "90개 이상인 첫 표"를 바로 채택하지 않고, 지금까지 본 것 중 가장 티커를
+        # 많이 건진 표를 기억해둡니다 → 위키 표 순서가 바뀌어도 더 잘 버팁니다.
+        if len(records) > len(best_records):
+            best_records = records
+
+    if len(best_records) >= 90:
+        return best_records
+
+    # 여기까지 왔다는 건 실패했다는 뜻 — 다음에 왜 실패했는지 바로 알 수 있게
+    # 페이지에서 찾은 표들의 구조를 전부 로그로 남겨둡니다.
+    print(f"[디버그] '{url}'에서 찾은 표 {len(tables)}개:", file=sys.stderr)
+    for line in debug_info:
+        print(line, file=sys.stderr)
+    raise RuntimeError(
+        f"'{url}' 에서 나스닥100 표를 찾지 못했습니다 (최선 결과 {len(best_records)}개, 90개 필요). "
+        "페이지 구조가 바뀐 것 같아요."
+    )
 
 
 def get_nasdaq100_records() -> list[dict]:
     """여러 소스를 순서대로 시도합니다. 다 실패하면 마지막으로 고정된 비상용 명단을 씁니다.
     (이 함수 자체는 예외를 던지지 않도록 설계했어요 — 티커 목록 하나 때문에
-    전체 파이프라인이 죽는 걸 막기 위해서입니다.)"""
+     전체 파이프라인이 죽는 걸 막기 위해서입니다.)"""
     attempts = [
         ("위키피디아(일반 문서)", "https://en.wikipedia.org/wiki/Nasdaq-100"),
-        # REST API 경로는 캐시 서버가 달라서, 일반 문서 요청이 막혀도 통할 때가 있습니다.
         ("위키피디아(REST API)", "https://en.wikipedia.org/api/rest_v1/page/html/Nasdaq-100"),
     ]
     for label, url in attempts:
@@ -248,12 +323,13 @@ def get_universe() -> tuple[list[str], dict[str, dict]]:
 
     meta: dict[str, dict] = {}
     for rec in nasdaq100:  # 나스닥100을 먼저 넣고
-        meta[rec["ticker"]] = {"name": rec["name"], "sector": rec["sector"]}
+        meta[rec["ticker"]] = {"name": rec["name"], "sector": _clean_sector(rec["sector"])}
     for rec in sp500:  # S&P500으로 덮어써서(우선순위) GICS 섹터가 이기게 함
-        meta[rec["ticker"]] = {"name": rec["name"], "sector": rec["sector"]}
+        meta[rec["ticker"]] = {"name": rec["name"], "sector": _clean_sector(rec["sector"])}
 
     universe = sorted(meta.keys())
     print(f"S&P500 {len(sp500)}개 + 나스닥100 {len(nasdaq100)}개 → 중복 제거 후 {len(universe)}개")
+    print(f"섹터 정보 확보율: {_valid_sector_ratio(meta):.0%} ({len(universe)}종목 중)")
     return universe, meta
 
 
@@ -315,13 +391,17 @@ def load_or_update_tickers() -> tuple[list[str], dict[str, dict], dict[str, floa
     if TICKER_CACHE_PATH.exists():
         cached = json.loads(TICKER_CACHE_PATH.read_text(encoding="utf-8"))
         has_new_fields = "meta" in cached and "shares" in cached
+        sector_ratio = _valid_sector_ratio(cached.get("meta", {})) if has_new_fields else 0.0
+        sector_ok = sector_ratio >= MIN_VALID_SECTOR_RATIO
         fetched_at = datetime.fromisoformat(cached["fetched_at"])
         age_days = (datetime.now(timezone.utc) - fetched_at).days
-        if has_new_fields and age_days < TICKER_CACHE_MAX_AGE_DAYS:
-            print(f"종목 리스트 캐시 사용 ({age_days}일 전 갱신, {len(cached['tickers'])}종목)")
+        if has_new_fields and sector_ok and age_days < TICKER_CACHE_MAX_AGE_DAYS:
+            print(f"종목 리스트 캐시 사용 ({age_days}일 전 갱신, {len(cached['tickers'])}종목, 섹터 확보율 {sector_ratio:.0%})")
             return cached["tickers"], cached["meta"], cached["shares"]
         if not has_new_fields:
             print("캐시에 종목명/섹터/발행주식수 정보가 없습니다(예전 형식). 한 번 새로 받아옵니다...")
+        elif not sector_ok:
+            print(f"캐시의 섹터 확보율이 너무 낮습니다({sector_ratio:.0%}). 다시 받아옵니다...")
         else:
             print(f"종목 리스트 캐시가 {age_days}일 지났습니다. 새로 받아옵니다...")
 
@@ -434,7 +514,7 @@ def main():
     for row in rows:
         info = meta.get(row["ticker"], {})
         row["name"] = info.get("name")
-        row["sector"] = info.get("sector")
+        row["sector"] = _clean_sector(info.get("sector"))
 
         shares_out = shares.get(row["ticker"])
         close = row.get("close")
@@ -445,7 +525,11 @@ def main():
 
     ok_count = sum(1 for r in rows if r.get("status") in ("ok", "suspicious"))
     cap_count = sum(1 for r in rows if r.get("market_cap_b") is not None)
-    print(f"\n총 {len(rows)}종목 중 성공 {ok_count}개 (시가총액 확보 {cap_count}개)", file=sys.stderr)
+    sector_count = sum(1 for r in rows if r.get("sector"))
+    print(
+        f"\n총 {len(rows)}종목 중 성공 {ok_count}개 (시가총액 확보 {cap_count}개, 섹터 확보 {sector_count}개)",
+        file=sys.stderr,
+    )
 
     output = {
         "last_updated": datetime.now(KST).isoformat(),
