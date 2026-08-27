@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-27T13:13:28.194649+09:00",
+  "last_updated": "2026-08-27T13:47:45.622035+09:00",
   "count": 516,
   "rows": [
     {
@@ -9,8 +9,8 @@
       "close": 155.08,
       "change_pct": 0.2,
       "volume": 3202500,
-      "name": "AGILENT TECHNOLOGIES INC",
-      "sector": "-",
+      "name": "Agilent Technologies",
+      "sector": "Health Care",
       "market_cap_b": 43.8
     },
     {
@@ -20,8 +20,8 @@
       "close": 313.45,
       "change_pct": 1.15,
       "volume": 33897800,
-      "name": "APPLE INC",
-      "sector": "-",
+      "name": "Apple Inc.",
+      "sector": "Information Technology",
       "market_cap_b": 4574.55
     },
     {
@@ -31,8 +31,8 @@
       "close": 262.9,
       "change_pct": -1.09,
       "volume": 3305100,
-      "name": "ABBVIE INC",
-      "sector": "-",
+      "name": "AbbVie",
+      "sector": "Health Care",
       "market_cap_b": 464.58
     },
     {
@@ -42,8 +42,8 @@
       "close": 188.07,
       "change_pct": -1.28,
       "volume": 3369500,
-      "name": "AIRBNB INC CLASS A",
-      "sector": "-",
+      "name": "Airbnb",
+      "sector": "Consumer Discretionary",
       "market_cap_b": 110.88
     },
     {
@@ -53,8 +53,8 @@
       "close": 114.1,
       "change_pct": -1.75,
       "volume": 6957100,
-      "name": "ABBOTT LABORATORIES",
-      "sector": "-",
+      "name": "Abbott Laboratories",
+      "sector": "Health Care",
       "market_cap_b": 197.44
     },
     {
@@ -64,8 +64,8 @@
       "close": 100.72,
       "change_pct": 0.16,
       "volume": 1333100,
-      "name": "ARCH CAPITAL GROUP LTD",
-      "sector": "-",
+      "name": "Arch Capital Group",
+      "sector": "Financials",
       "market_cap_b": 34.37
     },
     {
@@ -75,8 +75,8 @@
       "close": 181.38,
       "change_pct": -2.97,
       "volume": 4376500,
-      "name": "ACCENTURE PLC CL A",
-      "sector": "-",
+      "name": "Accenture",
+      "sector": "Information Technology",
       "market_cap_b": 110.99
     },
     {
@@ -86,8 +86,8 @@
       "close": 273.47,
       "change_pct": -0.16,
       "volume": 3630300,
-      "name": "ADOBE INC",
-      "sector": "-",
+      "name": "Adobe Inc.",
+      "sector": "Information Technology",
       "market_cap_b": 108.7
     },
     {
@@ -97,8 +97,8 @@
       "close": 371.8,
       "change_pct": -0.5,
       "volume": 2178700,
-      "name": "ANALOG DEVICES INC",
-      "sector": "-",
+      "name": "Analog Devices",
+      "sector": "Information Technology",
       "market_cap_b": 180.16
     },
     {
@@ -108,8 +108,8 @@
       "close": 80.09,
       "change_pct": 1.17,
       "volume": 2551700,
-      "name": "ARCHER DANIELS MIDLAND CO",
-      "sector": "-",
+      "name": "Archer Daniels Midland",
+      "sector": "Consumer Staples",
       "market_cap_b": 38.6
     },
     {
@@ -119,8 +119,8 @@
       "close": 281.39,
       "change_pct": -0.49,
       "volume": 1221900,
-      "name": "AUTOMATIC DATA PROCESSING",
-      "sector": "-",
+      "name": "Automatic Data Processing",
+      "sector": "Industrials",
       "market_cap_b": 111.79
     },
     {
@@ -130,8 +130,8 @@
       "close": 254.77,
       "change_pct": 1.42,
       "volume": 1737100,
-      "name": "AUTODESK INC",
-      "sector": "-",
+      "name": "Autodesk",
+      "sector": "Information Technology",
       "market_cap_b": 53.79
     },
     {
@@ -141,8 +141,8 @@
       "close": 107.75,
       "change_pct": 0.86,
       "volume": 957000,
-      "name": "AMEREN CORPORATION",
-      "sector": "-",
+      "name": "Ameren",
+      "sector": "Utilities",
       "market_cap_b": 29.83
     },
     {
@@ -152,8 +152,8 @@
       "close": 123.36,
       "change_pct": 0.48,
       "volume": 3772900,
-      "name": "AMERICAN ELECTRIC POWER",
-      "sector": "-",
+      "name": "American Electric Power",
+      "sector": "Utilities",
       "market_cap_b": 67.16
     },
     {
@@ -163,9 +163,9 @@
       "close": 14.73,
       "change_pct": 0.0,
       "volume": 10823400,
-      "name": "AES CORP",
-      "sector": "-",
-      "market_cap_b": 10.5
+      "name": "AES Corporation",
+      "sector": "Utilities",
+      "market_cap_b": 10.51
     },
     {
       "ticker": "AFL",
@@ -174,8 +174,8 @@
       "close": 117.45,
       "change_pct": 1.09,
       "volume": 1684200,
-      "name": "AFLAC INC",
-      "sector": "-",
+      "name": "Aflac",
+      "sector": "Financials",
       "market_cap_b": 58.88
     },
     {
@@ -185,8 +185,8 @@
       "close": 76.97,
       "change_pct": 0.77,
       "volume": 2922000,
-      "name": "AMERICAN INTERNATIONAL GROUP",
-      "sector": "-",
+      "name": "American International Group",
+      "sector": "Financials",
       "market_cap_b": 40.25
     },
     {
@@ -196,8 +196,8 @@
       "close": 288.51,
       "change_pct": 1.18,
       "volume": 284200,
-      "name": "ASSURANT INC",
-      "sector": "-",
+      "name": "Assurant",
+      "sector": "Financials",
       "market_cap_b": 14.23
     },
     {
@@ -207,8 +207,8 @@
       "close": 265.03,
       "change_pct": -1.3,
       "volume": 1426200,
-      "name": "ARTHUR J GALLAGHER + CO",
-      "sector": "-",
+      "name": "Arthur J. Gallagher & Co.",
+      "sector": "Financials",
       "market_cap_b": 67.94
     },
     {
@@ -218,8 +218,8 @@
       "close": 108.06,
       "change_pct": 2.19,
       "volume": 3374800,
-      "name": "AKAMAI TECHNOLOGIES INC",
-      "sector": "-",
+      "name": "Akamai Technologies",
+      "sector": "Information Technology",
       "market_cap_b": 15.53
     },
     {
@@ -229,8 +229,8 @@
       "close": 134.51,
       "change_pct": 1.0,
       "volume": 1538500,
-      "name": "ALBEMARLE CORP",
-      "sector": "-",
+      "name": "Albemarle Corporation",
+      "sector": "Materials",
       "market_cap_b": 15.87
     },
     {
@@ -240,8 +240,8 @@
       "close": 159.14,
       "change_pct": -0.29,
       "volume": 653600,
-      "name": "ALIGN TECHNOLOGY INC",
-      "sector": "-",
+      "name": "Align Technology",
+      "sector": "Health Care",
       "market_cap_b": 11.31
     },
     {
@@ -251,8 +251,8 @@
       "close": 261.81,
       "change_pct": 1.63,
       "volume": 1102100,
-      "name": "ALLSTATE CORP",
-      "sector": "-",
+      "name": "Allstate",
+      "sector": "Financials",
       "market_cap_b": 66.2
     },
     {
@@ -262,8 +262,8 @@
       "close": 160.28,
       "change_pct": -0.06,
       "volume": 993500,
-      "name": "ALLEGION PLC",
-      "sector": "-",
+      "name": "Allegion",
+      "sector": "Industrials",
       "market_cap_b": 13.63
     },
     {
@@ -284,8 +284,8 @@
       "close": 479.76,
       "change_pct": -0.06,
       "volume": 5157600,
-      "name": "APPLIED MATERIALS INC",
-      "sector": "-",
+      "name": "Applied Materials",
+      "sector": "Information Technology",
       "market_cap_b": 380.74
     },
     {
@@ -295,8 +295,8 @@
       "close": 47.15,
       "change_pct": -0.25,
       "volume": 2929400,
-      "name": "AMCOR PLC",
-      "sector": "-",
+      "name": "Amcor",
+      "sector": "Materials",
       "market_cap_b": 21.8
     },
     {
@@ -306,8 +306,8 @@
       "close": 480.93,
       "change_pct": 0.37,
       "volume": 14193300,
-      "name": "ADVANCED MICRO DEVICES",
-      "sector": "-",
+      "name": "Advanced Micro Devices",
+      "sector": "Information Technology",
       "market_cap_b": 785.11
     },
     {
@@ -317,8 +317,8 @@
       "close": 245.2,
       "change_pct": 1.42,
       "volume": 803500,
-      "name": "AMETEK INC",
-      "sector": "-",
+      "name": "Ametek",
+      "sector": "Industrials",
       "market_cap_b": 56.21
     },
     {
@@ -328,8 +328,8 @@
       "close": 440.34,
       "change_pct": -0.43,
       "volume": 2289000,
-      "name": "AMGEN INC",
-      "sector": "-",
+      "name": "Amgen",
+      "sector": "Health Care",
       "market_cap_b": 238.06
     },
     {
@@ -339,8 +339,8 @@
       "close": 560.28,
       "change_pct": 0.0,
       "volume": 306600,
-      "name": "AMERIPRISE FINANCIAL INC",
-      "sector": "-",
+      "name": "Ameriprise Financial",
+      "sector": "Financials",
       "market_cap_b": 49.49
     },
     {
@@ -350,8 +350,8 @@
       "close": 175.73,
       "change_pct": -1.59,
       "volume": 2002200,
-      "name": "AMERICAN TOWER CORP",
-      "sector": "-",
+      "name": "American Tower",
+      "sector": "Real Estate",
       "market_cap_b": 81.88
     },
     {
@@ -361,8 +361,8 @@
       "close": 260.28,
       "change_pct": -0.3,
       "volume": 21405400,
-      "name": "AMAZON.COM INC",
-      "sector": "-",
+      "name": "Amazon",
+      "sector": "Consumer Discretionary",
       "market_cap_b": 2807.46
     },
     {
@@ -372,8 +372,8 @@
       "close": 202.25,
       "change_pct": 5.92,
       "volume": 7649200,
-      "name": "ARISTA NETWORKS INC",
-      "sector": "-",
+      "name": "Arista Networks",
+      "sector": "Information Technology",
       "market_cap_b": 255.08
     },
     {
@@ -383,8 +383,8 @@
       "close": 353.98,
       "change_pct": -0.24,
       "volume": 594200,
-      "name": "AON PLC CLASS A",
-      "sector": "-",
+      "name": "Aon plc",
+      "sector": "Financials",
       "market_cap_b": 75.09
     },
     {
@@ -394,8 +394,8 @@
       "close": 62.48,
       "change_pct": 0.53,
       "volume": 1013400,
-      "name": "SMITH (A.O.) CORP",
-      "sector": "-",
+      "name": "A. O. Smith",
+      "sector": "Industrials",
       "market_cap_b": 8.49
     },
     {
@@ -405,8 +405,8 @@
       "close": 41.19,
       "change_pct": -0.39,
       "volume": 4209500,
-      "name": "APA CORP",
-      "sector": "-",
+      "name": "APA Corporation",
+      "sector": "Energy",
       "market_cap_b": 14.43
     },
     {
@@ -416,8 +416,8 @@
       "close": 306.66,
       "change_pct": 0.92,
       "volume": 749800,
-      "name": "AIR PRODUCTS + CHEMICALS INC",
-      "sector": "-",
+      "name": "Air Products",
+      "sector": "Materials",
       "market_cap_b": 68.29
     },
     {
@@ -427,8 +427,8 @@
       "close": 161.34,
       "change_pct": 1.61,
       "volume": 5926600,
-      "name": "AMPHENOL CORP CL A",
-      "sector": "-",
+      "name": "Amphenol",
+      "sector": "Information Technology",
       "market_cap_b": 198.93
     },
     {
@@ -438,8 +438,8 @@
       "close": 133.67,
       "change_pct": 0.37,
       "volume": 1461500,
-      "name": "APOLLO GLOBAL MANAGEMENT INC",
-      "sector": "-",
+      "name": "Apollo Global Management",
+      "sector": "Financials",
       "market_cap_b": 78.94
     },
     {
@@ -449,8 +449,8 @@
       "close": 308.11,
       "change_pct": -0.78,
       "volume": 3562600,
-      "name": "APPLOVIN CORP CLASS A",
-      "sector": "-",
+      "name": "AppLovin",
+      "sector": "Communication Services",
       "market_cap_b": 103.51
     },
     {
@@ -460,8 +460,8 @@
       "close": 46.27,
       "change_pct": -0.77,
       "volume": 5102000,
-      "name": "APTIV PLC",
-      "sector": "-",
+      "name": "Aptiv",
+      "sector": "Consumer Discretionary",
       "market_cap_b": 9.61
     },
     {
@@ -471,8 +471,8 @@
       "close": 52.97,
       "change_pct": 0.13,
       "volume": 2164000,
-      "name": "ALEXANDRIA REAL ESTATE EQUIT",
-      "sector": "-",
+      "name": "Alexandria Real Estate Equities",
+      "sector": "Real Estate",
       "market_cap_b": 9.12
     },
     {
@@ -482,8 +482,8 @@
       "close": 141.98,
       "change_pct": -0.55,
       "volume": 1686400,
-      "name": "ARES MANAGEMENT CORP   A",
-      "sector": "-",
+      "name": "Ares Management",
+      "sector": "Financials",
       "market_cap_b": 32.02
     },
     {
@@ -515,8 +515,8 @@
       "close": 169.46,
       "change_pct": 1.13,
       "volume": 739200,
-      "name": "ATMOS ENERGY CORP",
-      "sector": "-",
+      "name": "Atmos Energy",
+      "sector": "Utilities",
       "market_cap_b": 28.64
     },
     {
@@ -526,8 +526,8 @@
       "close": 355.59,
       "change_pct": -0.32,
       "volume": 18988800,
-      "name": "BROADCOM INC",
-      "sector": "-",
+      "name": "Broadcom",
+      "sector": "Information Technology",
       "market_cap_b": 1691.75
     },
     {
@@ -537,8 +537,8 @@
       "close": 182.33,
       "change_pct": 1.32,
       "volume": 787800,
-      "name": "AVERY DENNISON CORP",
-      "sector": "-",
+      "name": "Avery Dennison",
+      "sector": "Materials",
       "market_cap_b": 13.82
     },
     {
@@ -548,8 +548,8 @@
       "close": 137.49,
       "change_pct": -0.08,
       "volume": 1361800,
-      "name": "AMERICAN WATER WORKS CO INC",
-      "sector": "-",
+      "name": "American Water Works",
+      "sector": "Utilities",
       "market_cap_b": 27.32
     },
     {
@@ -559,8 +559,8 @@
       "close": 607.48,
       "change_pct": -0.94,
       "volume": 416300,
-      "name": "AXON ENTERPRISE INC",
-      "sector": "-",
+      "name": "Axon Enterprise",
+      "sector": "Industrials",
       "market_cap_b": 49.35
     },
     {
@@ -570,8 +570,8 @@
       "close": 336.15,
       "change_pct": 0.06,
       "volume": 1650100,
-      "name": "AMERICAN EXPRESS CO",
-      "sector": "-",
+      "name": "American Express",
+      "sector": "Financials",
       "market_cap_b": 227.01
     },
     {
@@ -581,8 +581,8 @@
       "close": 2999.0,
       "change_pct": -0.94,
       "volume": 292800,
-      "name": "AUTOZONE INC",
-      "sector": "-",
+      "name": "AutoZone",
+      "sector": "Consumer Discretionary",
       "market_cap_b": 48.96
     },
     {
@@ -592,8 +592,8 @@
       "close": 212.09,
       "change_pct": 0.48,
       "volume": 4355600,
-      "name": "BOEING CO/THE",
-      "sector": "-",
+      "name": "Boeing",
+      "sector": "Industrials",
       "market_cap_b": 167.63
     },
     {
@@ -603,8 +603,8 @@
       "close": 62.23,
       "change_pct": -0.32,
       "volume": 22521600,
-      "name": "BANK OF AMERICA CORP",
-      "sector": "-",
+      "name": "Bank of America",
+      "sector": "Financials",
       "market_cap_b": 435.16
     },
     {
@@ -614,8 +614,8 @@
       "close": 64.05,
       "change_pct": -0.05,
       "volume": 1050700,
-      "name": "BALL CORP",
-      "sector": "-",
+      "name": "Ball Corporation",
+      "sector": "Materials",
       "market_cap_b": 16.95
     },
     {
@@ -625,8 +625,8 @@
       "close": 26.5,
       "change_pct": 0.8,
       "volume": 5186500,
-      "name": "BAXTER INTERNATIONAL INC",
-      "sector": "-",
+      "name": "Baxter International",
+      "sector": "Health Care",
       "market_cap_b": 13.7
     },
     {
@@ -636,8 +636,8 @@
       "close": 87.44,
       "change_pct": 2.52,
       "volume": 6795500,
-      "name": "BEST BUY CO INC",
-      "sector": "-",
+      "name": "Best Buy",
+      "sector": "Consumer Discretionary",
       "market_cap_b": 18.43
     },
     {
@@ -647,8 +647,8 @@
       "close": 190.21,
       "change_pct": 0.23,
       "volume": 1403100,
-      "name": "BECTON DICKINSON AND CO",
-      "sector": "-",
+      "name": "Becton Dickinson",
+      "sector": "Health Care",
       "market_cap_b": 51.81
     },
     {
@@ -658,8 +658,8 @@
       "close": 35.01,
       "change_pct": -0.06,
       "volume": 1987500,
-      "name": "FRANKLIN TEMPLETON INC",
-      "sector": "-",
+      "name": "Franklin Resources",
+      "sector": "Financials",
       "market_cap_b": 17.79
     },
     {
@@ -669,8 +669,8 @@
       "close": 28.07,
       "change_pct": -0.39,
       "volume": 1244700,
-      "name": "BROWN FORMAN CORP CLASS B",
-      "sector": "-",
+      "name": "Brown–Forman",
+      "sector": "Consumer Staples",
       "market_cap_b": 12.88
     },
     {
@@ -680,8 +680,8 @@
       "close": 113.25,
       "change_pct": 1.38,
       "volume": 1610000,
-      "name": "BUNGE GLOBAL SA",
-      "sector": "-",
+      "name": "Bunge Global",
+      "sector": "Consumer Staples",
       "market_cap_b": 21.76
     },
     {
@@ -691,8 +691,8 @@
       "close": 221.07,
       "change_pct": 0.14,
       "volume": 647200,
-      "name": "BIOGEN INC",
-      "sector": "-",
+      "name": "Biogen",
+      "sector": "Health Care",
       "market_cap_b": 32.66
     },
     {
@@ -702,9 +702,9 @@
       "close": 208.89,
       "change_pct": -2.29,
       "volume": 4008900,
-      "name": "BOOKING HOLDINGS INC",
-      "sector": "-",
-      "market_cap_b": 161.86
+      "name": "Booking Holdings",
+      "sector": "Consumer Discretionary",
+      "market_cap_b": 156.96
     },
     {
       "ticker": "BKR",
@@ -713,8 +713,8 @@
       "close": 62.0,
       "change_pct": 0.29,
       "volume": 5247100,
-      "name": "BAKER HUGHES CO",
-      "sector": "-",
+      "name": "Baker Hughes",
+      "sector": "Energy",
       "market_cap_b": 61.55
     },
     {
@@ -724,8 +724,8 @@
       "close": 68.67,
       "change_pct": -0.99,
       "volume": 1193600,
-      "name": "BUILDERS FIRSTSOURCE INC",
-      "sector": "-",
+      "name": "Builders FirstSource",
+      "sector": "Industrials",
       "market_cap_b": 7.39
     },
     {
@@ -735,8 +735,8 @@
       "close": 1173.21,
       "change_pct": -0.29,
       "volume": 644900,
-      "name": "BLACKROCK INC",
-      "sector": "-",
+      "name": "BlackRock",
+      "sector": "Financials",
       "market_cap_b": 181.69
     },
     {
@@ -746,8 +746,8 @@
       "close": 67.57,
       "change_pct": -0.52,
       "volume": 7511200,
-      "name": "BRISTOL MYERS SQUIBB CO",
-      "sector": "-",
+      "name": "Bristol Myers Squibb",
+      "sector": "Health Care",
       "market_cap_b": 138.03
     },
     {
@@ -757,8 +757,8 @@
       "close": 163.08,
       "change_pct": -0.35,
       "volume": 2057700,
-      "name": "BANK OF NEW YORK MELLON CORP",
-      "sector": "-",
+      "name": "BNY Mellon",
+      "sector": "Financials",
       "market_cap_b": 110.65
     },
     {
@@ -768,9 +768,9 @@
       "close": 181.6,
       "change_pct": -1.74,
       "volume": 1186200,
-      "name": "BROADRIDGE FINANCIAL SOLUTIO",
-      "sector": "-",
-      "market_cap_b": 21.0
+      "name": "Broadridge Financial Solutions",
+      "sector": "Industrials",
+      "market_cap_b": 20.71
     },
     {
       "ticker": "BRK-B",
@@ -779,8 +779,8 @@
       "close": 504.91,
       "change_pct": 0.12,
       "volume": 3002200,
-      "name": "BERKSHIRE HATHAWAY INC CL B",
-      "sector": "-",
+      "name": "Berkshire Hathaway",
+      "sector": "Financials",
       "market_cap_b": 1080.87
     },
     {
@@ -790,8 +790,8 @@
       "close": 72.78,
       "change_pct": -0.76,
       "volume": 1720400,
-      "name": "BROWN + BROWN INC",
-      "sector": "-",
+      "name": "Brown & Brown",
+      "sector": "Financials",
       "market_cap_b": 24.35
     },
     {
@@ -801,8 +801,8 @@
       "close": 48.17,
       "change_pct": -3.39,
       "volume": 36566700,
-      "name": "BOSTON SCIENTIFIC CORP",
-      "sector": "-",
+      "name": "Boston Scientific",
+      "sector": "Health Care",
       "market_cap_b": 69.81
     },
     {
@@ -812,8 +812,8 @@
       "close": 143.2,
       "change_pct": -0.15,
       "volume": 3688600,
-      "name": "BLACKSTONE INC",
-      "sector": "-",
+      "name": "Blackstone Inc.",
+      "sector": "Financials",
       "market_cap_b": 107.49
     },
     {
@@ -823,8 +823,8 @@
       "close": 70.3,
       "change_pct": -2.54,
       "volume": 1301400,
-      "name": "BXP INC",
-      "sector": "-",
+      "name": "BXP, Inc.",
+      "sector": "Real Estate",
       "market_cap_b": 11.22
     },
     {
@@ -834,8 +834,8 @@
       "close": 133.56,
       "change_pct": 0.23,
       "volume": 4543300,
-      "name": "CITIGROUP INC",
-      "sector": "-",
+      "name": "Citigroup",
+      "sector": "Financials",
       "market_cap_b": 224.04
     },
     {
@@ -845,8 +845,8 @@
       "close": 238.4,
       "change_pct": 0.2,
       "volume": 1472900,
-      "name": "CARDINAL HEALTH INC",
-      "sector": "-",
+      "name": "Cardinal Health",
+      "sector": "Health Care",
       "market_cap_b": 55.45
     },
     {
@@ -856,9 +856,9 @@
       "close": 58.74,
       "change_pct": 0.38,
       "volume": 8380300,
-      "name": "CARRIER GLOBAL CORP",
-      "sector": "-",
-      "market_cap_b": 48.79
+      "name": "Carrier Global",
+      "sector": "Industrials",
+      "market_cap_b": 48.42
     },
     {
       "ticker": "CASY",
@@ -867,8 +867,8 @@
       "close": 807.12,
       "change_pct": -2.16,
       "volume": 224400,
-      "name": "CASEY S GENERAL STORES INC",
-      "sector": "-",
+      "name": "Casey's",
+      "sector": "Consumer Staples",
       "market_cap_b": 29.87
     },
     {
@@ -878,8 +878,8 @@
       "close": 821.93,
       "change_pct": 1.31,
       "volume": 1848200,
-      "name": "CATERPILLAR INC",
-      "sector": "-",
+      "name": "Caterpillar Inc.",
+      "sector": "Industrials",
       "market_cap_b": 377.82
     },
     {
@@ -889,8 +889,8 @@
       "close": 343.77,
       "change_pct": 0.19,
       "volume": 998700,
-      "name": "CHUBB LTD",
-      "sector": "-",
+      "name": "Chubb Limited",
+      "sector": "Financials",
       "market_cap_b": 132.63
     },
     {
@@ -900,8 +900,8 @@
       "close": 312.19,
       "change_pct": 1.09,
       "volume": 727300,
-      "name": "CBOE GLOBAL MARKETS INC",
-      "sector": "-",
+      "name": "Cboe Global Markets",
+      "sector": "Financials",
       "market_cap_b": 32.6
     },
     {
@@ -911,8 +911,8 @@
       "close": 150.36,
       "change_pct": -0.91,
       "volume": 850400,
-      "name": "CBRE GROUP INC   A",
-      "sector": "-",
+      "name": "CBRE Group",
+      "sector": "Real Estate",
       "market_cap_b": 43.54
     },
     {
@@ -933,8 +933,8 @@
       "close": 75.54,
       "change_pct": -0.98,
       "volume": 1952200,
-      "name": "CROWN CASTLE INC",
-      "sector": "-",
+      "name": "Crown Castle",
+      "sector": "Real Estate",
       "market_cap_b": 32.14
     },
     {
@@ -944,8 +944,8 @@
       "close": 25.59,
       "change_pct": -2.1,
       "volume": 16091400,
-      "name": "CARNIVAL CORP LTD",
-      "sector": "-",
+      "name": "Carnival Corporation",
+      "sector": "Consumer Discretionary",
       "market_cap_b": 35.05
     },
     {
@@ -955,8 +955,8 @@
       "close": 334.68,
       "change_pct": 0.84,
       "volume": 2208100,
-      "name": "CADENCE DESIGN SYS INC",
-      "sector": "-",
+      "name": "Cadence Design Systems",
+      "sector": "Information Technology",
       "market_cap_b": 92.17
     },
     {
@@ -966,8 +966,8 @@
       "close": 141.46,
       "change_pct": -0.44,
       "volume": 1208800,
-      "name": "CDW CORP/DE",
-      "sector": "-",
+      "name": "CDW Corporation",
+      "sector": "Information Technology",
       "market_cap_b": 17.68
     },
     {
@@ -977,8 +977,8 @@
       "close": 279.52,
       "change_pct": 0.4,
       "volume": 1942500,
-      "name": "CONSTELLATION ENERGY",
-      "sector": "-",
+      "name": "Constellation Energy",
+      "sector": "Utilities",
       "market_cap_b": 99.04
     },
     {
@@ -988,8 +988,8 @@
       "close": 125.7,
       "change_pct": -1.23,
       "volume": 1949700,
-      "name": "CF INDUSTRIES HOLDINGS INC",
-      "sector": "-",
+      "name": "CF Industries",
+      "sector": "Materials",
       "market_cap_b": 19.02
     },
     {
@@ -999,8 +999,8 @@
       "close": 70.49,
       "change_pct": 0.95,
       "volume": 1530700,
-      "name": "CITIZENS FINANCIAL GROUP",
-      "sector": "-",
+      "name": "Citizens Financial Group",
+      "sector": "Financials",
       "market_cap_b": 29.69
     },
     {
@@ -1010,8 +1010,8 @@
       "close": 102.86,
       "change_pct": 0.29,
       "volume": 1884200,
-      "name": "CHURCH + DWIGHT CO INC",
-      "sector": "-",
+      "name": "Church & Dwight",
+      "sector": "Consumer Staples",
       "market_cap_b": 24.4
     },
     {
@@ -1021,8 +1021,8 @@
       "close": 151.73,
       "change_pct": 5.62,
       "volume": 1932900,
-      "name": "C.H. ROBINSON WORLDWIDE INC",
-      "sector": "-",
+      "name": "C.H. Robinson",
+      "sector": "Industrials",
       "market_cap_b": 17.73
     },
     {
@@ -1032,8 +1032,8 @@
       "close": 153.89,
       "change_pct": -0.81,
       "volume": 1503500,
-      "name": "CHARTER COMMUNICATIONS INC A",
-      "sector": "-",
+      "name": "Charter Communications",
+      "sector": "Communication Services",
       "market_cap_b": 18.36
     },
     {
@@ -1043,8 +1043,8 @@
       "close": 280.87,
       "change_pct": 0.55,
       "volume": 1228300,
-      "name": "THE CIGNA GROUP",
-      "sector": "-",
+      "name": "Cigna",
+      "sector": "Health Care",
       "market_cap_b": 74.22
     },
     {
@@ -1054,8 +1054,8 @@
       "close": 404.03,
       "change_pct": 4.22,
       "volume": 1189500,
-      "name": "CIENA CORP",
-      "sector": "-",
+      "name": "Ciena",
+      "sector": "Information Technology",
       "market_cap_b": 57.19
     },
     {
@@ -1065,8 +1065,8 @@
       "close": 172.38,
       "change_pct": 0.56,
       "volume": 376300,
-      "name": "CINCINNATI FINANCIAL CORP",
-      "sector": "-",
+      "name": "Cincinnati Financial",
+      "sector": "Financials",
       "market_cap_b": 26.46
     },
     {
@@ -1076,8 +1076,8 @@
       "close": 92.06,
       "change_pct": 0.8,
       "volume": 3663300,
-      "name": "COLGATE PALMOLIVE CO",
-      "sector": "-",
+      "name": "Colgate-Palmolive",
+      "sector": "Consumer Staples",
       "market_cap_b": 73.39
     },
     {
@@ -1087,8 +1087,8 @@
       "close": 104.23,
       "change_pct": -0.67,
       "volume": 1522900,
-      "name": "CLOROX COMPANY",
-      "sector": "-",
+      "name": "Clorox",
+      "sector": "Consumer Staples",
       "market_cap_b": 12.6
     },
     {
@@ -1098,8 +1098,8 @@
       "close": 27.2,
       "change_pct": 0.37,
       "volume": 13763300,
-      "name": "COMCAST CORP CLASS A",
-      "sector": "-",
+      "name": "Comcast",
+      "sector": "Communication Services",
       "market_cap_b": 96.52
     },
     {
@@ -1109,8 +1109,8 @@
       "close": 280.98,
       "change_pct": 1.32,
       "volume": 1722500,
-      "name": "CME GROUP INC",
-      "sector": "-",
+      "name": "CME Group",
+      "sector": "Financials",
       "market_cap_b": 101.03
     },
     {
@@ -1120,9 +1120,9 @@
       "close": 37.34,
       "change_pct": -0.24,
       "volume": 12965300,
-      "name": "CHIPOTLE MEXICAN GRILL INC",
-      "sector": "-",
-      "market_cap_b": 47.25
+      "name": "Chipotle Mexican Grill",
+      "sector": "Consumer Discretionary",
+      "market_cap_b": 47.34
     },
     {
       "ticker": "CMI",
@@ -1131,8 +1131,8 @@
       "close": 578.14,
       "change_pct": 0.96,
       "volume": 742400,
-      "name": "CUMMINS INC",
-      "sector": "-",
+      "name": "Cummins",
+      "sector": "Industrials",
       "market_cap_b": 79.59
     },
     {
@@ -1142,9 +1142,9 @@
       "close": 69.23,
       "change_pct": 0.71,
       "volume": 2373400,
-      "name": "CMS ENERGY CORP",
-      "sector": "-",
-      "market_cap_b": 21.39
+      "name": "CMS Energy",
+      "sector": "Utilities",
+      "market_cap_b": 21.71
     },
     {
       "ticker": "CNC",
@@ -1153,8 +1153,8 @@
       "close": 65.47,
       "change_pct": 0.72,
       "volume": 3596700,
-      "name": "CENTENE CORP",
-      "sector": "-",
+      "name": "Centene Corporation",
+      "sector": "Health Care",
       "market_cap_b": 32.34
     },
     {
@@ -1164,8 +1164,8 @@
       "close": 39.59,
       "change_pct": 1.7,
       "volume": 5617200,
-      "name": "CENTERPOINT ENERGY INC",
-      "sector": "-",
+      "name": "CenterPoint Energy",
+      "sector": "Utilities",
       "market_cap_b": 26.08
     },
     {
@@ -1175,8 +1175,8 @@
       "close": 217.21,
       "change_pct": 0.45,
       "volume": 2080900,
-      "name": "CAPITAL ONE FINANCIAL CORP",
-      "sector": "-",
+      "name": "Capital One",
+      "sector": "Financials",
       "market_cap_b": 133.26
     },
     {
@@ -1186,8 +1186,8 @@
       "close": 294.37,
       "change_pct": 2.16,
       "volume": 5406100,
-      "name": "COHERENT CORP",
-      "sector": "-",
+      "name": "Coherent Corp.",
+      "sector": "Information Technology",
       "market_cap_b": 57.65
     },
     {
@@ -1197,8 +1197,8 @@
       "close": 181.78,
       "change_pct": -2.87,
       "volume": 6247200,
-      "name": "COINBASE GLOBAL INC  CLASS A",
-      "sector": "-",
+      "name": "Coinbase",
+      "sector": "Financials",
       "market_cap_b": 47.96
     },
     {
@@ -1208,8 +1208,8 @@
       "close": 72.68,
       "change_pct": -0.49,
       "volume": 1560100,
-      "name": "COOPER COS INC/THE",
-      "sector": "-",
+      "name": "Cooper Companies (The)",
+      "sector": "Health Care",
       "market_cap_b": 14.17
     },
     {
@@ -1219,8 +1219,8 @@
       "close": 130.61,
       "change_pct": -0.93,
       "volume": 5820200,
-      "name": "CONOCOPHILLIPS",
-      "sector": "-",
+      "name": "ConocoPhillips",
+      "sector": "Energy",
       "market_cap_b": 159.12
     },
     {
@@ -1230,8 +1230,8 @@
       "close": 327.79,
       "change_pct": -0.08,
       "volume": 841600,
-      "name": "CENCORA INC",
-      "sector": "-",
+      "name": "Cencora",
+      "sector": "Health Care",
       "market_cap_b": 62.55
     },
     {
@@ -1241,8 +1241,8 @@
       "close": 956.12,
       "change_pct": -0.41,
       "volume": 1221600,
-      "name": "COSTCO WHOLESALE CORP",
-      "sector": "-",
+      "name": "Costco",
+      "sector": "Consumer Staples",
       "market_cap_b": 424.02
     },
     {
@@ -1252,8 +1252,8 @@
       "close": 406.93,
       "change_pct": -1.32,
       "volume": 507200,
-      "name": "CORPAY INC",
-      "sector": "-",
+      "name": "Corpay",
+      "sector": "Financials",
       "market_cap_b": 26.72
     },
     {
@@ -1263,9 +1263,9 @@
       "close": 32.67,
       "change_pct": -1.98,
       "volume": 5403300,
-      "name": "COPART INC",
-      "sector": "-",
-      "market_cap_b": 31.47
+      "name": "Copart",
+      "sector": "Industrials",
+      "market_cap_b": 30.25
     },
     {
       "ticker": "CPT",
@@ -1274,8 +1274,8 @@
       "close": 107.61,
       "change_pct": -0.62,
       "volume": 558800,
-      "name": "CAMDEN PROPERTY TRUST",
-      "sector": "-",
+      "name": "Camden Property Trust",
+      "sector": "Real Estate",
       "market_cap_b": 12.45
     },
     {
@@ -1285,8 +1285,8 @@
       "close": 97.05,
       "change_pct": 0.88,
       "volume": 3614700,
-      "name": "CRH PLC",
-      "sector": "-",
+      "name": "CRH plc",
+      "sector": "Materials",
       "market_cap_b": 64.57
     },
     {
@@ -1296,8 +1296,8 @@
       "close": 295.1,
       "change_pct": -0.85,
       "volume": 1231100,
-      "name": "CHARLES RIVER LABORATORIES",
-      "sector": "-",
+      "name": "Charles River Laboratories",
+      "sector": "Health Care",
       "market_cap_b": 14.09
     },
     {
@@ -1307,8 +1307,8 @@
       "close": 205.62,
       "change_pct": -0.03,
       "volume": 14672100,
-      "name": "SALESFORCE INC",
-      "sector": "-",
+      "name": "Salesforce",
+      "sector": "Information Technology",
       "market_cap_b": 168.4
     },
     {
@@ -1318,8 +1318,8 @@
       "close": 189.18,
       "change_pct": 2.05,
       "volume": 13430500,
-      "name": "CROWDSTRIKE HOLDINGS INC   A",
-      "sector": "-",
+      "name": "CrowdStrike",
+      "sector": "Information Technology",
       "market_cap_b": 192.63
     },
     {
@@ -1329,8 +1329,8 @@
       "close": 112.36,
       "change_pct": 1.13,
       "volume": 10287200,
-      "name": "CISCO SYSTEMS INC",
-      "sector": "-",
+      "name": "Cisco",
+      "sector": "Information Technology",
       "market_cap_b": 442.86
     },
     {
@@ -1340,8 +1340,8 @@
       "close": 32.14,
       "change_pct": -2.04,
       "volume": 4799300,
-      "name": "COSTAR GROUP INC",
-      "sector": "-",
+      "name": "CoStar Group",
+      "sector": "Real Estate",
       "market_cap_b": 13.02
     },
     {
@@ -1351,8 +1351,8 @@
       "close": 51.76,
       "change_pct": 0.49,
       "volume": 6906100,
-      "name": "CSX CORP",
-      "sector": "-",
+      "name": "CSX Corporation",
+      "sector": "Industrials",
       "market_cap_b": 95.88
     },
     {
@@ -1362,8 +1362,8 @@
       "close": 205.78,
       "change_pct": 0.5,
       "volume": 1516400,
-      "name": "CINTAS CORP",
-      "sector": "-",
+      "name": "Cintas",
+      "sector": "Industrials",
       "market_cap_b": 82.35
     },
     {
@@ -1373,9 +1373,9 @@
       "close": 62.09,
       "change_pct": -1.54,
       "volume": 7003900,
-      "name": "COGNIZANT TECH SOLUTIONS A",
-      "sector": "-",
-      "market_cap_b": 29.37
+      "name": "Cognizant",
+      "sector": "Information Technology",
+      "market_cap_b": 27.97
     },
     {
       "ticker": "CTVA",
@@ -1384,8 +1384,8 @@
       "close": 82.88,
       "change_pct": -0.2,
       "volume": 3924500,
-      "name": "CORTEVA INC",
-      "sector": "-",
+      "name": "Corteva",
+      "sector": "Materials",
       "market_cap_b": 55.3
     },
     {
@@ -1395,8 +1395,8 @@
       "close": 73.95,
       "change_pct": -2.4,
       "volume": 5396800,
-      "name": "CARVANA CO",
-      "sector": "-",
+      "name": "Carvana",
+      "sector": "Consumer Discretionary",
       "market_cap_b": 53.24
     },
     {
@@ -1406,8 +1406,8 @@
       "close": 94.32,
       "change_pct": 1.53,
       "volume": 6160800,
-      "name": "CVS HEALTH CORP",
-      "sector": "-",
+      "name": "CVS Health",
+      "sector": "Health Care",
       "market_cap_b": 120.63
     },
     {
@@ -1417,8 +1417,8 @@
       "close": 200.21,
       "change_pct": 0.16,
       "volume": 6863100,
-      "name": "CHEVRON CORP",
-      "sector": "-",
+      "name": "Chevron Corporation",
+      "sector": "Energy",
       "market_cap_b": 392.73
     },
     {
@@ -1428,8 +1428,8 @@
       "close": 66.91,
       "change_pct": -0.03,
       "volume": 2767200,
-      "name": "DOMINION ENERGY INC",
-      "sector": "-",
+      "name": "Dominion Energy",
+      "sector": "Utilities",
       "market_cap_b": 58.85
     },
     {
@@ -1439,8 +1439,8 @@
       "close": 83.08,
       "change_pct": -0.65,
       "volume": 5730700,
-      "name": "DELTA AIR LINES INC",
-      "sector": "-",
+      "name": "Delta Air Lines",
+      "sector": "Industrials",
       "market_cap_b": 54.64
     },
     {
@@ -1450,8 +1450,8 @@
       "close": 236.93,
       "change_pct": 1.47,
       "volume": 5008100,
-      "name": "DOORDASH INC   A",
-      "sector": "-",
+      "name": "DoorDash",
+      "sector": "Consumer Discretionary",
       "market_cap_b": 103.23
     },
     {
@@ -1461,8 +1461,8 @@
       "close": 137.98,
       "change_pct": 1.43,
       "volume": 915000,
-      "name": "DUPONT DE NEMOURS INC",
-      "sector": "-",
+      "name": "DuPont",
+      "sector": "Industrials",
       "market_cap_b": 18.63
     },
     {
@@ -1472,8 +1472,8 @@
       "close": 227.67,
       "change_pct": 2.1,
       "volume": 4044000,
-      "name": "DATADOG INC   CLASS A",
-      "sector": "-",
+      "name": "Datadog",
+      "sector": "Information Technology",
       "market_cap_b": 81.75
     },
     {
@@ -1483,9 +1483,9 @@
       "close": 634.54,
       "change_pct": 0.62,
       "volume": 830700,
-      "name": "DEERE + CO",
-      "sector": "-",
-      "market_cap_b": 171.39
+      "name": "Deere & Company",
+      "sector": "Industrials",
+      "market_cap_b": 171.29
     },
     {
       "ticker": "DECK",
@@ -1494,8 +1494,8 @@
       "close": 89.47,
       "change_pct": 0.82,
       "volume": 3205600,
-      "name": "DECKERS OUTDOOR CORP",
-      "sector": "-",
+      "name": "Deckers Brands",
+      "sector": "Consumer Discretionary",
       "market_cap_b": 12.18
     },
     {
@@ -1505,8 +1505,8 @@
       "close": 463.82,
       "change_pct": 2.73,
       "volume": 4418600,
-      "name": "DELL TECHNOLOGIES  C",
-      "sector": "-",
+      "name": "Dell Technologies",
+      "sector": "Information Technology",
       "market_cap_b": 299.69
     },
     {
@@ -1516,8 +1516,8 @@
       "close": 122.78,
       "change_pct": 0.16,
       "volume": 3233300,
-      "name": "DOLLAR GENERAL CORP",
-      "sector": "-",
+      "name": "Dollar General",
+      "sector": "Consumer Staples",
       "market_cap_b": 27.08
     },
     {
@@ -1527,8 +1527,8 @@
       "close": 245.0,
       "change_pct": 0.2,
       "volume": 811000,
-      "name": "QUEST DIAGNOSTICS INC",
-      "sector": "-",
+      "name": "Quest Diagnostics",
+      "sector": "Health Care",
       "market_cap_b": 27.04
     },
     {
@@ -1538,8 +1538,8 @@
       "close": 149.25,
       "change_pct": -1.03,
       "volume": 1423700,
-      "name": "DR HORTON INC",
-      "sector": "-",
+      "name": "D. R. Horton",
+      "sector": "Consumer Discretionary",
       "market_cap_b": 41.75
     },
     {
@@ -1549,8 +1549,8 @@
       "close": 215.36,
       "change_pct": -0.28,
       "volume": 2531100,
-      "name": "DANAHER CORP",
-      "sector": "-",
+      "name": "Danaher Corporation",
+      "sector": "Health Care",
       "market_cap_b": 151.4
     },
     {
@@ -1560,8 +1560,8 @@
       "close": 109.63,
       "change_pct": -1.46,
       "volume": 8524600,
-      "name": "WALT DISNEY CO/THE",
-      "sector": "-",
+      "name": "Walt Disney Company (The)",
+      "sector": "Communication Services",
       "market_cap_b": 189.3
     },
     {
@@ -1571,8 +1571,8 @@
       "close": 193.43,
       "change_pct": 0.58,
       "volume": 1607500,
-      "name": "DIGITAL REALTY TRUST INC",
-      "sector": "-",
+      "name": "Digital Realty",
+      "sector": "Real Estate",
       "market_cap_b": 71.76
     },
     {
@@ -1582,8 +1582,8 @@
       "close": 132.18,
       "change_pct": -1.71,
       "volume": 3386800,
-      "name": "DOLLAR TREE INC",
-      "sector": "-",
+      "name": "Dollar Tree",
+      "sector": "Consumer Staples",
       "market_cap_b": 25.4
     },
     {
@@ -1593,8 +1593,8 @@
       "close": 21.58,
       "change_pct": -0.37,
       "volume": 4301800,
-      "name": "HEALTHPEAK PROPERTIES INC",
-      "sector": "-",
+      "name": "Healthpeak Properties",
+      "sector": "Real Estate",
       "market_cap_b": 14.88
     },
     {
@@ -1604,8 +1604,8 @@
       "close": 204.66,
       "change_pct": 1.29,
       "volume": 1189100,
-      "name": "DOVER CORP",
-      "sector": "-",
+      "name": "Dover Corporation",
+      "sector": "Industrials",
       "market_cap_b": 27.56
     },
     {
@@ -1615,8 +1615,8 @@
       "close": 30.33,
       "change_pct": 0.56,
       "volume": 9601600,
-      "name": "DOW INC",
-      "sector": "-",
+      "name": "Dow Inc.",
+      "sector": "Materials",
       "market_cap_b": 21.91
     },
     {
@@ -1626,8 +1626,8 @@
       "close": 344.56,
       "change_pct": -1.53,
       "volume": 884700,
-      "name": "DOMINO S PIZZA INC",
-      "sector": "-",
+      "name": "Domino's",
+      "sector": "Consumer Discretionary",
       "market_cap_b": 11.4
     },
     {
@@ -1637,8 +1637,8 @@
       "close": 218.81,
       "change_pct": -0.73,
       "volume": 653100,
-      "name": "DARDEN RESTAURANTS INC",
-      "sector": "-",
+      "name": "Darden Restaurants",
+      "sector": "Consumer Discretionary",
       "market_cap_b": 24.84
     },
     {
@@ -1648,8 +1648,8 @@
       "close": 137.71,
       "change_pct": 1.15,
       "volume": 1166300,
-      "name": "DTE ENERGY COMPANY",
-      "sector": "-",
+      "name": "DTE Energy",
+      "sector": "Utilities",
       "market_cap_b": 28.66
     },
     {
@@ -1659,8 +1659,8 @@
       "close": 121.89,
       "change_pct": 0.25,
       "volume": 2744100,
-      "name": "DUKE ENERGY CORP",
-      "sector": "-",
+      "name": "Duke Energy",
+      "sector": "Utilities",
       "market_cap_b": 95.04
     },
     {
@@ -1670,8 +1670,8 @@
       "close": 180.05,
       "change_pct": 1.27,
       "volume": 528800,
-      "name": "DAVITA INC",
-      "sector": "-",
+      "name": "DaVita",
+      "sector": "Health Care",
       "market_cap_b": 11.49
     },
     {
@@ -1681,8 +1681,8 @@
       "close": 46.83,
       "change_pct": -0.17,
       "volume": 6339300,
-      "name": "DEVON ENERGY CORP",
-      "sector": "-",
+      "name": "Devon Energy",
+      "sector": "Energy",
       "market_cap_b": 51.51
     },
     {
@@ -1692,8 +1692,8 @@
       "close": 88.96,
       "change_pct": -0.22,
       "volume": 3822600,
-      "name": "DEXCOM INC",
-      "sector": "-",
+      "name": "Dexcom",
+      "sector": "Health Care",
       "market_cap_b": 33.57
     },
     {
@@ -1710,8 +1710,8 @@
       "close": 104.2,
       "change_pct": -1.7,
       "volume": 2037400,
-      "name": "EBAY INC",
-      "sector": "-",
+      "name": "eBay Inc.",
+      "sector": "Consumer Discretionary",
       "market_cap_b": 46.37
     },
     {
@@ -1721,8 +1721,8 @@
       "close": 85.61,
       "change_pct": -1.05,
       "volume": 2922100,
-      "name": "ECHOSTAR CORP A",
-      "sector": "-",
+      "name": "EchoStar",
+      "sector": "Communication Services",
       "market_cap_b": 24.87
     },
     {
@@ -1732,8 +1732,8 @@
       "close": 290.6,
       "change_pct": 0.37,
       "volume": 1426700,
-      "name": "ECOLAB INC",
-      "sector": "-",
+      "name": "Ecolab",
+      "sector": "Materials",
       "market_cap_b": 81.46
     },
     {
@@ -1743,8 +1743,8 @@
       "close": 108.05,
       "change_pct": 0.9,
       "volume": 1935600,
-      "name": "CONSOLIDATED EDISON INC",
-      "sector": "-",
+      "name": "Consolidated Edison",
+      "sector": "Utilities",
       "market_cap_b": 39.96
     },
     {
@@ -1754,8 +1754,8 @@
       "close": 190.56,
       "change_pct": -0.69,
       "volume": 778000,
-      "name": "EQUIFAX INC",
-      "sector": "-",
+      "name": "Equifax",
+      "sector": "Industrials",
       "market_cap_b": 22.39
     },
     {
@@ -1765,8 +1765,8 @@
       "close": 379.78,
       "change_pct": 1.17,
       "volume": 250200,
-      "name": "EVEREST GROUP LTD",
-      "sector": "-",
+      "name": "Everest Group",
+      "sector": "Financials",
       "market_cap_b": 14.56
     },
     {
@@ -1776,8 +1776,8 @@
       "close": 74.51,
       "change_pct": -0.36,
       "volume": 3432500,
-      "name": "EDISON INTERNATIONAL",
-      "sector": "-",
+      "name": "Edison International",
+      "sector": "Utilities",
       "market_cap_b": 28.67
     },
     {
@@ -1787,8 +1787,8 @@
       "close": 105.06,
       "change_pct": 0.2,
       "volume": 2666500,
-      "name": "ESTEE LAUDER COMPANIES CL A",
-      "sector": "-",
+      "name": "Estée Lauder Companies (The)",
+      "sector": "Consumer Staples",
       "market_cap_b": 38.01
     },
     {
@@ -1798,8 +1798,8 @@
       "close": 402.54,
       "change_pct": 0.92,
       "volume": 683800,
-      "name": "ELEVANCE HEALTH INC",
-      "sector": "-",
+      "name": "Elevance Health",
+      "sector": "Health Care",
       "market_cap_b": 87.3
     },
     {
@@ -1809,8 +1809,8 @@
       "close": 763.59,
       "change_pct": 3.21,
       "volume": 405900,
-      "name": "EMCOR GROUP INC",
-      "sector": "-",
+      "name": "Emcor",
+      "sector": "Industrials",
       "market_cap_b": 33.68
     },
     {
@@ -1820,8 +1820,8 @@
       "close": 158.29,
       "change_pct": 2.15,
       "volume": 2066500,
-      "name": "EMERSON ELECTRIC CO",
-      "sector": "-",
+      "name": "Emerson Electric",
+      "sector": "Industrials",
       "market_cap_b": 88.29
     },
     {
@@ -1831,9 +1831,9 @@
       "close": 144.84,
       "change_pct": -1.36,
       "volume": 2826900,
-      "name": "EOG RESOURCES INC",
-      "sector": "-",
-      "market_cap_b": 77.15
+      "name": "EOG Resources",
+      "sector": "Energy",
+      "market_cap_b": 75.97
     },
     {
       "ticker": "EQIX",
@@ -1842,8 +1842,8 @@
       "close": 1079.61,
       "change_pct": 0.57,
       "volume": 507800,
-      "name": "EQUINIX INC",
-      "sector": "-",
+      "name": "Equinix",
+      "sector": "Real Estate",
       "market_cap_b": 106.53
     },
     {
@@ -1853,8 +1853,8 @@
       "close": 54.79,
       "change_pct": 1.46,
       "volume": 8271200,
-      "name": "EQT CORP",
-      "sector": "-",
+      "name": "EQT Corporation",
+      "sector": "Energy",
       "market_cap_b": 34.27
     },
     {
@@ -1864,8 +1864,8 @@
       "close": 257.27,
       "change_pct": -0.28,
       "volume": 216000,
-      "name": "ERIE INDEMNITY COMPANY CL A",
-      "sector": "-",
+      "name": "Erie Indemnity",
+      "sector": "Financials",
       "market_cap_b": 13.45
     },
     {
@@ -1875,8 +1875,8 @@
       "close": 71.67,
       "change_pct": 0.9,
       "volume": 1688000,
-      "name": "EVERSOURCE ENERGY",
-      "sector": "-",
+      "name": "Eversource Energy",
+      "sector": "Utilities",
       "market_cap_b": 27.0
     },
     {
@@ -1886,8 +1886,8 @@
       "close": 288.17,
       "change_pct": -1.31,
       "volume": 811400,
-      "name": "ESSEX PROPERTY TRUST INC",
-      "sector": "-",
+      "name": "Essex Property Trust",
+      "sector": "Real Estate",
       "market_cap_b": 18.52
     },
     {
@@ -1897,9 +1897,9 @@
       "close": 419.44,
       "change_pct": 2.5,
       "volume": 1792900,
-      "name": "EATON CORP PLC",
-      "sector": "-",
-      "market_cap_b": 162.87
+      "name": "Eaton Corporation",
+      "sector": "Industrials",
+      "market_cap_b": 162.91
     },
     {
       "ticker": "ETR",
@@ -1908,8 +1908,8 @@
       "close": 107.23,
       "change_pct": 0.93,
       "volume": 1370400,
-      "name": "ENTERGY CORP",
-      "sector": "-",
+      "name": "Entergy",
+      "sector": "Utilities",
       "market_cap_b": 50.04
     },
     {
@@ -1919,8 +1919,8 @@
       "close": 82.23,
       "change_pct": 1.01,
       "volume": 1146000,
-      "name": "EVERGY INC",
-      "sector": "-",
+      "name": "Evergy",
+      "sector": "Utilities",
       "market_cap_b": 18.96
     },
     {
@@ -1930,9 +1930,9 @@
       "close": 90.78,
       "change_pct": -0.1,
       "volume": 2778100,
-      "name": "EDWARDS LIFESCIENCES CORP",
-      "sector": "-",
-      "market_cap_b": 52.27
+      "name": "Edwards Lifesciences",
+      "sector": "Health Care",
+      "market_cap_b": 52.33
     },
     {
       "ticker": "EXC",
@@ -1941,8 +1941,8 @@
       "close": 44.44,
       "change_pct": 0.29,
       "volume": 6180600,
-      "name": "EXELON CORP",
-      "sector": "-",
+      "name": "Exelon",
+      "sector": "Utilities",
       "market_cap_b": 45.78
     },
     {
@@ -1952,9 +1952,9 @@
       "close": 96.57,
       "change_pct": 2.02,
       "volume": 2510300,
-      "name": "EXPAND ENERGY CORP",
-      "sector": "-",
-      "market_cap_b": 23.1
+      "name": "Expand Energy",
+      "sector": "Energy",
+      "market_cap_b": 22.36
     },
     {
       "ticker": "EXPD",
@@ -1963,8 +1963,8 @@
       "close": 190.18,
       "change_pct": 0.6,
       "volume": 667200,
-      "name": "EXPEDITORS INTL WASH INC",
-      "sector": "-",
+      "name": "Expeditors International",
+      "sector": "Industrials",
       "market_cap_b": 24.72
     },
     {
@@ -1974,8 +1974,8 @@
       "close": 333.44,
       "change_pct": -1.34,
       "volume": 1185500,
-      "name": "EXPEDIA GROUP INC",
-      "sector": "-",
+      "name": "Expedia Group",
+      "sector": "Consumer Discretionary",
       "market_cap_b": 40.02
     },
     {
@@ -1985,8 +1985,8 @@
       "close": 144.09,
       "change_pct": -0.54,
       "volume": 725700,
-      "name": "EXTRA SPACE STORAGE INC",
-      "sector": "-",
+      "name": "Extra Space Storage",
+      "sector": "Real Estate",
       "market_cap_b": 30.44
     },
     {
@@ -1996,8 +1996,8 @@
       "close": 13.9,
       "change_pct": -0.36,
       "volume": 28395700,
-      "name": "FORD MOTOR CO",
-      "sector": "-",
+      "name": "Ford Motor Company",
+      "sector": "Consumer Discretionary",
       "market_cap_b": 55.43
     },
     {
@@ -2007,8 +2007,8 @@
       "close": 199.84,
       "change_pct": -0.03,
       "volume": 1414300,
-      "name": "DIAMONDBACK ENERGY INC",
-      "sector": "-",
+      "name": "Diamondback Energy",
+      "sector": "Energy",
       "market_cap_b": 55.96
     },
     {
@@ -2018,8 +2018,8 @@
       "close": 51.15,
       "change_pct": 1.67,
       "volume": 3690800,
-      "name": "FASTENAL CO",
-      "sector": "-",
+      "name": "Fastenal",
+      "sector": "Industrials",
       "market_cap_b": 58.69
     },
     {
@@ -2029,8 +2029,8 @@
       "close": 79.0,
       "change_pct": -1.14,
       "volume": 18324500,
-      "name": "FREEPORT MCMORAN INC",
-      "sector": "-",
+      "name": "Freeport-McMoRan",
+      "sector": "Materials",
       "market_cap_b": 113.45
     },
     {
@@ -2040,8 +2040,8 @@
       "close": 295.45,
       "change_pct": -0.21,
       "volume": 831700,
-      "name": "FACTSET RESEARCH SYSTEMS INC",
-      "sector": "-",
+      "name": "FactSet",
+      "sector": "Financials",
       "market_cap_b": 10.51
     },
     {
@@ -2051,8 +2051,8 @@
       "close": 335.99,
       "change_pct": 0.68,
       "volume": 1169700,
-      "name": "FEDEX CORP",
-      "sector": "-",
+      "name": "FedEx",
+      "sector": "Industrials",
       "market_cap_b": 79.52
     },
     {
@@ -2062,8 +2062,8 @@
       "close": 131.27,
       "change_pct": 1.96,
       "volume": 1429100,
-      "name": "FEDEX FREIGHT HOLDING CO",
-      "sector": "-",
+      "name": "FedEx Freight",
+      "sector": "Industrials",
       "market_cap_b": 19.63
     },
     {
@@ -2073,9 +2073,9 @@
       "close": 46.73,
       "change_pct": 0.24,
       "volume": 4498800,
-      "name": "FIRSTENERGY CORP",
-      "sector": "-",
-      "market_cap_b": 27.03
+      "name": "FirstEnergy",
+      "sector": "Utilities",
+      "market_cap_b": 27.04
     },
     {
       "ticker": "FER",
@@ -2095,8 +2095,8 @@
       "close": 235.73,
       "change_pct": 1.32,
       "volume": 1541700,
-      "name": "FERGUSON ENTERPRISES INC",
-      "sector": "-",
+      "name": "Ferguson Enterprises",
+      "sector": "Industrials",
       "market_cap_b": 45.6
     },
     {
@@ -2106,8 +2106,8 @@
       "close": 399.59,
       "change_pct": 4.4,
       "volume": 507100,
-      "name": "F5 INC",
-      "sector": "-",
+      "name": "F5, Inc.",
+      "sector": "Information Technology",
       "market_cap_b": 22.63
     },
     {
@@ -2117,8 +2117,8 @@
       "close": 1133.7,
       "change_pct": -0.3,
       "volume": 135500,
-      "name": "FAIR ISAAC CORP",
-      "sector": "-",
+      "name": "Fair Isaac",
+      "sector": "Information Technology",
       "market_cap_b": 24.49
     },
     {
@@ -2128,8 +2128,8 @@
       "close": 40.64,
       "change_pct": 0.42,
       "volume": 7513900,
-      "name": "FIDELITY NATIONAL INFO SERV",
-      "sector": "-",
+      "name": "Fidelity National Information Services",
+      "sector": "Financials",
       "market_cap_b": 20.96
     },
     {
@@ -2139,8 +2139,8 @@
       "close": 52.45,
       "change_pct": 0.02,
       "volume": 4217100,
-      "name": "FISERV INC",
-      "sector": "-",
+      "name": "Fiserv",
+      "sector": "Financials",
       "market_cap_b": 27.89
     },
     {
@@ -2150,9 +2150,9 @@
       "close": 55.1,
       "change_pct": 0.38,
       "volume": 3707400,
-      "name": "FIFTH THIRD BANCORP",
-      "sector": "-",
-      "market_cap_b": 49.95
+      "name": "Fifth Third Bancorp",
+      "sector": "Financials",
+      "market_cap_b": 49.97
     },
     {
       "ticker": "FIX",
@@ -2161,8 +2161,8 @@
       "close": 1615.69,
       "change_pct": 3.44,
       "volume": 346400,
-      "name": "COMFORT SYSTEMS USA INC",
-      "sector": "-",
+      "name": "Comfort Systems USA",
+      "sector": "Industrials",
       "market_cap_b": 56.86
     },
     {
@@ -2172,8 +2172,8 @@
       "close": 111.82,
       "change_pct": 2.35,
       "volume": 3103000,
-      "name": "FLEX LTD",
-      "sector": "-",
+      "name": "Flex Ltd.",
+      "sector": "Information Technology",
       "market_cap_b": 41.31
     },
     {
@@ -2183,8 +2183,8 @@
       "close": 62.23,
       "change_pct": -0.73,
       "volume": 671200,
-      "name": "FOX CORP   CLASS B",
-      "sector": "-",
+      "name": "Fox Corporation (Class B)",
+      "sector": "Communication Services",
       "market_cap_b": 26.16
     },
     {
@@ -2194,8 +2194,8 @@
       "close": 69.6,
       "change_pct": -1.04,
       "volume": 5127700,
-      "name": "FOX CORP   CLASS A",
-      "sector": "-",
+      "name": "Fox Corporation (Class A)",
+      "sector": "Communication Services",
       "market_cap_b": 29.26
     },
     {
@@ -2205,9 +2205,9 @@
       "close": 117.58,
       "change_pct": -0.14,
       "volume": 528700,
-      "name": "FEDERAL REALTY INVS TRUST",
-      "sector": "-",
-      "market_cap_b": 10.16
+      "name": "Federal Realty Investment Trust",
+      "sector": "Real Estate",
+      "market_cap_b": 10.22
     },
     {
       "ticker": "FSLR",
@@ -2216,8 +2216,8 @@
       "close": 205.93,
       "change_pct": -0.43,
       "volume": 1465400,
-      "name": "FIRST SOLAR INC",
-      "sector": "-",
+      "name": "First Solar",
+      "sector": "Information Technology",
       "market_cap_b": 22.13
     },
     {
@@ -2227,8 +2227,8 @@
       "close": 157.54,
       "change_pct": 2.53,
       "volume": 2990700,
-      "name": "FORTINET INC",
-      "sector": "-",
+      "name": "Fortinet",
+      "sector": "Information Technology",
       "market_cap_b": 115.59
     },
     {
@@ -2238,9 +2238,9 @@
       "close": 60.25,
       "change_pct": 1.26,
       "volume": 1681300,
-      "name": "FORTIVE CORP",
-      "sector": "-",
-      "market_cap_b": 18.37
+      "name": "Fortive",
+      "sector": "Industrials",
+      "market_cap_b": 18.2
     },
     {
       "ticker": "GD",
@@ -2249,8 +2249,8 @@
       "close": 382.02,
       "change_pct": 1.44,
       "volume": 819900,
-      "name": "GENERAL DYNAMICS CORP",
-      "sector": "-",
+      "name": "General Dynamics",
+      "sector": "Industrials",
       "market_cap_b": 103.36
     },
     {
@@ -2260,8 +2260,8 @@
       "close": 95.54,
       "change_pct": -4.26,
       "volume": 2620800,
-      "name": "GODADDY INC   CLASS A",
-      "sector": "-",
+      "name": "GoDaddy",
+      "sector": "Information Technology",
       "market_cap_b": 12.1
     },
     {
@@ -2271,8 +2271,8 @@
       "close": 354.39,
       "change_pct": 1.39,
       "volume": 3035900,
-      "name": "GENERAL ELECTRIC",
-      "sector": "-",
+      "name": "GE Aerospace",
+      "sector": "Industrials",
       "market_cap_b": 367.7
     },
     {
@@ -2282,8 +2282,8 @@
       "close": 73.31,
       "change_pct": -0.81,
       "volume": 2042800,
-      "name": "GE HEALTHCARE TECHNOLOGY",
-      "sector": "-",
+      "name": "GE HealthCare",
+      "sector": "Health Care",
       "market_cap_b": 33.11
     },
     {
@@ -2293,8 +2293,8 @@
       "close": 29.64,
       "change_pct": 1.13,
       "volume": 6960600,
-      "name": "GEN DIGITAL INC",
-      "sector": "-",
+      "name": "Gen Digital",
+      "sector": "Information Technology",
       "market_cap_b": 17.74
     },
     {
@@ -2304,8 +2304,8 @@
       "close": 953.09,
       "change_pct": 2.84,
       "volume": 2267400,
-      "name": "GE VERNOVA INC",
-      "sector": "-",
+      "name": "GE Vernova",
+      "sector": "Industrials",
       "market_cap_b": 253.84
     },
     {
@@ -2315,8 +2315,8 @@
       "close": 148.09,
       "change_pct": -0.46,
       "volume": 5258300,
-      "name": "GILEAD SCIENCES INC",
-      "sector": "-",
+      "name": "Gilead Sciences",
+      "sector": "Health Care",
       "market_cap_b": 183.62
     },
     {
@@ -2326,9 +2326,9 @@
       "close": 40.08,
       "change_pct": 0.75,
       "volume": 9065600,
-      "name": "GENERAL MILLS INC",
-      "sector": "-",
-      "market_cap_b": 21.43
+      "name": "General Mills",
+      "sector": "Consumer Staples",
+      "market_cap_b": 21.39
     },
     {
       "ticker": "GL",
@@ -2337,9 +2337,9 @@
       "close": 175.55,
       "change_pct": 1.92,
       "volume": 465300,
-      "name": "GLOBE LIFE INC",
-      "sector": "-",
-      "market_cap_b": 13.63
+      "name": "Globe Life",
+      "sector": "Financials",
+      "market_cap_b": 13.49
     },
     {
       "ticker": "GLW",
@@ -2348,9 +2348,9 @@
       "close": 152.78,
       "change_pct": 3.82,
       "volume": 6194200,
-      "name": "CORNING INC",
-      "sector": "-",
-      "market_cap_b": 131.34
+      "name": "Corning Inc.",
+      "sector": "Information Technology",
+      "market_cap_b": 131.6
     },
     {
       "ticker": "GM",
@@ -2359,8 +2359,8 @@
       "close": 86.33,
       "change_pct": 0.61,
       "volume": 5397500,
-      "name": "GENERAL MOTORS CO",
-      "sector": "-",
+      "name": "General Motors",
+      "sector": "Consumer Discretionary",
       "market_cap_b": 78.08
     },
     {
@@ -2370,8 +2370,8 @@
       "close": 206.62,
       "change_pct": 2.4,
       "volume": 522100,
-      "name": "GENERAC HOLDINGS INC",
-      "sector": "-",
+      "name": "Generac",
+      "sector": "Industrials",
       "market_cap_b": 12.19
     },
     {
@@ -2381,8 +2381,8 @@
       "close": 339.1,
       "change_pct": -1.23,
       "volume": 16090000,
-      "name": "ALPHABET INC CL C",
-      "sector": "-",
+      "name": "Alphabet Inc. (Class C)",
+      "sector": "Communication Services",
       "market_cap_b": 4147.17
     },
     {
@@ -2392,8 +2392,8 @@
       "close": 342.0,
       "change_pct": -1.43,
       "volume": 20292400,
-      "name": "ALPHABET INC CL A",
-      "sector": "-",
+      "name": "Alphabet Inc. (Class A)",
+      "sector": "Communication Services",
       "market_cap_b": 4182.64
     },
     {
@@ -2403,8 +2403,8 @@
       "close": 139.49,
       "change_pct": 1.12,
       "volume": 1661300,
-      "name": "GENUINE PARTS CO",
-      "sector": "-",
+      "name": "Genuine Parts Company",
+      "sector": "Consumer Discretionary",
       "market_cap_b": 19.23
     },
     {
@@ -2414,8 +2414,8 @@
       "close": 92.96,
       "change_pct": -0.92,
       "volume": 3037600,
-      "name": "GLOBAL PAYMENTS INC",
-      "sector": "-",
+      "name": "Global Payments",
+      "sector": "Financials",
       "market_cap_b": 24.6
     },
     {
@@ -2425,8 +2425,8 @@
       "close": 289.02,
       "change_pct": 0.2,
       "volume": 569900,
-      "name": "GARMIN LTD",
-      "sector": "-",
+      "name": "Garmin",
+      "sector": "Consumer Discretionary",
       "market_cap_b": 55.74
     },
     {
@@ -2436,8 +2436,8 @@
       "close": 1040.46,
       "change_pct": -1.74,
       "volume": 1487900,
-      "name": "GOLDMAN SACHS GROUP INC",
-      "sector": "-",
+      "name": "Goldman Sachs",
+      "sector": "Financials",
       "market_cap_b": 302.95
     },
     {
@@ -2447,9 +2447,9 @@
       "close": 1335.39,
       "change_pct": 2.59,
       "volume": 153500,
-      "name": "WW GRAINGER INC",
-      "sector": "-",
-      "market_cap_b": 63.05
+      "name": "W. W. Grainger",
+      "sector": "Industrials",
+      "market_cap_b": 62.9
     },
     {
       "ticker": "HAL",
@@ -2458,8 +2458,8 @@
       "close": 34.44,
       "change_pct": 1.89,
       "volume": 13143900,
-      "name": "HALLIBURTON CO",
-      "sector": "-",
+      "name": "Halliburton",
+      "sector": "Energy",
       "market_cap_b": 28.69
     },
     {
@@ -2469,8 +2469,8 @@
       "close": 96.29,
       "change_pct": -0.47,
       "volume": 1392900,
-      "name": "HASBRO INC",
-      "sector": "-",
+      "name": "Hasbro",
+      "sector": "Consumer Discretionary",
       "market_cap_b": 13.58
     },
     {
@@ -2480,8 +2480,8 @@
       "close": 17.04,
       "change_pct": 0.53,
       "volume": 17132400,
-      "name": "HUNTINGTON BANCSHARES INC",
-      "sector": "-",
+      "name": "Huntington Bancshares",
+      "sector": "Financials",
       "market_cap_b": 34.43
     },
     {
@@ -2491,8 +2491,8 @@
       "close": 427.16,
       "change_pct": -0.37,
       "volume": 1318200,
-      "name": "HCA HEALTHCARE INC",
-      "sector": "-",
+      "name": "HCA Healthcare",
+      "sector": "Health Care",
       "market_cap_b": 92.48
     },
     {
@@ -2502,8 +2502,8 @@
       "close": 334.85,
       "change_pct": -0.9,
       "volume": 4258100,
-      "name": "HOME DEPOT INC",
-      "sector": "-",
+      "name": "Home Depot (The)",
+      "sector": "Consumer Discretionary",
       "market_cap_b": 334.08
     },
     {
@@ -2513,8 +2513,8 @@
       "close": 139.86,
       "change_pct": 1.19,
       "volume": 1207000,
-      "name": "HARTFORD INSURANCE GROUP INC",
-      "sector": "-",
+      "name": "Hartford (The)",
+      "sector": "Financials",
       "market_cap_b": 37.88
     },
     {
@@ -2524,8 +2524,8 @@
       "close": 296.4,
       "change_pct": 1.8,
       "volume": 367800,
-      "name": "HUNTINGTON INGALLS INDUSTRIE",
-      "sector": "-",
+      "name": "Huntington Ingalls Industries",
+      "sector": "Industrials",
       "market_cap_b": 11.68
     },
     {
@@ -2535,8 +2535,8 @@
       "close": 332.56,
       "change_pct": 0.99,
       "volume": 1731500,
-      "name": "HILTON WORLDWIDE HOLDINGS IN",
-      "sector": "-",
+      "name": "Hilton Worldwide",
+      "sector": "Consumer Discretionary",
       "market_cap_b": 74.85
     },
     {
@@ -2546,8 +2546,8 @@
       "close": 220.67,
       "change_pct": 2.31,
       "volume": 3214100,
-      "name": "HONEYWELL INTERNATIONAL INC",
-      "sector": "-",
+      "name": "Honeywell Technologies",
+      "sector": "Industrials",
       "market_cap_b": 69.94
     },
     {
@@ -2557,8 +2557,8 @@
       "close": 164.01,
       "change_pct": 2.28,
       "volume": 3731300,
-      "name": "HONEYWELL AEROSPACE INC",
-      "sector": "-",
+      "name": "Honeywell Aerospace",
+      "sector": "Industrials",
       "market_cap_b": 51.98
     },
     {
@@ -2568,8 +2568,8 @@
       "close": 108.54,
       "change_pct": -3.17,
       "volume": 13332000,
-      "name": "ROBINHOOD MARKETS INC   A",
-      "sector": "-",
+      "name": "Robinhood Markets",
+      "sector": "Financials",
       "market_cap_b": 97.59
     },
     {
@@ -2579,8 +2579,8 @@
       "close": 55.23,
       "change_pct": 3.35,
       "volume": 10337400,
-      "name": "HEWLETT PACKARD ENTERPRISE",
-      "sector": "-",
+      "name": "Hewlett Packard Enterprise",
+      "sector": "Information Technology",
       "market_cap_b": 73.14
     },
     {
@@ -2590,8 +2590,8 @@
       "close": 30.52,
       "change_pct": 3.39,
       "volume": 23502700,
-      "name": "HP INC",
-      "sector": "-",
+      "name": "HP Inc.",
+      "sector": "Information Technology",
       "market_cap_b": 27.91
     },
     {
@@ -2601,8 +2601,8 @@
       "close": 23.71,
       "change_pct": -0.29,
       "volume": 9283100,
-      "name": "HORMEL FOODS CORP",
-      "sector": "-",
+      "name": "Hormel Foods",
+      "sector": "Consumer Staples",
       "market_cap_b": 13.05
     },
     {
@@ -2612,9 +2612,9 @@
       "close": 90.38,
       "change_pct": 0.81,
       "volume": 697200,
-      "name": "HENRY SCHEIN INC",
-      "sector": "-",
-      "market_cap_b": 10.3
+      "name": "Henry Schein",
+      "sector": "Health Care",
+      "market_cap_b": 10.07
     },
     {
       "ticker": "HST",
@@ -2623,8 +2623,8 @@
       "close": 22.43,
       "change_pct": -2.48,
       "volume": 9280000,
-      "name": "HOST HOTELS + RESORTS INC",
-      "sector": "-",
+      "name": "Host Hotels & Resorts",
+      "sector": "Real Estate",
       "market_cap_b": 15.37
     },
     {
@@ -2634,8 +2634,8 @@
       "close": 185.35,
       "change_pct": -0.98,
       "volume": 727200,
-      "name": "HERSHEY CO/THE",
-      "sector": "-",
+      "name": "Hershey Company (The)",
+      "sector": "Consumer Staples",
       "market_cap_b": 37.24
     },
     {
@@ -2645,8 +2645,8 @@
       "close": 472.46,
       "change_pct": 1.78,
       "volume": 383280,
-      "name": "HUBBELL INC",
-      "sector": "-",
+      "name": "Hubbell Incorporated",
+      "sector": "Industrials",
       "market_cap_b": 24.96
     },
     {
@@ -2656,8 +2656,8 @@
       "close": 391.06,
       "change_pct": 0.35,
       "volume": 908100,
-      "name": "HUMANA INC",
-      "sector": "-",
+      "name": "Humana",
+      "sector": "Health Care",
       "market_cap_b": 46.96
     },
     {
@@ -2667,8 +2667,8 @@
       "close": 269.34,
       "change_pct": 2.01,
       "volume": 1633700,
-      "name": "HOWMET AEROSPACE INC",
-      "sector": "-",
+      "name": "Howmet Aerospace",
+      "sector": "Industrials",
       "market_cap_b": 107.41
     },
     {
@@ -2678,8 +2678,8 @@
       "close": 97.02,
       "change_pct": -1.19,
       "volume": 3031500,
-      "name": "INTERACTIVE BROKERS GRO CL A",
-      "sector": "-",
+      "name": "Interactive Brokers",
+      "sector": "Financials",
       "market_cap_b": 43.96
     },
     {
@@ -2689,8 +2689,8 @@
       "close": 229.87,
       "change_pct": -1.84,
       "volume": 4618800,
-      "name": "INTL BUSINESS MACHINES CORP",
-      "sector": "-",
+      "name": "IBM",
+      "sector": "Information Technology",
       "market_cap_b": 216.57
     },
     {
@@ -2700,8 +2700,8 @@
       "close": 161.92,
       "change_pct": 0.09,
       "volume": 1998900,
-      "name": "INTERCONTINENTAL EXCHANGE IN",
-      "sector": "-",
+      "name": "Intercontinental Exchange",
+      "sector": "Financials",
       "market_cap_b": 90.9
     },
     {
@@ -2711,8 +2711,8 @@
       "close": 553.44,
       "change_pct": 0.62,
       "volume": 349400,
-      "name": "IDEXX LABORATORIES INC",
-      "sector": "-",
+      "name": "Idexx Laboratories",
+      "sector": "Health Care",
       "market_cap_b": 43.6
     },
     {
@@ -2722,8 +2722,8 @@
       "close": 234.89,
       "change_pct": 2.01,
       "volume": 498800,
-      "name": "IDEX CORP",
-      "sector": "-",
+      "name": "IDEX Corporation",
+      "sector": "Industrials",
       "market_cap_b": 17.32
     },
     {
@@ -2733,9 +2733,9 @@
       "close": 87.12,
       "change_pct": -0.05,
       "volume": 1362100,
-      "name": "INTL FLAVORS + FRAGRANCES",
-      "sector": "-",
-      "market_cap_b": 22.24
+      "name": "International Flavors & Fragrances",
+      "sector": "Materials",
+      "market_cap_b": 22.23
     },
     {
       "ticker": "INCY",
@@ -2744,8 +2744,8 @@
       "close": 128.12,
       "change_pct": -1.23,
       "volume": 800100,
-      "name": "INCYTE CORP",
-      "sector": "-",
+      "name": "Incyte",
+      "sector": "Health Care",
       "market_cap_b": 25.97
     },
     {
@@ -2766,9 +2766,9 @@
       "close": 88.24,
       "change_pct": 0.87,
       "volume": 74649300,
-      "name": "INTEL CORP",
-      "sector": "-",
-      "market_cap_b": 466.45
+      "name": "Intel",
+      "sector": "Information Technology",
+      "market_cap_b": 463.66
     },
     {
       "ticker": "INTU",
@@ -2777,8 +2777,8 @@
       "close": 345.88,
       "change_pct": -3.24,
       "volume": 11443000,
-      "name": "INTUIT INC",
-      "sector": "-",
+      "name": "Intuit",
+      "sector": "Information Technology",
       "market_cap_b": 94.61
     },
     {
@@ -2788,8 +2788,8 @@
       "close": 29.89,
       "change_pct": -1.06,
       "volume": 2443500,
-      "name": "INVITATION HOMES INC",
-      "sector": "-",
+      "name": "Invitation Homes",
+      "sector": "Real Estate",
       "market_cap_b": 17.76
     },
     {
@@ -2799,8 +2799,8 @@
       "close": 41.39,
       "change_pct": 0.98,
       "volume": 3370400,
-      "name": "INTERNATIONAL PAPER CO",
-      "sector": "-",
+      "name": "International Paper",
+      "sector": "Materials",
       "market_cap_b": 21.92
     },
     {
@@ -2810,8 +2810,8 @@
       "close": 261.51,
       "change_pct": 0.81,
       "volume": 1272100,
-      "name": "IQVIA HOLDINGS INC",
-      "sector": "-",
+      "name": "IQVIA",
+      "sector": "Health Care",
       "market_cap_b": 43.04
     },
     {
@@ -2821,8 +2821,8 @@
       "close": 79.97,
       "change_pct": 1.78,
       "volume": 2968900,
-      "name": "INGERSOLL RAND INC",
-      "sector": "-",
+      "name": "Ingersoll Rand",
+      "sector": "Industrials",
       "market_cap_b": 31.03
     },
     {
@@ -2832,8 +2832,8 @@
       "close": 121.43,
       "change_pct": 0.44,
       "volume": 1338600,
-      "name": "IRON MOUNTAIN INC",
-      "sector": "-",
+      "name": "Iron Mountain",
+      "sector": "Real Estate",
       "market_cap_b": 36.15
     },
     {
@@ -2843,8 +2843,8 @@
       "close": 370.42,
       "change_pct": -0.38,
       "volume": 1664300,
-      "name": "INTUITIVE SURGICAL INC",
-      "sector": "-",
+      "name": "Intuitive Surgical",
+      "sector": "Health Care",
       "market_cap_b": 132.71
     },
     {
@@ -2854,8 +2854,8 @@
       "close": 192.96,
       "change_pct": -1.45,
       "volume": 1181400,
-      "name": "GARTNER INC",
-      "sector": "-",
+      "name": "Gartner",
+      "sector": "Information Technology",
       "market_cap_b": 12.19
     },
     {
@@ -2865,8 +2865,8 @@
       "close": 285.51,
       "change_pct": 1.37,
       "volume": 889700,
-      "name": "ILLINOIS TOOL WORKS",
-      "sector": "-",
+      "name": "Illinois Tool Works",
+      "sector": "Industrials",
       "market_cap_b": 81.31
     },
     {
@@ -2876,8 +2876,8 @@
       "close": 32.98,
       "change_pct": 0.79,
       "volume": 3622100,
-      "name": "INVESCO LTD",
-      "sector": "-",
+      "name": "Invesco",
+      "sector": "Financials",
       "market_cap_b": 14.56
     },
     {
@@ -2887,9 +2887,9 @@
       "close": 151.52,
       "change_pct": 0.43,
       "volume": 501000,
-      "name": "JACOBS SOLUTIONS INC",
-      "sector": "-",
-      "market_cap_b": 17.89
+      "name": "Jacobs Solutions",
+      "sector": "Industrials",
+      "market_cap_b": 17.73
     },
     {
       "ticker": "JBHT",
@@ -2898,8 +2898,8 @@
       "close": 263.64,
       "change_pct": 0.56,
       "volume": 429200,
-      "name": "HUNT (JB) TRANSPRT SVCS INC",
-      "sector": "-",
+      "name": "J.B. Hunt",
+      "sector": "Industrials",
       "market_cap_b": 24.76
     },
     {
@@ -2909,8 +2909,8 @@
       "close": 310.91,
       "change_pct": 0.72,
       "volume": 564000,
-      "name": "JABIL INC",
-      "sector": "-",
+      "name": "Jabil",
+      "sector": "Information Technology",
       "market_cap_b": 32.58
     },
     {
@@ -2920,8 +2920,8 @@
       "close": 144.33,
       "change_pct": 1.77,
       "volume": 1922500,
-      "name": "JOHNSON CONTROLS INTERNATION",
-      "sector": "-",
+      "name": "Johnson Controls",
+      "sector": "Industrials",
       "market_cap_b": 87.43
     },
     {
@@ -2931,8 +2931,8 @@
       "close": 172.39,
       "change_pct": -0.71,
       "volume": 819000,
-      "name": "JACK HENRY + ASSOCIATES INC",
-      "sector": "-",
+      "name": "Jack Henry & Associates",
+      "sector": "Financials",
       "market_cap_b": 12.25
     },
     {
@@ -2942,8 +2942,8 @@
       "close": 270.0,
       "change_pct": -1.15,
       "volume": 7214100,
-      "name": "JOHNSON + JOHNSON",
-      "sector": "-",
+      "name": "Johnson & Johnson",
+      "sector": "Health Care",
       "market_cap_b": 650.67
     },
     {
@@ -2953,8 +2953,8 @@
       "close": 356.5,
       "change_pct": -0.05,
       "volume": 5796500,
-      "name": "JPMORGAN CHASE + CO",
-      "sector": "-",
+      "name": "JPMorgan Chase",
+      "sector": "Financials",
       "market_cap_b": 947.64
     },
     {
@@ -2964,8 +2964,8 @@
       "close": 32.21,
       "change_pct": 1.16,
       "volume": 7119600,
-      "name": "KEURIG DR PEPPER INC",
-      "sector": "-",
+      "name": "Keurig Dr Pepper",
+      "sector": "Consumer Staples",
       "market_cap_b": 43.83
     },
     {
@@ -2975,8 +2975,8 @@
       "close": 22.09,
       "change_pct": 0.91,
       "volume": 6542300,
-      "name": "KEYCORP",
-      "sector": "-",
+      "name": "KeyCorp",
+      "sector": "Financials",
       "market_cap_b": 23.57
     },
     {
@@ -2986,8 +2986,8 @@
       "close": 321.87,
       "change_pct": 0.55,
       "volume": 1137800,
-      "name": "KEYSIGHT TECHNOLOGIES IN",
-      "sector": "-",
+      "name": "Keysight Technologies",
+      "sector": "Information Technology",
       "market_cap_b": 54.81
     },
     {
@@ -2997,8 +2997,8 @@
       "close": 24.79,
       "change_pct": -2.09,
       "volume": 26481100,
-      "name": "KRAFT HEINZ CO/THE",
-      "sector": "-",
+      "name": "Kraft Heinz",
+      "sector": "Consumer Staples",
       "market_cap_b": 29.4
     },
     {
@@ -3008,8 +3008,8 @@
       "close": 24.03,
       "change_pct": -0.12,
       "volume": 5253300,
-      "name": "KIMCO REALTY CORP",
-      "sector": "-",
+      "name": "Kimco Realty",
+      "sector": "Real Estate",
       "market_cap_b": 16.12
     },
     {
@@ -3019,8 +3019,8 @@
       "close": 108.5,
       "change_pct": 0.86,
       "volume": 2301400,
-      "name": "KKR + CO INC",
-      "sector": "-",
+      "name": "KKR & Co.",
+      "sector": "Financials",
       "market_cap_b": 97.39
     },
     {
@@ -3030,8 +3030,8 @@
       "close": 183.83,
       "change_pct": 0.27,
       "volume": 5945900,
-      "name": "KLA CORP",
-      "sector": "-",
+      "name": "KLA Corporation",
+      "sector": "Information Technology",
       "market_cap_b": 240.18
     },
     {
@@ -3041,8 +3041,8 @@
       "close": 110.34,
       "change_pct": -0.61,
       "volume": 3951800,
-      "name": "KIMBERLY CLARK CORP",
-      "sector": "-",
+      "name": "Kimberly-Clark",
+      "sector": "Consumer Staples",
       "market_cap_b": 36.7
     },
     {
@@ -3052,8 +3052,8 @@
       "close": 32.02,
       "change_pct": 3.49,
       "volume": 15311800,
-      "name": "KINDER MORGAN INC",
-      "sector": "-",
+      "name": "Kinder Morgan",
+      "sector": "Energy",
       "market_cap_b": 71.3
     },
     {
@@ -3063,8 +3063,8 @@
       "close": 90.08,
       "change_pct": -1.7,
       "volume": 17113000,
-      "name": "COCA COLA CO/THE",
-      "sector": "-",
+      "name": "Coca-Cola Company (The)",
+      "sector": "Consumer Staples",
       "market_cap_b": 387.57
     },
     {
@@ -3074,8 +3074,8 @@
       "close": 58.51,
       "change_pct": 0.1,
       "volume": 5533000,
-      "name": "KROGER CO",
-      "sector": "-",
+      "name": "Kroger",
+      "sector": "Consumer Staples",
       "market_cap_b": 35.85
     },
     {
@@ -3085,8 +3085,8 @@
       "close": 19.22,
       "change_pct": -0.57,
       "volume": 25397800,
-      "name": "KENVUE INC",
-      "sector": "-",
+      "name": "Kenvue",
+      "sector": "Consumer Staples",
       "market_cap_b": 36.92
     },
     {
@@ -3096,8 +3096,8 @@
       "close": 110.96,
       "change_pct": 0.14,
       "volume": 477300,
-      "name": "LOEWS CORP",
-      "sector": "-",
+      "name": "Loews Corporation",
+      "sector": "Financials",
       "market_cap_b": 22.68
     },
     {
@@ -3107,9 +3107,9 @@
       "close": 137.43,
       "change_pct": 2.15,
       "volume": 944500,
-      "name": "LEIDOS HOLDINGS INC",
-      "sector": "-",
-      "market_cap_b": 17.29
+      "name": "Leidos",
+      "sector": "Industrials",
+      "market_cap_b": 17.25
     },
     {
       "ticker": "LEN",
@@ -3118,8 +3118,8 @@
       "close": 87.15,
       "change_pct": -0.6,
       "volume": 1559500,
-      "name": "LENNAR CORP A",
-      "sector": "-",
+      "name": "Lennar",
+      "sector": "Consumer Discretionary",
       "market_cap_b": 20.99
     },
     {
@@ -3129,8 +3129,8 @@
       "close": 335.72,
       "change_pct": -0.58,
       "volume": 701200,
-      "name": "LABCORP HOLDINGS INC",
-      "sector": "-",
+      "name": "Labcorp",
+      "sector": "Health Care",
       "market_cap_b": 27.23
     },
     {
@@ -3140,8 +3140,8 @@
       "close": 262.96,
       "change_pct": 0.3,
       "volume": 1394800,
-      "name": "L3HARRIS TECHNOLOGIES INC",
-      "sector": "-",
+      "name": "L3Harris",
+      "sector": "Industrials",
       "market_cap_b": 48.97
     },
     {
@@ -3151,8 +3151,8 @@
       "close": 393.72,
       "change_pct": 1.2,
       "volume": 467900,
-      "name": "LENNOX INTERNATIONAL INC",
-      "sector": "-",
+      "name": "Lennox International",
+      "sector": "Industrials",
       "market_cap_b": 13.61
     },
     {
@@ -3162,8 +3162,8 @@
       "close": 490.33,
       "change_pct": 0.64,
       "volume": 1843200,
-      "name": "LINDE PLC",
-      "sector": "-",
+      "name": "Linde plc",
+      "sector": "Materials",
       "market_cap_b": 226.03
     },
     {
@@ -3173,8 +3173,8 @@
       "close": 939.03,
       "change_pct": 6.04,
       "volume": 4486100,
-      "name": "LUMENTUM HOLDINGS INC",
-      "sector": "-",
+      "name": "Lumentum",
+      "sector": "Information Technology",
       "market_cap_b": 84.23
     },
     {
@@ -3184,8 +3184,8 @@
       "close": 1189.41,
       "change_pct": -3.59,
       "volume": 3000500,
-      "name": "ELI LILLY + CO",
-      "sector": "-",
+      "name": "Lilly (Eli)",
+      "sector": "Health Care",
       "market_cap_b": 1060.65
     },
     {
@@ -3195,8 +3195,8 @@
       "close": 565.62,
       "change_pct": 1.64,
       "volume": 844000,
-      "name": "LOCKHEED MARTIN CORP",
-      "sector": "-",
+      "name": "Lockheed Martin",
+      "sector": "Industrials",
       "market_cap_b": 130.54
     },
     {
@@ -3206,8 +3206,8 @@
       "close": 68.92,
       "change_pct": 0.85,
       "volume": 1706800,
-      "name": "ALLIANT ENERGY CORP",
-      "sector": "-",
+      "name": "Alliant Energy",
+      "sector": "Utilities",
       "market_cap_b": 17.87
     },
     {
@@ -3217,9 +3217,9 @@
       "close": 210.36,
       "change_pct": -1.98,
       "volume": 3777100,
-      "name": "LOWE S COS INC",
-      "sector": "-",
-      "market_cap_b": 118.01
+      "name": "Lowe's",
+      "sector": "Consumer Discretionary",
+      "market_cap_b": 117.95
     },
     {
       "ticker": "LRCX",
@@ -3228,8 +3228,8 @@
       "close": 312.88,
       "change_pct": -0.57,
       "volume": 4099600,
-      "name": "LAM RESEARCH CORP",
-      "sector": "-",
+      "name": "Lam Research",
+      "sector": "Information Technology",
       "market_cap_b": 391.51
     },
     {
@@ -3239,8 +3239,8 @@
       "close": 116.35,
       "change_pct": -1.67,
       "volume": 3673600,
-      "name": "LULULEMON ATHLETICA INC",
-      "sector": "-",
+      "name": "Lululemon Athletica",
+      "sector": "Consumer Discretionary",
       "market_cap_b": 13.21
     },
     {
@@ -3250,8 +3250,8 @@
       "close": 40.67,
       "change_pct": -0.37,
       "volume": 4142100,
-      "name": "SOUTHWEST AIRLINES CO",
-      "sector": "-",
+      "name": "Southwest Airlines",
+      "sector": "Industrials",
       "market_cap_b": 19.9
     },
     {
@@ -3261,8 +3261,8 @@
       "close": 46.23,
       "change_pct": -2.2,
       "volume": 3816000,
-      "name": "LAS VEGAS SANDS CORP",
-      "sector": "-",
+      "name": "Las Vegas Sands",
+      "sector": "Consumer Discretionary",
       "market_cap_b": 29.94
     },
     {
@@ -3272,8 +3272,8 @@
       "close": 62.62,
       "change_pct": 0.11,
       "volume": 2743900,
-      "name": "LYONDELLBASELL INDU CL A",
-      "sector": "-",
+      "name": "LyondellBasell",
+      "sector": "Materials",
       "market_cap_b": 20.23
     },
     {
@@ -3283,8 +3283,8 @@
       "close": 182.64,
       "change_pct": -2.21,
       "volume": 1633900,
-      "name": "LIVE NATION ENTERTAINMENT IN",
-      "sector": "-",
+      "name": "Live Nation Entertainment",
+      "sector": "Communication Services",
       "market_cap_b": 42.55
     },
     {
@@ -3294,8 +3294,8 @@
       "close": 598.47,
       "change_pct": -0.15,
       "volume": 3110900,
-      "name": "MASTERCARD INC   A",
-      "sector": "-",
+      "name": "Mastercard",
+      "sector": "Financials",
       "market_cap_b": 524.27
     },
     {
@@ -3305,8 +3305,8 @@
       "close": 131.5,
       "change_pct": -0.36,
       "volume": 508500,
-      "name": "MID AMERICA APARTMENT COMM",
-      "sector": "-",
+      "name": "Mid-America Apartment Communities",
+      "sector": "Real Estate",
       "market_cap_b": 15.26
     },
     {
@@ -3316,8 +3316,8 @@
       "close": 358.67,
       "change_pct": 0.25,
       "volume": 2033100,
-      "name": "MARRIOTT INTERNATIONAL  CL A",
-      "sector": "-",
+      "name": "Marriott International",
+      "sector": "Consumer Discretionary",
       "market_cap_b": 93.53
     },
     {
@@ -3327,8 +3327,8 @@
       "close": 73.6,
       "change_pct": 0.93,
       "volume": 2007100,
-      "name": "MASCO CORP",
-      "sector": "-",
+      "name": "Masco",
+      "sector": "Industrials",
       "market_cap_b": 14.51
     },
     {
@@ -3338,8 +3338,8 @@
       "close": 266.93,
       "change_pct": -0.44,
       "volume": 4182300,
-      "name": "MCDONALD S CORP",
-      "sector": "-",
+      "name": "McDonald's",
+      "sector": "Consumer Discretionary",
       "market_cap_b": 188.89
     },
     {
@@ -3349,8 +3349,8 @@
       "close": 74.05,
       "change_pct": 0.75,
       "volume": 6224900,
-      "name": "MICROCHIP TECHNOLOGY INC",
-      "sector": "-",
+      "name": "Microchip Technology",
+      "sector": "Information Technology",
       "market_cap_b": 40.21
     },
     {
@@ -3360,8 +3360,8 @@
       "close": 896.65,
       "change_pct": -0.93,
       "volume": 1058400,
-      "name": "MCKESSON CORP",
-      "sector": "-",
+      "name": "McKesson Corporation",
+      "sector": "Health Care",
       "market_cap_b": 104.54
     },
     {
@@ -3371,8 +3371,8 @@
       "close": 514.55,
       "change_pct": 0.28,
       "volume": 756400,
-      "name": "MOODY S CORP",
-      "sector": "-",
+      "name": "Moody's Corporation",
+      "sector": "Financials",
       "market_cap_b": 89.11
     },
     {
@@ -3382,9 +3382,9 @@
       "close": 63.01,
       "change_pct": 0.03,
       "volume": 6974000,
-      "name": "MONDELEZ INTERNATIONAL INC A",
-      "sector": "-",
-      "market_cap_b": 80.88
+      "name": "Mondelez International",
+      "sector": "Consumer Staples",
+      "market_cap_b": 80.42
     },
     {
       "ticker": "MDT",
@@ -3393,8 +3393,8 @@
       "close": 92.02,
       "change_pct": 0.97,
       "volume": 6046100,
-      "name": "MEDTRONIC PLC",
-      "sector": "-",
+      "name": "Medtronic",
+      "sector": "Health Care",
       "market_cap_b": 117.78
     },
     {
@@ -3415,8 +3415,8 @@
       "close": 96.52,
       "change_pct": 0.68,
       "volume": 2442300,
-      "name": "METLIFE INC",
-      "sector": "-",
+      "name": "MetLife",
+      "sector": "Financials",
       "market_cap_b": 61.34
     },
     {
@@ -3426,8 +3426,8 @@
       "close": 576.14,
       "change_pct": 1.07,
       "volume": 31324800,
-      "name": "META PLATFORMS INC CLASS A",
-      "sector": "-",
+      "name": "Meta Platforms",
+      "sector": "Communication Services",
       "market_cap_b": 1467.72
     },
     {
@@ -3437,8 +3437,8 @@
       "close": 43.46,
       "change_pct": 0.28,
       "volume": 1901100,
-      "name": "MGM RESORTS INTERNATIONAL",
-      "sector": "-",
+      "name": "MGM Resorts",
+      "sector": "Consumer Discretionary",
       "market_cap_b": 11.12
     },
     {
@@ -3448,8 +3448,8 @@
       "close": 55.1,
       "change_pct": 1.14,
       "volume": 2976400,
-      "name": "MCCORMICK + CO NON VTG SHRS",
-      "sector": "-",
+      "name": "McCormick & Company",
+      "sector": "Consumer Staples",
       "market_cap_b": 14.81
     },
     {
@@ -3459,8 +3459,8 @@
       "close": 532.18,
       "change_pct": 0.08,
       "volume": 587400,
-      "name": "MARTIN MARIETTA MATERIALS",
-      "sector": "-",
+      "name": "Martin Marietta Materials",
+      "sector": "Materials",
       "market_cap_b": 37.8
     },
     {
@@ -3470,8 +3470,8 @@
       "close": 180.0,
       "change_pct": 0.35,
       "volume": 2673700,
-      "name": "3M CO",
-      "sector": "-",
+      "name": "3M",
+      "sector": "Industrials",
       "market_cap_b": 92.83
     },
     {
@@ -3481,8 +3481,8 @@
       "close": 47.81,
       "change_pct": -1.89,
       "volume": 6220800,
-      "name": "MONSTER BEVERAGE CORP",
-      "sector": "-",
+      "name": "Monster Beverage",
+      "sector": "Consumer Staples",
       "market_cap_b": 93.66
     },
     {
@@ -3492,8 +3492,8 @@
       "close": 69.12,
       "change_pct": 1.54,
       "volume": 6312900,
-      "name": "ALTRIA GROUP INC",
-      "sector": "-",
+      "name": "Altria",
+      "sector": "Consumer Staples",
       "market_cap_b": 115.41
     },
     {
@@ -3503,8 +3503,8 @@
       "close": 24.16,
       "change_pct": -0.45,
       "volume": 7950500,
-      "name": "MOSAIC CO/THE",
-      "sector": "-",
+      "name": "Mosaic Company (The)",
+      "sector": "Materials",
       "market_cap_b": 7.68
     },
     {
@@ -3514,9 +3514,9 @@
       "close": 362.27,
       "change_pct": 2.08,
       "volume": 2089400,
-      "name": "MARATHON PETROLEUM CORP",
-      "sector": "-",
-      "market_cap_b": 105.76
+      "name": "Marathon Petroleum",
+      "sector": "Energy",
+      "market_cap_b": 101.73
     },
     {
       "ticker": "MPWR",
@@ -3525,8 +3525,8 @@
       "close": 1303.88,
       "change_pct": -0.02,
       "volume": 254500,
-      "name": "MONOLITHIC POWER SYSTEMS INC",
-      "sector": "-",
+      "name": "Monolithic Power Systems",
+      "sector": "Information Technology",
       "market_cap_b": 64.08
     },
     {
@@ -3536,8 +3536,8 @@
       "close": 153.1,
       "change_pct": -2.14,
       "volume": 8627600,
-      "name": "MERCK + CO. INC.",
-      "sector": "-",
+      "name": "Merck & Co.",
+      "sector": "Health Care",
       "market_cap_b": 377.72
     },
     {
@@ -3547,8 +3547,8 @@
       "close": 149.66,
       "change_pct": -5.77,
       "volume": 21942900,
-      "name": "MODERNA INC",
-      "sector": "-",
+      "name": "Moderna",
+      "sector": "Health Care",
       "market_cap_b": 59.75
     },
     {
@@ -3558,8 +3558,8 @@
       "close": 193.26,
       "change_pct": -0.07,
       "volume": 2956200,
-      "name": "MARSH + MCLENNAN COS",
-      "sector": "-",
+      "name": "Marsh McLennan",
+      "sector": "Financials",
       "market_cap_b": 92.23
     },
     {
@@ -3569,8 +3569,8 @@
       "close": 245.11,
       "change_pct": 1.97,
       "volume": 16769900,
-      "name": "MARVELL TECHNOLOGY INC",
-      "sector": "-",
+      "name": "Marvell Technology",
+      "sector": "Information Technology",
       "market_cap_b": 220.28
     },
     {
@@ -3580,8 +3580,8 @@
       "close": 214.08,
       "change_pct": -1.24,
       "volume": 4126100,
-      "name": "MORGAN STANLEY",
-      "sector": "-",
+      "name": "Morgan Stanley",
+      "sector": "Financials",
       "market_cap_b": 336.23
     },
     {
@@ -3591,8 +3591,8 @@
       "close": 564.22,
       "change_pct": 0.04,
       "volume": 273300,
-      "name": "MSCI INC",
-      "sector": "-",
+      "name": "MSCI",
+      "sector": "Financials",
       "market_cap_b": 41.02
     },
     {
@@ -3602,8 +3602,8 @@
       "close": 496.37,
       "change_pct": 0.95,
       "volume": 20712000,
-      "name": "MICROSOFT CORP",
-      "sector": "-",
+      "name": "Microsoft",
+      "sector": "Information Technology",
       "market_cap_b": 3685.82
     },
     {
@@ -3613,8 +3613,8 @@
       "close": 487.28,
       "change_pct": 0.39,
       "volume": 805700,
-      "name": "MOTOROLA SOLUTIONS INC",
-      "sector": "-",
+      "name": "Motorola Solutions",
+      "sector": "Information Technology",
       "market_cap_b": 80.64
     },
     {
@@ -3635,9 +3635,9 @@
       "close": 241.54,
       "change_pct": 0.47,
       "volume": 576600,
-      "name": "M + T BANK CORP",
-      "sector": "-",
-      "market_cap_b": 35.01
+      "name": "M&T Bank",
+      "sector": "Financials",
+      "market_cap_b": 34.88
     },
     {
       "ticker": "MTD",
@@ -3646,8 +3646,8 @@
       "close": 1398.46,
       "change_pct": -0.27,
       "volume": 97100,
-      "name": "METTLER TOLEDO INTERNATIONAL",
-      "sector": "-",
+      "name": "Mettler Toledo",
+      "sector": "Health Care",
       "market_cap_b": 28.02
     },
     {
@@ -3657,8 +3657,8 @@
       "close": 938.4,
       "change_pct": 0.58,
       "volume": 18333700,
-      "name": "MICRON TECHNOLOGY INC",
-      "sector": "-",
+      "name": "Micron Technology",
+      "sector": "Information Technology",
       "market_cap_b": 1059.82
     },
     {
@@ -3668,8 +3668,8 @@
       "close": 17.09,
       "change_pct": -0.98,
       "volume": 8912300,
-      "name": "NORWEGIAN CRUISE LINE HOLDIN",
-      "sector": "-",
+      "name": "Norwegian Cruise Line Holdings",
+      "sector": "Consumer Discretionary",
       "market_cap_b": 7.85
     },
     {
@@ -3679,8 +3679,8 @@
       "close": 99.47,
       "change_pct": 0.75,
       "volume": 1543700,
-      "name": "NASDAQ INC",
-      "sector": "-",
+      "name": "Nasdaq, Inc.",
+      "sector": "Financials",
       "market_cap_b": 55.6
     },
     {
@@ -3690,8 +3690,8 @@
       "close": 334.58,
       "change_pct": 0.3,
       "volume": 353100,
-      "name": "NORDSON CORP",
-      "sector": "-",
+      "name": "Nordson Corporation",
+      "sector": "Industrials",
       "market_cap_b": 18.64
     },
     {
@@ -3701,9 +3701,9 @@
       "close": 84.22,
       "change_pct": 0.0,
       "volume": 5683700,
-      "name": "NEXTERA ENERGY INC",
-      "sector": "-",
-      "market_cap_b": 175.65
+      "name": "NextEra Energy",
+      "sector": "Utilities",
+      "market_cap_b": 175.68
     },
     {
       "ticker": "NEM",
@@ -3712,8 +3712,8 @@
       "close": 131.6,
       "change_pct": -2.62,
       "volume": 10400500,
-      "name": "NEWMONT CORP",
-      "sector": "-",
+      "name": "Newmont",
+      "sector": "Materials",
       "market_cap_b": 138.67
     },
     {
@@ -3723,8 +3723,8 @@
       "close": 81.46,
       "change_pct": -0.94,
       "volume": 22798500,
-      "name": "NETFLIX INC",
-      "sector": "-",
+      "name": "Netflix",
+      "sector": "Communication Services",
       "market_cap_b": 339.19
     },
     {
@@ -3734,8 +3734,8 @@
       "close": 41.13,
       "change_pct": 1.18,
       "volume": 5073800,
-      "name": "NISOURCE INC",
-      "sector": "-",
+      "name": "NiSource",
+      "sector": "Utilities",
       "market_cap_b": 19.72
     },
     {
@@ -3745,9 +3745,9 @@
       "close": 38.59,
       "change_pct": -2.25,
       "volume": 38398600,
-      "name": "NIKE INC  CL B",
-      "sector": "-",
-      "market_cap_b": 57.15
+      "name": "Nike, Inc.",
+      "sector": "Consumer Discretionary",
+      "market_cap_b": 57.25
     },
     {
       "ticker": "NOC",
@@ -3756,8 +3756,8 @@
       "close": 549.95,
       "change_pct": 1.37,
       "volume": 561200,
-      "name": "NORTHROP GRUMMAN CORP",
-      "sector": "-",
+      "name": "Northrop Grumman",
+      "sector": "Industrials",
       "market_cap_b": 78.13
     },
     {
@@ -3767,8 +3767,8 @@
       "close": 125.8,
       "change_pct": -0.94,
       "volume": 13288900,
-      "name": "SERVICENOW INC",
-      "sector": "-",
+      "name": "ServiceNow",
+      "sector": "Information Technology",
       "market_cap_b": 130.06
     },
     {
@@ -3778,8 +3778,8 @@
       "close": 116.14,
       "change_pct": 2.23,
       "volume": 1643300,
-      "name": "NRG ENERGY INC",
-      "sector": "-",
+      "name": "NRG Energy",
+      "sector": "Utilities",
       "market_cap_b": 24.41
     },
     {
@@ -3789,8 +3789,8 @@
       "close": 352.68,
       "change_pct": 0.41,
       "volume": 605300,
-      "name": "NORFOLK SOUTHERN CORP",
-      "sector": "-",
+      "name": "Norfolk Southern",
+      "sector": "Industrials",
       "market_cap_b": 79.21
     },
     {
@@ -3800,9 +3800,9 @@
       "close": 193.85,
       "change_pct": 3.43,
       "volume": 1709900,
-      "name": "NETAPP INC",
-      "sector": "-",
-      "market_cap_b": 37.98
+      "name": "NetApp",
+      "sector": "Information Technology",
+      "market_cap_b": 38.04
     },
     {
       "ticker": "NTRS",
@@ -3811,8 +3811,8 @@
       "close": 187.66,
       "change_pct": 0.45,
       "volume": 807200,
-      "name": "NORTHERN TRUST CORP",
-      "sector": "-",
+      "name": "Northern Trust",
+      "sector": "Financials",
       "market_cap_b": 34.33
     },
     {
@@ -3822,8 +3822,8 @@
       "close": 252.8,
       "change_pct": 2.12,
       "volume": 1114200,
-      "name": "NUCOR CORP",
-      "sector": "-",
+      "name": "Nucor",
+      "sector": "Materials",
       "market_cap_b": 57.35
     },
     {
@@ -3833,8 +3833,8 @@
       "close": 209.66,
       "change_pct": -1.59,
       "volume": 175233600,
-      "name": "NVIDIA CORP",
-      "sector": "-",
+      "name": "Nvidia",
+      "sector": "Information Technology",
       "market_cap_b": 5078.17
     },
     {
@@ -3844,8 +3844,8 @@
       "close": 6368.12,
       "change_pct": -1.02,
       "volume": 29600,
-      "name": "NVR INC",
-      "sector": "-",
+      "name": "NVR, Inc.",
+      "sector": "Consumer Discretionary",
       "market_cap_b": 16.97
     },
     {
@@ -3855,8 +3855,8 @@
       "close": 35.24,
       "change_pct": 0.26,
       "volume": 660000,
-      "name": "NEWS CORP   CLASS B",
-      "sector": "-",
+      "name": "News Corp (Class B)",
+      "sector": "Communication Services",
       "market_cap_b": 18.93
     },
     {
@@ -3866,8 +3866,8 @@
       "close": 30.96,
       "change_pct": 0.13,
       "volume": 2709900,
-      "name": "NEWS CORP   CLASS A",
-      "sector": "-",
+      "name": "News Corp (Class A)",
+      "sector": "Communication Services",
       "market_cap_b": 16.63
     },
     {
@@ -3877,8 +3877,8 @@
       "close": 223.15,
       "change_pct": -0.71,
       "volume": 1815700,
-      "name": "NXP SEMICONDUCTORS NV",
-      "sector": "-",
+      "name": "NXP Semiconductors",
+      "sector": "Information Technology",
       "market_cap_b": 56.27
     },
     {
@@ -3888,8 +3888,8 @@
       "close": 62.26,
       "change_pct": -0.91,
       "volume": 4106600,
-      "name": "REALTY INCOME CORP",
-      "sector": "-",
+      "name": "Realty Income",
+      "sector": "Real Estate",
       "market_cap_b": 58.91
     },
     {
@@ -3899,8 +3899,8 @@
       "close": 199.43,
       "change_pct": 0.55,
       "volume": 1218700,
-      "name": "OLD DOMINION FREIGHT LINE",
-      "sector": "-",
+      "name": "Old Dominion",
+      "sector": "Industrials",
       "market_cap_b": 41.35
     },
     {
@@ -3910,9 +3910,9 @@
       "close": 94.9,
       "change_pct": 3.49,
       "volume": 3350100,
-      "name": "ONEOK INC",
-      "sector": "-",
-      "market_cap_b": 59.79
+      "name": "Oneok",
+      "sector": "Energy",
+      "market_cap_b": 59.82
     },
     {
       "ticker": "OMC",
@@ -3921,9 +3921,9 @@
       "close": 87.89,
       "change_pct": -0.35,
       "volume": 1875000,
-      "name": "OMNICOM GROUP",
-      "sector": "-",
-      "market_cap_b": 25.05
+      "name": "Omnicom Group",
+      "sector": "Communication Services",
+      "market_cap_b": 24.11
     },
     {
       "ticker": "ON",
@@ -3932,8 +3932,8 @@
       "close": 73.22,
       "change_pct": 0.98,
       "volume": 4343000,
-      "name": "ON SEMICONDUCTOR",
-      "sector": "-",
+      "name": "ON Semiconductor",
+      "sector": "Information Technology",
       "market_cap_b": 28.51
     },
     {
@@ -3943,8 +3943,8 @@
       "close": 148.87,
       "change_pct": 2.84,
       "volume": 18290000,
-      "name": "ORACLE CORP",
-      "sector": "-",
+      "name": "Oracle Corporation",
+      "sector": "Information Technology",
       "market_cap_b": 428.82
     },
     {
@@ -3954,8 +3954,8 @@
       "close": 89.55,
       "change_pct": -0.85,
       "volume": 3698300,
-      "name": "O REILLY AUTOMOTIVE INC",
-      "sector": "-",
+      "name": "O'Reilly Automotive",
+      "sector": "Consumer Discretionary",
       "market_cap_b": 72.44
     },
     {
@@ -3965,8 +3965,8 @@
       "close": 72.36,
       "change_pct": 1.26,
       "volume": 2048000,
-      "name": "OTIS WORLDWIDE CORP",
-      "sector": "-",
+      "name": "Otis Worldwide",
+      "sector": "Industrials",
       "market_cap_b": 27.55
     },
     {
@@ -3976,8 +3976,8 @@
       "close": 58.62,
       "change_pct": 0.36,
       "volume": 6204500,
-      "name": "OCCIDENTAL PETROLEUM CORP",
-      "sector": "-",
+      "name": "Occidental Petroleum",
+      "sector": "Energy",
       "market_cap_b": 58.6
     },
     {
@@ -3987,8 +3987,8 @@
       "close": 339.31,
       "change_pct": -0.17,
       "volume": 4577500,
-      "name": "PALO ALTO NETWORKS INC",
-      "sector": "-",
+      "name": "Palo Alto Networks",
+      "sector": "Information Technology",
       "market_cap_b": 276.54
     },
     {
@@ -3998,8 +3998,8 @@
       "close": 124.88,
       "change_pct": -0.09,
       "volume": 1111700,
-      "name": "PAYCHEX INC",
-      "sector": "-",
+      "name": "Paychex",
+      "sector": "Industrials",
       "market_cap_b": 44.42
     },
     {
@@ -4009,8 +4009,8 @@
       "close": 129.23,
       "change_pct": 0.01,
       "volume": 2221500,
-      "name": "PACCAR INC",
-      "sector": "-",
+      "name": "Paccar",
+      "sector": "Industrials",
       "market_cap_b": 68.02
     },
     {
@@ -4020,8 +4020,8 @@
       "close": 18.22,
       "change_pct": -0.76,
       "volume": 17279200,
-      "name": "P G + E CORP",
-      "sector": "-",
+      "name": "PG&E Corporation",
+      "sector": "Utilities",
       "market_cap_b": 40.13
     },
     {
@@ -4042,9 +4042,9 @@
       "close": 74.03,
       "change_pct": 1.02,
       "volume": 1685000,
-      "name": "PUBLIC SERVICE ENTERPRISE GP",
-      "sector": "-",
-      "market_cap_b": 36.89
+      "name": "Public Service Enterprise Group",
+      "sector": "Utilities",
+      "market_cap_b": 36.9
     },
     {
       "ticker": "PEP",
@@ -4053,8 +4053,8 @@
       "close": 142.19,
       "change_pct": -0.06,
       "volume": 8577000,
-      "name": "PEPSICO INC",
-      "sector": "-",
+      "name": "PepsiCo",
+      "sector": "Consumer Staples",
       "market_cap_b": 194.07
     },
     {
@@ -4064,8 +4064,8 @@
       "close": 28.3,
       "change_pct": -0.95,
       "volume": 35049200,
-      "name": "PFIZER INC",
-      "sector": "-",
+      "name": "Pfizer",
+      "sector": "Health Care",
       "market_cap_b": 161.3
     },
     {
@@ -4075,8 +4075,8 @@
       "close": 112.21,
       "change_pct": 0.56,
       "volume": 803100,
-      "name": "PRINCIPAL FINANCIAL GROUP",
-      "sector": "-",
+      "name": "Principal Financial Group",
+      "sector": "Financials",
       "market_cap_b": 24.02
     },
     {
@@ -4086,9 +4086,9 @@
       "close": 145.0,
       "change_pct": -0.28,
       "volume": 8249100,
-      "name": "PROCTER + GAMBLE CO/THE",
-      "sector": "-",
-      "market_cap_b": 337.65
+      "name": "Procter & Gamble",
+      "sector": "Consumer Staples",
+      "market_cap_b": 337.04
     },
     {
       "ticker": "PGR",
@@ -4097,8 +4097,8 @@
       "close": 222.51,
       "change_pct": 0.19,
       "volume": 1447000,
-      "name": "PROGRESSIVE CORP",
-      "sector": "-",
+      "name": "Progressive Corporation",
+      "sector": "Financials",
       "market_cap_b": 129.3
     },
     {
@@ -4108,8 +4108,8 @@
       "close": 1039.49,
       "change_pct": 2.28,
       "volume": 585200,
-      "name": "PARKER HANNIFIN CORP",
-      "sector": "-",
+      "name": "Parker Hannifin",
+      "sector": "Industrials",
       "market_cap_b": 131.03
     },
     {
@@ -4119,8 +4119,8 @@
       "close": 130.03,
       "change_pct": -0.63,
       "volume": 954300,
-      "name": "PULTEGROUP INC",
-      "sector": "-",
+      "name": "PulteGroup",
+      "sector": "Consumer Discretionary",
       "market_cap_b": 24.77
     },
     {
@@ -4130,8 +4130,8 @@
       "close": 246.68,
       "change_pct": 0.06,
       "volume": 556100,
-      "name": "PACKAGING CORP OF AMERICA",
-      "sector": "-",
+      "name": "Packaging Corporation of America",
+      "sector": "Materials",
       "market_cap_b": 21.98
     },
     {
@@ -4141,8 +4141,8 @@
       "close": 142.59,
       "change_pct": -0.52,
       "volume": 3834000,
-      "name": "PROLOGIS INC",
-      "sector": "-",
+      "name": "Prologis",
+      "sector": "Real Estate",
       "market_cap_b": 135.51
     },
     {
@@ -4152,8 +4152,8 @@
       "close": 177.5,
       "change_pct": 2.76,
       "volume": 27844800,
-      "name": "PALANTIR TECHNOLOGIES INC A",
-      "sector": "-",
+      "name": "Palantir Technologies",
+      "sector": "Information Technology",
       "market_cap_b": 426.54
     },
     {
@@ -4163,8 +4163,8 @@
       "close": 194.1,
       "change_pct": 0.09,
       "volume": 4581800,
-      "name": "PHILIP MORRIS INTERNATIONAL",
-      "sector": "-",
+      "name": "Philip Morris International",
+      "sector": "Consumer Staples",
       "market_cap_b": 302.53
     },
     {
@@ -4174,9 +4174,9 @@
       "close": 244.67,
       "change_pct": 0.23,
       "volume": 1528100,
-      "name": "PNC FINANCIAL SERVICES GROUP",
-      "sector": "-",
-      "market_cap_b": 97.62
+      "name": "PNC Financial Services",
+      "sector": "Financials",
+      "market_cap_b": 97.61
     },
     {
       "ticker": "PNR",
@@ -4185,9 +4185,9 @@
       "close": 62.86,
       "change_pct": 0.64,
       "volume": 3289600,
-      "name": "PENTAIR PLC",
-      "sector": "-",
-      "market_cap_b": 10.16
+      "name": "Pentair",
+      "sector": "Industrials",
+      "market_cap_b": 10.03
     },
     {
       "ticker": "PNW",
@@ -4196,8 +4196,8 @@
       "close": 98.69,
       "change_pct": 1.04,
       "volume": 1339900,
-      "name": "PINNACLE WEST CAPITAL",
-      "sector": "-",
+      "name": "Pinnacle West Capital",
+      "sector": "Utilities",
       "market_cap_b": 11.96
     },
     {
@@ -4207,8 +4207,8 @@
       "close": 143.38,
       "change_pct": 0.23,
       "volume": 1424000,
-      "name": "INSULET CORP",
-      "sector": "-",
+      "name": "Insulet Corporation",
+      "sector": "Health Care",
       "market_cap_b": 9.94
     },
     {
@@ -4218,8 +4218,8 @@
       "close": 114.42,
       "change_pct": 0.68,
       "volume": 1046800,
-      "name": "PPG INDUSTRIES INC",
-      "sector": "-",
+      "name": "PPG Industries",
+      "sector": "Materials",
       "market_cap_b": 25.44
     },
     {
@@ -4229,8 +4229,8 @@
       "close": 35.02,
       "change_pct": 0.09,
       "volume": 6931100,
-      "name": "PPL CORP",
-      "sector": "-",
+      "name": "PPL Corporation",
+      "sector": "Utilities",
       "market_cap_b": 26.35
     },
     {
@@ -4240,8 +4240,8 @@
       "close": 120.24,
       "change_pct": 0.07,
       "volume": 1542600,
-      "name": "PRUDENTIAL FINANCIAL INC",
-      "sector": "-",
+      "name": "Prudential Financial",
+      "sector": "Financials",
       "market_cap_b": 41.48
     },
     {
@@ -4251,8 +4251,8 @@
       "close": 317.37,
       "change_pct": -1.64,
       "volume": 736100,
-      "name": "PUBLIC STORAGE",
-      "sector": "-",
+      "name": "Public Storage",
+      "sector": "Real Estate",
       "market_cap_b": 59.27
     },
     {
@@ -4262,9 +4262,9 @@
       "close": 10.74,
       "change_pct": 0.66,
       "volume": 7899700,
-      "name": "PARAMOUNT SKYDANCE CL B",
-      "sector": "-",
-      "market_cap_b": 12.02
+      "name": "Paramount Skydance Corporation",
+      "sector": "Communication Services",
+      "market_cap_b": 12.05
     },
     {
       "ticker": "PSX",
@@ -4273,8 +4273,8 @@
       "close": 242.23,
       "change_pct": 2.25,
       "volume": 2235000,
-      "name": "PHILLIPS 66",
-      "sector": "-",
+      "name": "Phillips 66",
+      "sector": "Energy",
       "market_cap_b": 96.65
     },
     {
@@ -4284,8 +4284,8 @@
       "close": 151.61,
       "change_pct": 0.31,
       "volume": 1411400,
-      "name": "PTC INC",
-      "sector": "-",
+      "name": "PTC Inc.",
+      "sector": "Information Technology",
       "market_cap_b": 16.45
     },
     {
@@ -4295,8 +4295,8 @@
       "close": 616.73,
       "change_pct": 2.14,
       "volume": 1163400,
-      "name": "QUANTA SERVICES INC",
-      "sector": "-",
+      "name": "Quanta Services",
+      "sector": "Industrials",
       "market_cap_b": 92.72
     },
     {
@@ -4306,8 +4306,8 @@
       "close": 61.81,
       "change_pct": -0.74,
       "volume": 11415900,
-      "name": "PAYPAL HOLDINGS INC",
-      "sector": "-",
+      "name": "PayPal",
+      "sector": "Financials",
       "market_cap_b": 52.88
     },
     {
@@ -4317,8 +4317,8 @@
       "close": 126.2,
       "change_pct": -0.33,
       "volume": 1455200,
-      "name": "QNITY ELECTRONICS INC",
-      "sector": "-",
+      "name": "Qnity Electronics",
+      "sector": "Information Technology",
       "market_cap_b": 26.4
     },
     {
@@ -4328,8 +4328,8 @@
       "close": 163.72,
       "change_pct": 1.97,
       "volume": 10466300,
-      "name": "QUALCOMM INC",
-      "sector": "-",
+      "name": "Qualcomm",
+      "sector": "Information Technology",
       "market_cap_b": 174.86
     },
     {
@@ -4339,8 +4339,8 @@
       "close": 290.0,
       "change_pct": -0.78,
       "volume": 1122000,
-      "name": "ROYAL CARIBBEAN CRUISES LTD",
-      "sector": "-",
+      "name": "Royal Caribbean Group",
+      "sector": "Consumer Discretionary",
       "market_cap_b": 77.56
     },
     {
@@ -4350,8 +4350,8 @@
       "close": 155.36,
       "change_pct": -4.36,
       "volume": 3661500,
-      "name": "REDDIT INC CL A",
-      "sector": "-",
+      "name": "Reddit",
+      "sector": "Communication Services",
       "market_cap_b": 29.89
     },
     {
@@ -4361,8 +4361,8 @@
       "close": 76.38,
       "change_pct": -0.44,
       "volume": 762800,
-      "name": "REGENCY CENTERS CORP",
-      "sector": "-",
+      "name": "Regency Centers",
+      "sector": "Real Estate",
       "market_cap_b": 13.99
     },
     {
@@ -4372,8 +4372,8 @@
       "close": 814.79,
       "change_pct": -2.25,
       "volume": 585300,
-      "name": "REGENERON PHARMACEUTICALS",
-      "sector": "-",
+      "name": "Regeneron Pharmaceuticals",
+      "sector": "Health Care",
       "market_cap_b": 83.89
     },
     {
@@ -4383,8 +4383,8 @@
       "close": 30.7,
       "change_pct": 0.23,
       "volume": 5865300,
-      "name": "REGIONS FINANCIAL CORP",
-      "sector": "-",
+      "name": "Regions Financial Corporation",
+      "sector": "Financials",
       "market_cap_b": 26.15
     },
     {
@@ -4394,8 +4394,8 @@
       "close": 176.69,
       "change_pct": 1.13,
       "volume": 1504500,
-      "name": "RAYMOND JAMES FINANCIAL INC",
-      "sector": "-",
+      "name": "Raymond James Financial",
+      "sector": "Financials",
       "market_cap_b": 33.99
     },
     {
@@ -4405,8 +4405,8 @@
       "close": 362.32,
       "change_pct": -0.08,
       "volume": 487100,
-      "name": "RALPH LAUREN CORP",
-      "sector": "-",
+      "name": "Ralph Lauren Corporation",
+      "sector": "Consumer Discretionary",
       "market_cap_b": 21.59
     },
     {
@@ -4416,8 +4416,8 @@
       "close": 235.69,
       "change_pct": -0.38,
       "volume": 1542300,
-      "name": "RESMED INC",
-      "sector": "-",
+      "name": "ResMed|",
+      "sector": "Health Care",
       "market_cap_b": 34.0
     },
     {
@@ -4427,8 +4427,8 @@
       "close": 431.75,
       "change_pct": 0.55,
       "volume": 560400,
-      "name": "ROCKWELL AUTOMATION INC",
-      "sector": "-",
+      "name": "Rockwell Automation",
+      "sector": "Industrials",
       "market_cap_b": 47.95
     },
     {
@@ -4438,8 +4438,8 @@
       "close": 36.7,
       "change_pct": 0.94,
       "volume": 6356000,
-      "name": "ROLLINS INC",
-      "sector": "-",
+      "name": "Rollins, Inc.",
+      "sector": "Industrials",
       "market_cap_b": 17.66
     },
     {
@@ -4449,8 +4449,8 @@
       "close": 413.28,
       "change_pct": -0.02,
       "volume": 664400,
-      "name": "ROPER TECHNOLOGIES INC",
-      "sector": "-",
+      "name": "Roper Technologies",
+      "sector": "Information Technology",
       "market_cap_b": 40.87
     },
     {
@@ -4460,8 +4460,8 @@
       "close": 236.27,
       "change_pct": -2.04,
       "volume": 2467500,
-      "name": "ROSS STORES INC",
-      "sector": "-",
+      "name": "Ross Stores",
+      "sector": "Consumer Discretionary",
       "market_cap_b": 75.79
     },
     {
@@ -4471,8 +4471,8 @@
       "close": 222.18,
       "change_pct": 0.55,
       "volume": 1439100,
-      "name": "REPUBLIC SERVICES INC",
-      "sector": "-",
+      "name": "Republic Services",
+      "sector": "Industrials",
       "market_cap_b": 68.03
     },
     {
@@ -4482,8 +4482,8 @@
       "close": 211.99,
       "change_pct": 0.81,
       "volume": 3788100,
-      "name": "RTX CORP",
-      "sector": "-",
+      "name": "RTX Corporation",
+      "sector": "Industrials",
       "market_cap_b": 285.71
     },
     {
@@ -4493,8 +4493,8 @@
       "close": 126.35,
       "change_pct": 1.21,
       "volume": 1155800,
-      "name": "REVVITY INC",
-      "sector": "-",
+      "name": "Revvity",
+      "sector": "Health Care",
       "market_cap_b": 14.1
     },
     {
@@ -4504,8 +4504,8 @@
       "close": 185.98,
       "change_pct": -0.87,
       "volume": 737000,
-      "name": "SBA COMMUNICATIONS CORP",
-      "sector": "-",
+      "name": "SBA Communications",
+      "sector": "Real Estate",
       "market_cap_b": 19.73
     },
     {
@@ -4515,8 +4515,8 @@
       "close": 108.49,
       "change_pct": 2.58,
       "volume": 6049100,
-      "name": "STARBUCKS CORP",
-      "sector": "-",
+      "name": "Starbucks",
+      "sector": "Consumer Discretionary",
       "market_cap_b": 123.68
     },
     {
@@ -4526,8 +4526,8 @@
       "close": 109.39,
       "change_pct": -2.57,
       "volume": 13947700,
-      "name": "SCHWAB (CHARLES) CORP",
-      "sector": "-",
+      "name": "Charles Schwab Corporation",
+      "sector": "Financials",
       "market_cap_b": 189.17
     },
     {
@@ -4548,8 +4548,8 @@
       "close": 348.66,
       "change_pct": -0.51,
       "volume": 1655300,
-      "name": "SHERWIN WILLIAMS CO/THE",
-      "sector": "-",
+      "name": "Sherwin-Williams",
+      "sector": "Materials",
       "market_cap_b": 84.64
     },
     {
@@ -4559,8 +4559,8 @@
       "close": 130.9,
       "change_pct": 4.34,
       "volume": 2859700,
-      "name": "JM SMUCKER CO/THE",
-      "sector": "-",
+      "name": "J.M. Smucker Company (The)",
+      "sector": "Consumer Staples",
       "market_cap_b": 13.99
     },
     {
@@ -4570,8 +4570,8 @@
       "close": 53.6,
       "change_pct": 0.58,
       "volume": 7935600,
-      "name": "SLB LTD",
-      "sector": "-",
+      "name": "Schlumberger",
+      "sector": "Energy",
       "market_cap_b": 79.55
     },
     {
@@ -4581,8 +4581,8 @@
       "close": 37.39,
       "change_pct": -2.78,
       "volume": 33429800,
-      "name": "SUPER MICRO COMPUTER INC",
-      "sector": "-",
+      "name": "Supermicro",
+      "sector": "Information Technology",
       "market_cap_b": 24.19
     },
     {
@@ -4592,8 +4592,8 @@
       "close": 397.48,
       "change_pct": 0.74,
       "volume": 169900,
-      "name": "SNAP ON INC",
-      "sector": "-",
+      "name": "Snap-on",
+      "sector": "Industrials",
       "market_cap_b": 20.56
     },
     {
@@ -4603,8 +4603,8 @@
       "close": 1499.37,
       "change_pct": 1.26,
       "volume": 8806500,
-      "name": "SANDISK CORP",
-      "sector": "-",
+      "name": "Sandisk",
+      "sector": "Information Technology",
       "market_cap_b": 219.54
     },
     {
@@ -4614,8 +4614,8 @@
       "close": 410.0,
       "change_pct": 0.3,
       "volume": 2606300,
-      "name": "SYNOPSYS INC",
-      "sector": "-",
+      "name": "Synopsys",
+      "sector": "Information Technology",
       "market_cap_b": 78.51
     },
     {
@@ -4625,8 +4625,8 @@
       "close": 89.76,
       "change_pct": -0.23,
       "volume": 4548000,
-      "name": "SOUTHERN CO/THE",
-      "sector": "-",
+      "name": "Southern Company",
+      "sector": "Utilities",
       "market_cap_b": 103.26
     },
     {
@@ -4636,8 +4636,8 @@
       "close": 91.53,
       "change_pct": -0.09,
       "volume": 1019500,
-      "name": "SOLVENTUM CORP",
-      "sector": "-",
+      "name": "Solventum",
+      "sector": "Health Care",
       "market_cap_b": 15.58
     },
     {
@@ -4647,8 +4647,8 @@
       "close": 217.11,
       "change_pct": -0.86,
       "volume": 993000,
-      "name": "SIMON PROPERTY GROUP INC",
-      "sector": "-",
+      "name": "Simon Property Group",
+      "sector": "Real Estate",
       "market_cap_b": 70.25
     },
     {
@@ -4658,8 +4658,8 @@
       "close": 436.49,
       "change_pct": 1.03,
       "volume": 1398700,
-      "name": "S+P GLOBAL INC",
-      "sector": "-",
+      "name": "S&P Global",
+      "sector": "Financials",
       "market_cap_b": 128.68
     },
     {
@@ -4669,8 +4669,8 @@
       "close": 85.28,
       "change_pct": 1.49,
       "volume": 2136600,
-      "name": "SEMPRA",
-      "sector": "-",
+      "name": "Sempra",
+      "sector": "Utilities",
       "market_cap_b": 55.76
     },
     {
@@ -4680,8 +4680,8 @@
       "close": 236.77,
       "change_pct": 0.14,
       "volume": 547400,
-      "name": "STERIS PLC",
-      "sector": "-",
+      "name": "Steris",
+      "sector": "Health Care",
       "market_cap_b": 23.09
     },
     {
@@ -4691,8 +4691,8 @@
       "close": 235.9,
       "change_pct": 2.09,
       "volume": 1205600,
-      "name": "STEEL DYNAMICS INC",
-      "sector": "-",
+      "name": "Steel Dynamics",
+      "sector": "Materials",
       "market_cap_b": 33.81
     },
     {
@@ -4702,8 +4702,8 @@
       "close": 193.62,
       "change_pct": 0.35,
       "volume": 1052900,
-      "name": "STATE STREET CORP",
-      "sector": "-",
+      "name": "State Street Corporation",
+      "sector": "Financials",
       "market_cap_b": 53.19
     },
     {
@@ -4713,9 +4713,9 @@
       "close": 846.37,
       "change_pct": 3.01,
       "volume": 2102900,
-      "name": "SEAGATE TECHNOLOGY HOLDINGS",
-      "sector": "-",
-      "market_cap_b": 192.13
+      "name": "Seagate Technology",
+      "sector": "Information Technology",
+      "market_cap_b": 191.83
     },
     {
       "ticker": "STZ",
@@ -4724,8 +4724,8 @@
       "close": 134.45,
       "change_pct": -0.41,
       "volume": 1083300,
-      "name": "CONSTELLATION BRANDS INC A",
-      "sector": "-",
+      "name": "Constellation Brands",
+      "sector": "Consumer Staples",
       "market_cap_b": 22.96
     },
     {
@@ -4735,8 +4735,8 @@
       "close": 49.56,
       "change_pct": 0.26,
       "volume": 3390700,
-      "name": "SMURFIT WESTROCK PLC",
-      "sector": "-",
+      "name": "Smurfit Westrock",
+      "sector": "Materials",
       "market_cap_b": 26.0
     },
     {
@@ -4746,8 +4746,8 @@
       "close": 99.76,
       "change_pct": 1.32,
       "volume": 1394200,
-      "name": "STANLEY BLACK + DECKER INC",
-      "sector": "-",
+      "name": "Stanley Black & Decker",
+      "sector": "Industrials",
       "market_cap_b": 15.07
     },
     {
@@ -4757,8 +4757,8 @@
       "close": 66.62,
       "change_pct": 1.4,
       "volume": 3080600,
-      "name": "SKYWORKS SOLUTIONS INC",
-      "sector": "-",
+      "name": "Skyworks Solutions",
+      "sector": "Information Technology",
       "market_cap_b": 10.02
     },
     {
@@ -4768,8 +4768,8 @@
       "close": 79.78,
       "change_pct": -1.23,
       "volume": 3927800,
-      "name": "SYNCHRONY FINANCIAL",
-      "sector": "-",
+      "name": "Synchrony Financial",
+      "sector": "Financials",
       "market_cap_b": 25.96
     },
     {
@@ -4779,8 +4779,8 @@
       "close": 329.67,
       "change_pct": -0.28,
       "volume": 1571500,
-      "name": "STRYKER CORP",
-      "sector": "-",
+      "name": "Stryker Corporation",
+      "sector": "Health Care",
       "market_cap_b": 126.45
     },
     {
@@ -4790,8 +4790,8 @@
       "close": 83.27,
       "change_pct": -0.23,
       "volume": 1945300,
-      "name": "SYSCO CORP",
-      "sector": "-",
+      "name": "Sysco",
+      "sector": "Consumer Staples",
       "market_cap_b": 39.89
     },
     {
@@ -4801,8 +4801,8 @@
       "close": 25.87,
       "change_pct": 0.39,
       "volume": 26372000,
-      "name": "AT+T INC",
-      "sector": "-",
+      "name": "AT&T",
+      "sector": "Communication Services",
       "market_cap_b": 177.27
     },
     {
@@ -4812,8 +4812,8 @@
       "close": 42.09,
       "change_pct": 0.19,
       "volume": 2338500,
-      "name": "MOLSON COORS BEVERAGE CO   B",
-      "sector": "-",
+      "name": "Molson Coors Beverage Company",
+      "sector": "Consumer Staples",
       "market_cap_b": 7.85
     },
     {
@@ -4823,8 +4823,8 @@
       "close": 1207.06,
       "change_pct": 1.21,
       "volume": 432900,
-      "name": "TRANSDIGM GROUP INC",
-      "sector": "-",
+      "name": "TransDigm Group",
+      "sector": "Industrials",
       "market_cap_b": 66.72
     },
     {
@@ -4834,8 +4834,8 @@
       "close": 633.56,
       "change_pct": 1.06,
       "volume": 238900,
-      "name": "TELEDYNE TECHNOLOGIES INC",
-      "sector": "-",
+      "name": "Teledyne Technologies",
+      "sector": "Information Technology",
       "market_cap_b": 29.37
     },
     {
@@ -4845,8 +4845,8 @@
       "close": 72.38,
       "change_pct": 0.07,
       "volume": 1386300,
-      "name": "BIO TECHNE CORP",
-      "sector": "-",
+      "name": "Bio-Techne",
+      "sector": "Health Care",
       "market_cap_b": 11.35
     },
     {
@@ -4856,9 +4856,9 @@
       "close": 205.03,
       "change_pct": 1.8,
       "volume": 1749500,
-      "name": "TE CONNECTIVITY PLC",
-      "sector": "-",
-      "market_cap_b": 59.45
+      "name": "TE Connectivity",
+      "sector": "Information Technology",
+      "market_cap_b": 59.36
     },
     {
       "ticker": "TER",
@@ -4867,8 +4867,8 @@
       "close": 363.1,
       "change_pct": -0.91,
       "volume": 2218700,
-      "name": "TERADYNE INC",
-      "sector": "-",
+      "name": "Teradyne",
+      "sector": "Information Technology",
       "market_cap_b": 56.77
     },
     {
@@ -4878,8 +4878,8 @@
       "close": 50.67,
       "change_pct": 0.74,
       "volume": 5120000,
-      "name": "TRUIST FINANCIAL CORP",
-      "sector": "-",
+      "name": "Truist Financial",
+      "sector": "Financials",
       "market_cap_b": 61.9
     },
     {
@@ -4889,9 +4889,9 @@
       "close": 164.04,
       "change_pct": 0.35,
       "volume": 4660300,
-      "name": "TARGET CORP",
-      "sector": "-",
-      "market_cap_b": 74.51
+      "name": "Target Corporation",
+      "sector": "Consumer Staples",
+      "market_cap_b": 74.52
     },
     {
       "ticker": "TJX",
@@ -4900,8 +4900,8 @@
       "close": 136.83,
       "change_pct": -1.9,
       "volume": 10469800,
-      "name": "TJX COMPANIES INC",
-      "sector": "-",
+      "name": "TJX Companies",
+      "sector": "Consumer Discretionary",
       "market_cap_b": 151.16
     },
     {
@@ -4911,8 +4911,8 @@
       "close": 187.9,
       "change_pct": -2.85,
       "volume": 739300,
-      "name": "TKO GROUP HOLDINGS INC",
-      "sector": "-",
+      "name": "TKO Group Holdings",
+      "sector": "Communication Services",
       "market_cap_b": 13.74
     },
     {
@@ -4922,8 +4922,8 @@
       "close": 633.71,
       "change_pct": 0.89,
       "volume": 1843000,
-      "name": "THERMO FISHER SCIENTIFIC INC",
-      "sector": "-",
+      "name": "Thermo Fisher Scientific",
+      "sector": "Health Care",
       "market_cap_b": 234.31
     },
     {
@@ -4933,8 +4933,8 @@
       "close": 179.61,
       "change_pct": -1.1,
       "volume": 3238900,
-      "name": "T MOBILE US INC",
-      "sector": "-",
+      "name": "T-Mobile US",
+      "sector": "Communication Services",
       "market_cap_b": 192.66
     },
     {
@@ -4944,8 +4944,8 @@
       "close": 369.4,
       "change_pct": -0.91,
       "volume": 289400,
-      "name": "TEXAS PACIFIC LAND CORP",
-      "sector": "-",
+      "name": "Texas Pacific Land Corporation",
+      "sector": "Energy",
       "market_cap_b": 25.48
     },
     {
@@ -4955,8 +4955,8 @@
       "close": 130.25,
       "change_pct": 0.1,
       "volume": 4837500,
-      "name": "TAPESTRY INC",
-      "sector": "-",
+      "name": "Tapestry, Inc.",
+      "sector": "Consumer Discretionary",
       "market_cap_b": 25.97
     },
     {
@@ -4966,8 +4966,8 @@
       "close": 294.03,
       "change_pct": 2.48,
       "volume": 938900,
-      "name": "TARGA RESOURCES CORP",
-      "sector": "-",
+      "name": "Targa Resources",
+      "sector": "Energy",
       "market_cap_b": 63.05
     },
     {
@@ -4988,8 +4988,8 @@
       "close": 59.68,
       "change_pct": 0.42,
       "volume": 1996700,
-      "name": "TRIMBLE INC",
-      "sector": "-",
+      "name": "Trimble Inc.",
+      "sector": "Information Technology",
       "market_cap_b": 13.91
     },
     {
@@ -4999,8 +4999,8 @@
       "close": 112.55,
       "change_pct": -0.28,
       "volume": 682900,
-      "name": "T ROWE PRICE GROUP INC",
-      "sector": "-",
+      "name": "T. Rowe Price",
+      "sector": "Financials",
       "market_cap_b": 24.01
     },
     {
@@ -5010,8 +5010,8 @@
       "close": 371.15,
       "change_pct": 0.4,
       "volume": 1635100,
-      "name": "TRAVELERS COS INC/THE",
-      "sector": "-",
+      "name": "Travelers Companies (The)",
+      "sector": "Financials",
       "market_cap_b": 77.41
     },
     {
@@ -5021,8 +5021,8 @@
       "close": 35.01,
       "change_pct": -1.05,
       "volume": 5805400,
-      "name": "TRACTOR SUPPLY COMPANY",
-      "sector": "-",
+      "name": "Tractor Supply",
+      "sector": "Consumer Discretionary",
       "market_cap_b": 18.24
     },
     {
@@ -5032,8 +5032,8 @@
       "close": 345.82,
       "change_pct": -1.26,
       "volume": 28479700,
-      "name": "TESLA INC",
-      "sector": "-",
+      "name": "Tesla, Inc.",
+      "sector": "Consumer Discretionary",
       "market_cap_b": 1365.83
     },
     {
@@ -5043,8 +5043,8 @@
       "close": 56.55,
       "change_pct": -1.08,
       "volume": 2042300,
-      "name": "TYSON FOODS INC CL A",
-      "sector": "-",
+      "name": "Tyson Foods",
+      "sector": "Consumer Staples",
       "market_cap_b": 19.89
     },
     {
@@ -5054,8 +5054,8 @@
       "close": 463.4,
       "change_pct": 1.79,
       "volume": 1509800,
-      "name": "TRANE TECHNOLOGIES PLC",
-      "sector": "-",
+      "name": "Trane Technologies",
+      "sector": "Industrials",
       "market_cap_b": 101.96
     },
     {
@@ -5065,8 +5065,8 @@
       "close": 13.03,
       "change_pct": -1.66,
       "volume": 13378300,
-      "name": "TRADE DESK INC/THE  CLASS A",
-      "sector": "-",
+      "name": "Trade Desk (The)",
+      "sector": "Communication Services",
       "market_cap_b": 6.12
     },
     {
@@ -5076,8 +5076,8 @@
       "close": 233.45,
       "change_pct": 0.22,
       "volume": 2165900,
-      "name": "TAKE TWO INTERACTIVE SOFTWRE",
-      "sector": "-",
+      "name": "Take-Two Interactive",
+      "sector": "Communication Services",
       "market_cap_b": 43.65
     },
     {
@@ -5087,8 +5087,8 @@
       "close": 261.77,
       "change_pct": 0.66,
       "volume": 3793600,
-      "name": "TEXAS INSTRUMENTS INC",
-      "sector": "-",
+      "name": "Texas Instruments",
+      "sector": "Information Technology",
       "market_cap_b": 239.06
     },
     {
@@ -5098,8 +5098,8 @@
       "close": 83.31,
       "change_pct": 1.85,
       "volume": 1303900,
-      "name": "TEXTRON INC",
-      "sector": "-",
+      "name": "Textron",
+      "sector": "Industrials",
       "market_cap_b": 14.33
     },
     {
@@ -5109,8 +5109,8 @@
       "close": 352.65,
       "change_pct": 0.74,
       "volume": 576400,
-      "name": "TYLER TECHNOLOGIES INC",
-      "sector": "-",
+      "name": "Tyler Technologies",
+      "sector": "Information Technology",
       "market_cap_b": 14.44
     },
     {
@@ -5120,8 +5120,8 @@
       "close": 114.83,
       "change_pct": -2.2,
       "volume": 2892700,
-      "name": "UNITED AIRLINES HOLDINGS INC",
-      "sector": "-",
+      "name": "United Airlines Holdings",
+      "sector": "Industrials",
       "market_cap_b": 37.27
     },
     {
@@ -5131,8 +5131,8 @@
       "close": 78.49,
       "change_pct": -2.31,
       "volume": 14485800,
-      "name": "UBER TECHNOLOGIES INC",
-      "sector": "-",
+      "name": "Uber",
+      "sector": "Industrials",
       "market_cap_b": 160.32
     },
     {
@@ -5142,8 +5142,8 @@
       "close": 37.93,
       "change_pct": -0.63,
       "volume": 3824200,
-      "name": "UDR INC",
-      "sector": "-",
+      "name": "UDR, Inc.",
+      "sector": "Real Estate",
       "market_cap_b": 12.19
     },
     {
@@ -5153,8 +5153,8 @@
       "close": 178.69,
       "change_pct": 1.67,
       "volume": 632800,
-      "name": "UNIVERSAL HEALTH SERVICES B",
-      "sector": "-",
+      "name": "Universal Health Services",
+      "sector": "Health Care",
       "market_cap_b": 10.53
     },
     {
@@ -5164,8 +5164,8 @@
       "close": 543.19,
       "change_pct": 1.11,
       "volume": 629200,
-      "name": "ULTA BEAUTY INC",
-      "sector": "-",
+      "name": "Ulta Beauty",
+      "sector": "Consumer Discretionary",
       "market_cap_b": 23.35
     },
     {
@@ -5175,8 +5175,8 @@
       "close": 401.01,
       "change_pct": 1.11,
       "volume": 3557000,
-      "name": "UNITEDHEALTH GROUP INC",
-      "sector": "-",
+      "name": "UnitedHealth Group",
+      "sector": "Health Care",
       "market_cap_b": 359.94
     },
     {
@@ -5186,8 +5186,8 @@
       "close": 310.62,
       "change_pct": 0.33,
       "volume": 2447600,
-      "name": "UNION PACIFIC CORP",
-      "sector": "-",
+      "name": "Union Pacific Corporation",
+      "sector": "Industrials",
       "market_cap_b": 184.53
     },
     {
@@ -5197,8 +5197,8 @@
       "close": 105.65,
       "change_pct": 0.49,
       "volume": 4638200,
-      "name": "UNITED PARCEL SERVICE CL B",
-      "sector": "-",
+      "name": "United Parcel Service",
+      "sector": "Industrials",
       "market_cap_b": 89.89
     },
     {
@@ -5208,8 +5208,8 @@
       "close": 1057.66,
       "change_pct": 0.43,
       "volume": 297000,
-      "name": "UNITED RENTALS INC",
-      "sector": "-",
+      "name": "United Rentals",
+      "sector": "Industrials",
       "market_cap_b": 65.83
     },
     {
@@ -5219,8 +5219,8 @@
       "close": 62.8,
       "change_pct": 0.62,
       "volume": 6780800,
-      "name": "US BANCORP",
-      "sector": "-",
+      "name": "U.S. Bancorp",
+      "sector": "Financials",
       "market_cap_b": 97.85
     },
     {
@@ -5230,8 +5230,8 @@
       "close": 383.9,
       "change_pct": -0.06,
       "volume": 6075100,
-      "name": "VISA INC CLASS A SHARES",
-      "sector": "-",
+      "name": "Visa Inc.",
+      "sector": "Financials",
       "market_cap_b": 716.76
     },
     {
@@ -5241,8 +5241,8 @@
       "close": 244.91,
       "change_pct": -0.76,
       "volume": 1452600,
-      "name": "VEEVA SYSTEMS INC CLASS A",
-      "sector": "-",
+      "name": "Veeva Systems",
+      "sector": "Health Care",
       "market_cap_b": 39.78
     },
     {
@@ -5252,8 +5252,8 @@
       "close": 26.0,
       "change_pct": -1.1,
       "volume": 6055600,
-      "name": "VICI PROPERTIES INC",
-      "sector": "-",
+      "name": "Vici Properties",
+      "sector": "Real Estate",
       "market_cap_b": 28.63
     },
     {
@@ -5263,8 +5263,8 @@
       "close": 348.03,
       "change_pct": 2.24,
       "volume": 2156500,
-      "name": "VALERO ENERGY CORP",
-      "sector": "-",
+      "name": "Valero Energy",
+      "sector": "Energy",
       "market_cap_b": 100.21
     },
     {
@@ -5274,8 +5274,8 @@
       "close": 98.69,
       "change_pct": -0.08,
       "volume": 1052500,
-      "name": "VERALTO CORP",
-      "sector": "-",
+      "name": "Veralto",
+      "sector": "Industrials",
       "market_cap_b": 24.06
     },
     {
@@ -5285,8 +5285,8 @@
       "close": 273.74,
       "change_pct": -0.13,
       "volume": 874800,
-      "name": "VULCAN MATERIALS CO",
-      "sector": "-",
+      "name": "Vulcan Materials Company",
+      "sector": "Materials",
       "market_cap_b": 35.47
     },
     {
@@ -5296,8 +5296,8 @@
       "close": 66.83,
       "change_pct": -1.17,
       "volume": 4954100,
-      "name": "VIVMARK RESIDENTIAL",
-      "sector": "-",
+      "name": "Vivmark Residential",
+      "sector": "Real Estate",
       "market_cap_b": 26.65
     },
     {
@@ -5307,8 +5307,8 @@
       "close": 187.87,
       "change_pct": -0.33,
       "volume": 721900,
-      "name": "VERISK ANALYTICS INC",
-      "sector": "-",
+      "name": "Verisk Analytics",
+      "sector": "Industrials",
       "market_cap_b": 24.45
     },
     {
@@ -5318,8 +5318,8 @@
       "close": 292.99,
       "change_pct": -0.26,
       "volume": 558300,
-      "name": "VERISIGN INC",
-      "sector": "-",
+      "name": "Verisign",
+      "sector": "Information Technology",
       "market_cap_b": 26.49
     },
     {
@@ -5329,8 +5329,8 @@
       "close": 263.81,
       "change_pct": 3.15,
       "volume": 3893400,
-      "name": "VERTIV HOLDINGS CO A",
-      "sector": "-",
+      "name": "Vertiv",
+      "sector": "Industrials",
       "market_cap_b": 101.56
     },
     {
@@ -5340,8 +5340,8 @@
       "close": 547.29,
       "change_pct": -1.01,
       "volume": 834100,
-      "name": "VERTEX PHARMACEUTICALS INC",
-      "sector": "-",
+      "name": "Vertex Pharmaceuticals",
+      "sector": "Health Care",
       "market_cap_b": 138.72
     },
     {
@@ -5351,8 +5351,8 @@
       "close": 140.03,
       "change_pct": 0.72,
       "volume": 3402900,
-      "name": "VISTRA CORP",
-      "sector": "-",
+      "name": "Vistra Corp.",
+      "sector": "Utilities",
       "market_cap_b": 47.0
     },
     {
@@ -5362,8 +5362,8 @@
       "close": 93.5,
       "change_pct": -0.35,
       "volume": 2183100,
-      "name": "VENTAS INC",
-      "sector": "-",
+      "name": "Ventas",
+      "sector": "Real Estate",
       "market_cap_b": 47.96
     },
     {
@@ -5373,8 +5373,8 @@
       "close": 16.85,
       "change_pct": 0.78,
       "volume": 7392800,
-      "name": "VIATRIS INC",
-      "sector": "-",
+      "name": "Viatris",
+      "sector": "Health Care",
       "market_cap_b": 19.35
     },
     {
@@ -5384,8 +5384,8 @@
       "close": 50.19,
       "change_pct": -0.12,
       "volume": 20720800,
-      "name": "VERIZON COMMUNICATIONS INC",
-      "sector": "-",
+      "name": "Verizon",
+      "sector": "Communication Services",
       "market_cap_b": 208.53
     },
     {
@@ -5395,8 +5395,8 @@
       "close": 300.54,
       "change_pct": 1.21,
       "volume": 679000,
-      "name": "WABTEC CORP",
-      "sector": "-",
+      "name": "Wabtec",
+      "sector": "Industrials",
       "market_cap_b": 50.76
     },
     {
@@ -5406,8 +5406,8 @@
       "close": 414.17,
       "change_pct": -0.07,
       "volume": 426600,
-      "name": "WATERS CORP",
-      "sector": "-",
+      "name": "Waters Corporation",
+      "sector": "Health Care",
       "market_cap_b": 40.67
     },
     {
@@ -5417,8 +5417,8 @@
       "close": 28.75,
       "change_pct": -0.52,
       "volume": 12518400,
-      "name": "WARNER BROS DISCOVERY INC",
-      "sector": "-",
+      "name": "Warner Bros. Discovery",
+      "sector": "Communication Services",
       "market_cap_b": 72.08
     },
     {
@@ -5428,8 +5428,8 @@
       "close": 190.75,
       "change_pct": -1.89,
       "volume": 3223000,
-      "name": "WORKDAY INC CLASS A",
-      "sector": "-",
+      "name": "Workday, Inc.",
+      "sector": "Information Technology",
       "market_cap_b": 47.11
     },
     {
@@ -5439,8 +5439,8 @@
       "close": 468.88,
       "change_pct": 4.02,
       "volume": 5123500,
-      "name": "WESTERN DIGITAL CORP",
-      "sector": "-",
+      "name": "Western Digital",
+      "sector": "Information Technology",
       "market_cap_b": 169.05
     },
     {
@@ -5450,8 +5450,8 @@
       "close": 107.52,
       "change_pct": 0.8,
       "volume": 1452600,
-      "name": "WEC ENERGY GROUP INC",
-      "sector": "-",
+      "name": "WEC Energy Group",
+      "sector": "Utilities",
       "market_cap_b": 35.04
     },
     {
@@ -5461,8 +5461,8 @@
       "close": 241.56,
       "change_pct": 0.17,
       "volume": 2368300,
-      "name": "WELLTOWER INC",
-      "sector": "-",
+      "name": "Welltower",
+      "sector": "Real Estate",
       "market_cap_b": 174.06
     },
     {
@@ -5472,8 +5472,8 @@
       "close": 85.23,
       "change_pct": 0.52,
       "volume": 9896500,
-      "name": "WELLS FARGO + CO",
-      "sector": "-",
+      "name": "Wells Fargo",
+      "sector": "Financials",
       "market_cap_b": 257.74
     },
     {
@@ -5483,8 +5483,8 @@
       "close": 221.24,
       "change_pct": -0.4,
       "volume": 2467200,
-      "name": "WASTE MANAGEMENT INC",
-      "sector": "-",
+      "name": "Waste Management",
+      "sector": "Industrials",
       "market_cap_b": 88.43
     },
     {
@@ -5494,8 +5494,8 @@
       "close": 74.41,
       "change_pct": 4.68,
       "volume": 8291100,
-      "name": "WILLIAMS COS INC",
-      "sector": "-",
+      "name": "Williams Companies",
+      "sector": "Energy",
       "market_cap_b": 91.02
     },
     {
@@ -5505,8 +5505,8 @@
       "close": 104.34,
       "change_pct": -0.99,
       "volume": 28342900,
-      "name": "WALMART INC",
-      "sector": "-",
+      "name": "Walmart",
+      "sector": "Consumer Staples",
       "market_cap_b": 830.35
     },
     {
@@ -5516,8 +5516,8 @@
       "close": 68.67,
       "change_pct": 0.28,
       "volume": 1262700,
-      "name": "WR BERKLEY CORP",
-      "sector": "-",
+      "name": "W. R. Berkley Corporation",
+      "sector": "Financials",
       "market_cap_b": 25.49
     },
     {
@@ -5527,8 +5527,8 @@
       "close": 237.43,
       "change_pct": 1.15,
       "volume": 2428900,
-      "name": "WILLIAMS SONOMA INC",
-      "sector": "-",
+      "name": "Williams-Sonoma, Inc.",
+      "sector": "Consumer Discretionary",
       "market_cap_b": 27.96
     },
     {
@@ -5538,8 +5538,8 @@
       "close": 349.92,
       "change_pct": 0.41,
       "volume": 440200,
-      "name": "WEST PHARMACEUTICAL SERVICES",
-      "sector": "-",
+      "name": "West Pharmaceutical Services",
+      "sector": "Health Care",
       "market_cap_b": 24.63
     },
     {
@@ -5549,8 +5549,8 @@
       "close": 343.12,
       "change_pct": -1.07,
       "volume": 430600,
-      "name": "WILLIS TOWERS WATSON PLC",
-      "sector": "-",
+      "name": "Willis Towers Watson",
+      "sector": "Financials",
       "market_cap_b": 31.87
     },
     {
@@ -5560,8 +5560,8 @@
       "close": 24.08,
       "change_pct": -1.43,
       "volume": 3941000,
-      "name": "WEYERHAEUSER CO",
-      "sector": "-",
+      "name": "Weyerhaeuser",
+      "sector": "Real Estate",
       "market_cap_b": 17.36
     },
     {
@@ -5571,8 +5571,8 @@
       "close": 97.17,
       "change_pct": -1.59,
       "volume": 1153800,
-      "name": "WYNN RESORTS LTD",
-      "sector": "-",
+      "name": "Wynn Resorts",
+      "sector": "Consumer Discretionary",
       "market_cap_b": 10.01
     },
     {
@@ -5582,8 +5582,8 @@
       "close": 77.68,
       "change_pct": 0.63,
       "volume": 4554700,
-      "name": "XCEL ENERGY INC",
-      "sector": "-",
+      "name": "Xcel Energy",
+      "sector": "Utilities",
       "market_cap_b": 48.52
     },
     {
@@ -5593,8 +5593,8 @@
       "close": 158.19,
       "change_pct": -1.53,
       "volume": 14838400,
-      "name": "EXXONMOBIL HOLDINGS CORP",
-      "sector": "-",
+      "name": "ExxonMobil",
+      "sector": "Energy",
       "market_cap_b": 650.46
     },
     {
@@ -5604,8 +5604,8 @@
       "close": 113.42,
       "change_pct": 0.54,
       "volume": 1451200,
-      "name": "XYLEM INC",
-      "sector": "-",
+      "name": "Xylem Inc.",
+      "sector": "Industrials",
       "market_cap_b": 26.48
     },
     {
@@ -5615,8 +5615,8 @@
       "close": 83.1,
       "change_pct": 0.46,
       "volume": 3237500,
-      "name": "BLOCK INC",
-      "sector": "-",
+      "name": "Block, Inc.",
+      "sector": "Financials",
       "market_cap_b": 49.93
     },
     {
@@ -5626,8 +5626,8 @@
       "close": 154.41,
       "change_pct": -1.19,
       "volume": 2615100,
-      "name": "YUM  BRANDS INC",
-      "sector": "-",
+      "name": "Yum! Brands",
+      "sector": "Consumer Discretionary",
       "market_cap_b": 42.14
     },
     {
@@ -5637,8 +5637,8 @@
       "close": 101.38,
       "change_pct": 1.14,
       "volume": 1352800,
-      "name": "ZIMMER BIOMET HOLDINGS INC",
-      "sector": "-",
+      "name": "Zimmer Biomet",
+      "sector": "Health Care",
       "market_cap_b": 19.34
     },
     {
@@ -5648,9 +5648,9 @@
       "close": 359.84,
       "change_pct": -0.19,
       "volume": 575600,
-      "name": "ZEBRA TECHNOLOGIES CORP CL A",
-      "sector": "-",
-      "market_cap_b": 17.14
+      "name": "Zebra Technologies",
+      "sector": "Information Technology",
+      "market_cap_b": 17.02
     },
     {
       "ticker": "ZS",
@@ -5670,8 +5670,8 @@
       "close": 77.52,
       "change_pct": 0.3,
       "volume": 4846800,
-      "name": "ZOETIS INC",
-      "sector": "-",
+      "name": "Zoetis",
+      "sector": "Health Care",
       "market_cap_b": 32.03
     }
   ]
