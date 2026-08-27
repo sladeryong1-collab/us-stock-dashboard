@@ -101,13 +101,33 @@
     user-select: none;
     white-space: nowrap;
   }
-  thead th:first-child, thead th:nth-child(2) { text-align: left; }
+  thead th:first-child, thead th:nth-child(2), thead th:nth-child(3) { text-align: left; }
   thead th .arrow { font-size: 0.7em; opacity: 0.6; margin-left: 2px; }
   tbody td { padding: 8px 12px; text-align: right; border-bottom: 1px solid var(--border); white-space: nowrap; }
-  tbody td:first-child, tbody td:nth-child(2) { text-align: left; }
+  tbody td:first-child, tbody td:nth-child(2), tbody td:nth-child(3) { text-align: left; }
   tbody tr:last-child td { border-bottom: none; }
   tbody tr:hover { background: var(--row-hover); }
   .ticker { font-weight: 600; }
+  .name { color: var(--text-secondary); }
+  .sector-tag {
+    display: inline-block;
+    font-size: 0.78rem;
+    padding: 2px 8px;
+    border-radius: 999px;
+    background: var(--surface-2);
+    border: 1px solid var(--border);
+    color: var(--text-secondary);
+    white-space: nowrap;
+  }
+
+  select#sector-filter {
+    padding: 8px 12px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: var(--surface-2);
+    color: var(--text-primary);
+    font-size: 0.9rem;
+  }
 
   .chg { font-variant-numeric: tabular-nums; }
   .chg.up { color: var(--up); }
@@ -138,7 +158,10 @@
     <div class="meta" id="last-updated">데이터를 불러오는 중...</div>
 
     <div class="toolbar">
-      <input id="search" type="search" placeholder="티커 검색 (예: AAPL)" autocomplete="off" />
+      <input id="search" type="search" placeholder="티커 또는 종목명 검색 (예: AAPL, Apple)" autocomplete="off" />
+      <select id="sector-filter">
+        <option value="">전체 섹터</option>
+      </select>
     </div>
     <div class="stat-row">
       <span class="stat">전체 <b id="stat-total">-</b>종목</span>
@@ -152,9 +175,12 @@
         <thead>
           <tr>
             <th data-key="ticker">티커<span class="arrow"></span></th>
+            <th data-key="name">종목명<span class="arrow"></span></th>
+            <th data-key="sector">섹터<span class="arrow"></span></th>
             <th data-key="date">일자<span class="arrow"></span></th>
             <th data-key="close">종가<span class="arrow"></span></th>
             <th data-key="change_pct">등락률<span class="arrow"></span></th>
+            <th data-key="market_cap_b">시가총액(십억$)<span class="arrow"></span></th>
           </tr>
         </thead>
         <tbody id="table-body"></tbody>
@@ -197,16 +223,32 @@
     return n.toLocaleString("en-US", { minimumFractionDigits: digits, maximumFractionDigits: digits });
   }
 
+  var TEXT_SORT_KEYS = ["ticker", "date", "name", "sector"];
+
+  function populateSectorFilter() {
+    var select = document.getElementById("sector-filter");
+    var current = select.value;
+    var sectors = Array.from(new Set(allRows.map(function (r) { return r.sector; }).filter(Boolean))).sort();
+    select.innerHTML = '<option value="">전체 섹터</option>' +
+      sectors.map(function (s) { return '<option value="' + s + '">' + s + '</option>'; }).join("");
+    if (sectors.indexOf(current) !== -1) select.value = current;
+  }
+
   function render() {
     var q = document.getElementById("search").value.trim().toUpperCase();
+    var sector = document.getElementById("sector-filter").value;
     var rows = allRows.filter(function (r) {
-      return !q || r.ticker.toUpperCase().indexOf(q) !== -1;
+      var matchesQuery = !q ||
+        r.ticker.toUpperCase().indexOf(q) !== -1 ||
+        (r.name && r.name.toUpperCase().indexOf(q) !== -1);
+      var matchesSector = !sector || r.sector === sector;
+      return matchesQuery && matchesSector;
     });
 
     rows.sort(function (a, b) {
       var av = a[sortKey], bv = b[sortKey];
-      if (av === null || av === undefined) av = sortKey === "ticker" || sortKey === "date" ? "" : -Infinity;
-      if (bv === null || bv === undefined) bv = sortKey === "ticker" || sortKey === "date" ? "" : -Infinity;
+      if (av === null || av === undefined) av = TEXT_SORT_KEYS.indexOf(sortKey) !== -1 ? "" : -Infinity;
+      if (bv === null || bv === undefined) bv = TEXT_SORT_KEYS.indexOf(sortKey) !== -1 ? "" : -Infinity;
       if (av < bv) return -1 * sortDir;
       if (av > bv) return 1 * sortDir;
       return 0;
@@ -244,11 +286,17 @@
       if (isFailed) flag = '<span class="flag failed">수집 실패</span>';
       else if (r.status === "suspicious") flag = '<span class="flag suspicious">⚠ 확인 필요</span>';
 
+      var sectorCell = r.sector ? '<span class="sector-tag">' + r.sector + '</span>' : "—";
+      var capText = (typeof r.market_cap_b === "number") ? fmtNum(r.market_cap_b, 2) : "—";
+
       tr.innerHTML =
         '<td class="ticker">' + r.ticker + flag + '</td>' +
+        '<td class="name">' + (r.name || "—") + '</td>' +
+        '<td>' + sectorCell + '</td>' +
         '<td>' + (r.date || "—") + '</td>' +
         '<td>' + (isFailed ? "—" : fmtNum(r.close, 2)) + '</td>' +
-        '<td class="chg ' + chgClass + '">' + chgText + '</td>';
+        '<td class="chg ' + chgClass + '">' + chgText + '</td>' +
+        '<td>' + capText + '</td>';
       tbody.appendChild(tr);
     });
   }
@@ -264,6 +312,7 @@
   });
 
   document.getElementById("search").addEventListener("input", render);
+  document.getElementById("sector-filter").addEventListener("change", render);
 
   // ── 데이터 로드 ──────────────────────────────────────────
   fetch("data/prices.json", { cache: "no-store" })
@@ -277,6 +326,7 @@
       } else {
         lu.textContent = "아직 갱신된 데이터가 없어요 (첫 GitHub Actions 실행을 기다리는 중).";
       }
+      populateSectorFilter();
       render();
     })
     .catch(function (err) {
