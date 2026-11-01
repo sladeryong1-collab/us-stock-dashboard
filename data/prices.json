@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-31T10:59:23.440411+09:00",
+  "last_updated": "2026-11-01T10:49:12.663520+09:00",
   "count": 517,
   "rows": [
     {
@@ -2631,12 +2631,12 @@
       "ticker": "HUBB",
       "status": "ok",
       "date": "2026-10-30",
-      "close": NaN,
-      "change_pct": NaN,
-      "volume": 809480,
+      "close": 422.44,
+      "change_pct": -3.6,
+      "volume": 807610,
       "name": "Hubbell Incorporated",
       "sector": "Industrials",
-      "market_cap_b": NaN
+      "market_cap_b": 22.32
     },
     {
       "ticker": "HUM",
