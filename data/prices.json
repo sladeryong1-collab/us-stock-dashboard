@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-01T10:49:12.663520+09:00",
+  "last_updated": "2026-11-02T11:04:35.267241+09:00",
   "count": 517,
   "rows": [
     {
@@ -488,14 +488,10 @@
     },
     {
       "ticker": "ARM",
-      "status": "ok",
-      "date": "2026-10-30",
-      "close": 205.97,
-      "change_pct": -9.97,
-      "volume": 10553500,
+      "status": "no_data",
       "name": null,
       "sector": null,
-      "market_cap_b": 219.98
+      "market_cap_b": null
     },
     {
       "ticker": "ASML",
