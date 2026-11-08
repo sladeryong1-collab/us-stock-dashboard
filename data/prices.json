@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-07T11:31:49.364868+09:00",
+  "last_updated": "2026-11-08T11:01:13.017975+09:00",
   "count": 517,
   "rows": [
     {
@@ -28,23 +28,23 @@
       "ticker": "ABBV",
       "status": "ok",
       "date": "2026-11-06",
-      "close": NaN,
-      "change_pct": NaN,
-      "volume": 5017683,
+      "close": 291.31,
+      "change_pct": 1.07,
+      "volume": 5039500,
       "name": "AbbVie",
       "sector": "Health Care",
-      "market_cap_b": NaN
+      "market_cap_b": 514.92
     },
     {
       "ticker": "ABNB",
       "status": "ok",
       "date": "2026-11-06",
-      "close": NaN,
-      "change_pct": NaN,
-      "volume": 12197700,
+      "close": 189.99,
+      "change_pct": 11.67,
+      "volume": 12748100,
       "name": "Airbnb",
       "sector": "Consumer Discretionary",
-      "market_cap_b": NaN
+      "market_cap_b": 112.02
     },
     {
       "ticker": "ABT",
@@ -259,12 +259,12 @@
       "ticker": "ALLE",
       "status": "ok",
       "date": "2026-11-06",
-      "close": NaN,
-      "change_pct": NaN,
-      "volume": 971787,
+      "close": 185.39,
+      "change_pct": -0.94,
+      "volume": 972000,
       "name": "Allegion",
       "sector": "Industrials",
-      "market_cap_b": NaN
+      "market_cap_b": 15.76
     },
     {
       "ticker": "ALNY",
@@ -292,12 +292,12 @@
       "ticker": "AMCR",
       "status": "ok",
       "date": "2026-11-06",
-      "close": NaN,
-      "change_pct": NaN,
-      "volume": 4384040,
+      "close": 44.87,
+      "change_pct": -2.12,
+      "volume": 4385100,
       "name": "Amcor",
       "sector": "Materials",
-      "market_cap_b": NaN
+      "market_cap_b": 20.73
     },
     {
       "ticker": "AMD",
@@ -369,12 +369,12 @@
       "ticker": "ANET",
       "status": "ok",
       "date": "2026-11-06",
-      "close": NaN,
-      "change_pct": NaN,
-      "volume": 11975777,
+      "close": 170.8,
+      "change_pct": 7.31,
+      "volume": 11977700,
       "name": "Arista Networks",
       "sector": "Information Technology",
-      "market_cap_b": NaN
+      "market_cap_b": 215.79
     },
     {
       "ticker": "AON",
@@ -446,12 +446,12 @@
       "ticker": "APP",
       "status": "ok",
       "date": "2026-11-06",
-      "close": NaN,
-      "change_pct": NaN,
-      "volume": 11569425,
+      "close": 391.22,
+      "change_pct": 9.86,
+      "volume": 11691900,
       "name": "AppLovin",
       "sector": "Communication Services",
-      "market_cap_b": NaN
+      "market_cap_b": 129.62
     },
     {
       "ticker": "APTV",
@@ -479,23 +479,23 @@
       "ticker": "ARES",
       "status": "ok",
       "date": "2026-11-06",
-      "close": NaN,
-      "change_pct": NaN,
-      "volume": 1561939,
+      "close": 133.98,
+      "change_pct": 0.19,
+      "volume": 1561900,
       "name": "Ares Management",
       "sector": "Financials",
-      "market_cap_b": NaN
+      "market_cap_b": 30.47
     },
     {
       "ticker": "ARM",
       "status": "ok",
       "date": "2026-11-06",
-      "close": NaN,
-      "change_pct": NaN,
-      "volume": 6478186,
+      "close": 174.62,
+      "change_pct": 4.74,
+      "volume": 6507700,
       "name": null,
       "sector": null,
-      "market_cap_b": NaN
+      "market_cap_b": 186.84
     },
     {
       "ticker": "ASML",
@@ -655,12 +655,12 @@
       "ticker": "BE",
       "status": "ok",
       "date": "2026-11-06",
-      "close": NaN,
-      "change_pct": NaN,
-      "volume": 23164417,
+      "close": 173.24,
+      "change_pct": 3.41,
+      "volume": 23205400,
       "name": "Bloom Energy",
       "sector": "Industrials",
-      "market_cap_b": NaN
+      "market_cap_b": 51.2
     },
     {
       "ticker": "BEN",
@@ -853,12 +853,12 @@
       "ticker": "CARR",
       "status": "ok",
       "date": "2026-11-06",
-      "close": NaN,
-      "change_pct": NaN,
-      "volume": 9083601,
+      "close": 52.38,
+      "change_pct": -1.56,
+      "volume": 9196400,
       "name": "Carrier Global",
       "sector": "Industrials",
-      "market_cap_b": NaN
+      "market_cap_b": 42.86
     },
     {
       "ticker": "CASY",
@@ -963,23 +963,23 @@
       "ticker": "CDW",
       "status": "ok",
       "date": "2026-11-06",
-      "close": NaN,
-      "change_pct": NaN,
-      "volume": 1507405,
+      "close": 157.0,
+      "change_pct": -0.88,
+      "volume": 1507600,
       "name": "CDW Corporation",
       "sector": "Information Technology",
-      "market_cap_b": NaN
+      "market_cap_b": 19.6
     },
     {
       "ticker": "CEG",
       "status": "ok",
       "date": "2026-11-06",
-      "close": NaN,
-      "change_pct": NaN,
-      "volume": 5562111,
+      "close": 249.95,
+      "change_pct": 4.3,
+      "volume": 5565900,
       "name": "Constellation Energy",
       "sector": "Utilities",
-      "market_cap_b": NaN
+      "market_cap_b": 88.56
     },
     {
       "ticker": "CF",
@@ -996,12 +996,12 @@
       "ticker": "CFG",
       "status": "ok",
       "date": "2026-11-06",
-      "close": NaN,
-      "change_pct": NaN,
-      "volume": 3278964,
+      "close": 63.24,
+      "change_pct": -0.92,
+      "volume": 3285100,
       "name": "Citizens Financial Group",
       "sector": "Financials",
-      "market_cap_b": NaN
+      "market_cap_b": 26.51
     },
     {
       "ticker": "CHD",
@@ -1194,12 +1194,12 @@
       "ticker": "COIN",
       "status": "ok",
       "date": "2026-11-06",
-      "close": NaN,
-      "change_pct": NaN,
-      "volume": 7543128,
+      "close": 134.76,
+      "change_pct": -1.51,
+      "volume": 7559900,
       "name": "Coinbase",
       "sector": "Financials",
-      "market_cap_b": NaN
+      "market_cap_b": 35.68
     },
     {
       "ticker": "COO",
@@ -1315,12 +1315,12 @@
       "ticker": "CRWD",
       "status": "ok",
       "date": "2026-11-06",
-      "close": NaN,
-      "change_pct": NaN,
-      "volume": 10970495,
+      "close": 216.9,
+      "change_pct": -0.14,
+      "volume": 10985600,
       "name": "CrowdStrike",
       "sector": "Information Technology",
-      "market_cap_b": NaN
+      "market_cap_b": 222.09
     },
     {
       "ticker": "CSCO",
@@ -1381,12 +1381,12 @@
       "ticker": "CVNA",
       "status": "ok",
       "date": "2026-11-06",
-      "close": NaN,
-      "change_pct": NaN,
-      "volume": 7639687,
+      "close": 73.57,
+      "change_pct": 2.07,
+      "volume": 7640700,
       "name": "Carvana",
       "sector": "Consumer Discretionary",
-      "market_cap_b": NaN
+      "market_cap_b": 81.17
     },
     {
       "ticker": "CVS",
@@ -1436,12 +1436,12 @@
       "ticker": "DASH",
       "status": "ok",
       "date": "2026-11-06",
-      "close": NaN,
-      "change_pct": NaN,
-      "volume": 4548082,
+      "close": 179.67,
+      "change_pct": -0.14,
+      "volume": 4548100,
       "name": "DoorDash",
       "sector": "Consumer Discretionary",
-      "market_cap_b": NaN
+      "market_cap_b": 78.33
     },
     {
       "ticker": "DD",
@@ -1458,12 +1458,12 @@
       "ticker": "DDOG",
       "status": "ok",
       "date": "2026-11-06",
-      "close": NaN,
-      "change_pct": NaN,
-      "volume": 5936631,
+      "close": 179.04,
+      "change_pct": 2.54,
+      "volume": 5937300,
       "name": "Datadog",
       "sector": "Information Technology",
-      "market_cap_b": NaN
+      "market_cap_b": 64.64
     },
     {
       "ticker": "DE",
@@ -1491,12 +1491,12 @@
       "ticker": "DELL",
       "status": "ok",
       "date": "2026-11-06",
-      "close": NaN,
-      "change_pct": NaN,
-      "volume": 8573130,
+      "close": 328.53,
+      "change_pct": 3.67,
+      "volume": 8589100,
       "name": "Dell Technologies",
       "sector": "Information Technology",
-      "market_cap_b": NaN
+      "market_cap_b": 208.88
     },
     {
       "ticker": "DG",
@@ -1601,12 +1601,12 @@
       "ticker": "DOW",
       "status": "ok",
       "date": "2026-11-06",
-      "close": NaN,
-      "change_pct": NaN,
-      "volume": 6212004,
+      "close": 31.4,
+      "change_pct": -1.81,
+      "volume": 6212400,
       "name": "Dow Inc.",
       "sector": "Materials",
-      "market_cap_b": NaN
+      "market_cap_b": 22.73
     },
     {
       "ticker": "DPZ",
@@ -1938,12 +1938,12 @@
       "ticker": "EXE",
       "status": "ok",
       "date": "2026-11-06",
-      "close": NaN,
-      "change_pct": NaN,
-      "volume": 2219289,
+      "close": 84.6,
+      "change_pct": -0.87,
+      "volume": 2219400,
       "name": "Expand Energy",
       "sector": "Energy",
-      "market_cap_b": NaN
+      "market_cap_b": 19.54
     },
     {
       "ticker": "EXPD",
@@ -1993,12 +1993,12 @@
       "ticker": "FANG",
       "status": "ok",
       "date": "2026-11-06",
-      "close": NaN,
-      "change_pct": NaN,
-      "volume": 1636556,
+      "close": 178.96,
+      "change_pct": -0.35,
+      "volume": 1637000,
       "name": "Diamondback Energy",
       "sector": "Energy",
-      "market_cap_b": NaN
+      "market_cap_b": 49.96
     },
     {
       "ticker": "FAST",
@@ -2048,12 +2048,12 @@
       "ticker": "FDXF",
       "status": "ok",
       "date": "2026-11-06",
-      "close": NaN,
-      "change_pct": NaN,
-      "volume": 783088,
+      "close": 123.56,
+      "change_pct": -0.68,
+      "volume": 797900,
       "name": "FedEx Freight",
       "sector": "Industrials",
-      "market_cap_b": NaN
+      "market_cap_b": 18.47
     },
     {
       "ticker": "FE",
@@ -2070,12 +2070,12 @@
       "ticker": "FER",
       "status": "ok",
       "date": "2026-11-06",
-      "close": NaN,
-      "change_pct": NaN,
-      "volume": 3213051,
+      "close": 58.71,
+      "change_pct": -0.88,
+      "volume": 3213200,
       "name": null,
       "sector": null,
-      "market_cap_b": NaN
+      "market_cap_b": 42.19
     },
     {
       "ticker": "FERG",
@@ -2169,23 +2169,23 @@
       "ticker": "FOX",
       "status": "ok",
       "date": "2026-11-06",
-      "close": NaN,
-      "change_pct": NaN,
-      "volume": 1537185,
+      "close": 59.5,
+      "change_pct": -0.82,
+      "volume": 1740800,
       "name": "Fox Corporation (Class B)",
       "sector": "Communication Services",
-      "market_cap_b": NaN
+      "market_cap_b": 25.1
     },
     {
       "ticker": "FOXA",
       "status": "ok",
       "date": "2026-11-06",
-      "close": NaN,
-      "change_pct": NaN,
-      "volume": 19576649,
+      "close": 66.64,
+      "change_pct": -1.52,
+      "volume": 19576700,
       "name": "Fox Corporation (Class A)",
       "sector": "Communication Services",
-      "market_cap_b": NaN
+      "market_cap_b": 28.11
     },
     {
       "ticker": "FRT",
@@ -2224,12 +2224,12 @@
       "ticker": "FTV",
       "status": "ok",
       "date": "2026-11-06",
-      "close": NaN,
-      "change_pct": NaN,
-      "volume": 3567983,
+      "close": 65.37,
+      "change_pct": -0.08,
+      "volume": 3568000,
       "name": "Fortive",
       "sector": "Industrials",
-      "market_cap_b": NaN
+      "market_cap_b": 19.46
     },
     {
       "ticker": "GD",
@@ -2246,12 +2246,12 @@
       "ticker": "GDDY",
       "status": "ok",
       "date": "2026-11-06",
-      "close": NaN,
-      "change_pct": NaN,
-      "volume": 1758817,
+      "close": 114.38,
+      "change_pct": -4.78,
+      "volume": 1792300,
       "name": "GoDaddy",
       "sector": "Information Technology",
-      "market_cap_b": NaN
+      "market_cap_b": 13.87
     },
     {
       "ticker": "GE",
@@ -2268,12 +2268,12 @@
       "ticker": "GEHC",
       "status": "ok",
       "date": "2026-11-06",
-      "close": NaN,
-      "change_pct": NaN,
-      "volume": 4180958,
+      "close": 82.38,
+      "change_pct": -1.64,
+      "volume": 4181000,
       "name": "GE HealthCare",
       "sector": "Health Care",
-      "market_cap_b": NaN
+      "market_cap_b": 37.25
     },
     {
       "ticker": "GEN",
@@ -2290,12 +2290,12 @@
       "ticker": "GEV",
       "status": "ok",
       "date": "2026-11-06",
-      "close": NaN,
-      "change_pct": NaN,
-      "volume": 7201851,
+      "close": 774.11,
+      "change_pct": 0.47,
+      "volume": 7203400,
       "name": "GE Vernova",
       "sector": "Industrials",
-      "market_cap_b": NaN
+      "market_cap_b": 204.89
     },
     {
       "ticker": "GILD",
@@ -2367,12 +2367,12 @@
       "ticker": "GOOG",
       "status": "ok",
       "date": "2026-11-06",
-      "close": NaN,
-      "change_pct": NaN,
-      "volume": 23904918,
+      "close": 283.93,
+      "change_pct": 0.78,
+      "volume": 24585600,
       "name": "Alphabet Inc. (Class C)",
       "sector": "Communication Services",
-      "market_cap_b": NaN
+      "market_cap_b": 3490.64
     },
     {
       "ticker": "GOOGL",
@@ -2521,12 +2521,12 @@
       "ticker": "HLT",
       "status": "ok",
       "date": "2026-11-06",
-      "close": NaN,
-      "change_pct": NaN,
-      "volume": 1732276,
+      "close": 370.45,
+      "change_pct": 0.22,
+      "volume": 1732300,
       "name": "Hilton Worldwide",
       "sector": "Consumer Discretionary",
-      "market_cap_b": NaN
+      "market_cap_b": 82.43
     },
     {
       "ticker": "HON",
@@ -2543,34 +2543,34 @@
       "ticker": "HONA",
       "status": "ok",
       "date": "2026-11-06",
-      "close": NaN,
-      "change_pct": NaN,
-      "volume": 2517627,
+      "close": 152.92,
+      "change_pct": 2.23,
+      "volume": 2611600,
       "name": "Honeywell Aerospace",
       "sector": "Industrials",
-      "market_cap_b": NaN
+      "market_cap_b": 48.48
     },
     {
       "ticker": "HOOD",
       "status": "ok",
       "date": "2026-11-06",
-      "close": NaN,
-      "change_pct": NaN,
-      "volume": 16424304,
+      "close": 80.91,
+      "change_pct": 3.21,
+      "volume": 16457800,
       "name": "Robinhood Markets",
       "sector": "Financials",
-      "market_cap_b": NaN
+      "market_cap_b": 72.86
     },
     {
       "ticker": "HPE",
       "status": "ok",
       "date": "2026-11-06",
-      "close": NaN,
-      "change_pct": NaN,
-      "volume": 17624498,
+      "close": 44.77,
+      "change_pct": 1.38,
+      "volume": 17634300,
       "name": "Hewlett Packard Enterprise",
       "sector": "Information Technology",
-      "market_cap_b": NaN
+      "market_cap_b": 59.43
     },
     {
       "ticker": "HPQ",
@@ -2631,12 +2631,12 @@
       "ticker": "HUBB",
       "status": "ok",
       "date": "2026-11-06",
-      "close": NaN,
-      "change_pct": NaN,
-      "volume": 1028247,
+      "close": 429.45,
+      "change_pct": 2.55,
+      "volume": 1013195,
       "name": "Hubbell Incorporated",
       "sector": "Industrials",
-      "market_cap_b": NaN
+      "market_cap_b": 22.69
     },
     {
       "ticker": "HUM",
@@ -2785,12 +2785,12 @@
       "ticker": "INVH",
       "status": "ok",
       "date": "2026-11-06",
-      "close": NaN,
-      "change_pct": NaN,
-      "volume": 4544729,
+      "close": 27.1,
+      "change_pct": -1.67,
+      "volume": 4544800,
       "name": "Invitation Homes",
       "sector": "Real Estate",
-      "market_cap_b": NaN
+      "market_cap_b": 15.61
     },
     {
       "ticker": "IP",
@@ -2807,23 +2807,23 @@
       "ticker": "IQV",
       "status": "ok",
       "date": "2026-11-06",
-      "close": NaN,
-      "change_pct": NaN,
-      "volume": 1398188,
+      "close": 271.83,
+      "change_pct": 2.62,
+      "volume": 1398400,
       "name": "IQVIA",
       "sector": "Health Care",
-      "market_cap_b": NaN
+      "market_cap_b": 44.8
     },
     {
       "ticker": "IR",
       "status": "ok",
       "date": "2026-11-06",
-      "close": NaN,
-      "change_pct": NaN,
-      "volume": 3087310,
+      "close": 82.99,
+      "change_pct": 1.39,
+      "volume": 3087300,
       "name": "Ingersoll Rand",
       "sector": "Industrials",
-      "market_cap_b": NaN
+      "market_cap_b": 31.87
     },
     {
       "ticker": "IRM",
@@ -2983,23 +2983,23 @@
       "ticker": "KEYS",
       "status": "ok",
       "date": "2026-11-06",
-      "close": NaN,
-      "change_pct": NaN,
-      "volume": 2170996,
+      "close": 272.13,
+      "change_pct": 4.42,
+      "volume": 2547600,
       "name": "Keysight Technologies",
       "sector": "Information Technology",
-      "market_cap_b": NaN
+      "market_cap_b": 46.33
     },
     {
       "ticker": "KHC",
       "status": "ok",
       "date": "2026-11-06",
-      "close": NaN,
-      "change_pct": NaN,
-      "volume": 16029644,
+      "close": 24.61,
+      "change_pct": -2.8,
+      "volume": 16049800,
       "name": "Kraft Heinz",
       "sector": "Consumer Staples",
-      "market_cap_b": NaN
+      "market_cap_b": 29.13
     },
     {
       "ticker": "KIM",
@@ -3159,12 +3159,12 @@
       "ticker": "LITE",
       "status": "ok",
       "date": "2026-11-06",
-      "close": NaN,
-      "change_pct": NaN,
-      "volume": 5380777,
+      "close": 538.59,
+      "change_pct": 5.67,
+      "volume": 5393100,
       "name": "Lumentum",
       "sector": "Information Technology",
-      "market_cap_b": NaN
+      "market_cap_b": 48.84
     },
     {
       "ticker": "LLY",
@@ -3412,12 +3412,12 @@
       "ticker": "META",
       "status": "ok",
       "date": "2026-11-06",
-      "close": NaN,
-      "change_pct": NaN,
-      "volume": 15657463,
+      "close": 610.15,
+      "change_pct": 0.84,
+      "volume": 15682300,
       "name": "Meta Platforms",
       "sector": "Communication Services",
-      "market_cap_b": NaN
+      "market_cap_b": 1560.05
     },
     {
       "ticker": "MGM",
@@ -3533,12 +3533,12 @@
       "ticker": "MRNA",
       "status": "ok",
       "date": "2026-11-06",
-      "close": NaN,
-      "change_pct": NaN,
-      "volume": 16285337,
+      "close": 254.19,
+      "change_pct": 5.27,
+      "volume": 16296200,
       "name": "Moderna",
       "sector": "Health Care",
-      "market_cap_b": NaN
+      "market_cap_b": 101.48
     },
     {
       "ticker": "MRSH",
@@ -3654,12 +3654,12 @@
       "ticker": "NCLH",
       "status": "ok",
       "date": "2026-11-06",
-      "close": NaN,
-      "change_pct": NaN,
-      "volume": 16472621,
+      "close": 17.92,
+      "change_pct": 0.9,
+      "volume": 16480300,
       "name": "Norwegian Cruise Line Holdings",
       "sector": "Consumer Discretionary",
-      "market_cap_b": NaN
+      "market_cap_b": 8.23
     },
     {
       "ticker": "NDAQ",
@@ -3753,12 +3753,12 @@
       "ticker": "NOW",
       "status": "ok",
       "date": "2026-11-06",
-      "close": NaN,
-      "change_pct": NaN,
-      "volume": 15085693,
+      "close": 101.97,
+      "change_pct": -0.38,
+      "volume": 15094900,
       "name": "ServiceNow",
       "sector": "Information Technology",
-      "market_cap_b": NaN
+      "market_cap_b": 105.84
     },
     {
       "ticker": "NRG",
@@ -3841,23 +3841,23 @@
       "ticker": "NWS",
       "status": "ok",
       "date": "2026-11-06",
-      "close": NaN,
-      "change_pct": NaN,
-      "volume": 2078097,
+      "close": 28.96,
+      "change_pct": -0.03,
+      "volume": 2078100,
       "name": "News Corp (Class B)",
       "sector": "Communication Services",
-      "market_cap_b": NaN
+      "market_cap_b": 15.57
     },
     {
       "ticker": "NWSA",
       "status": "ok",
       "date": "2026-11-06",
-      "close": NaN,
-      "change_pct": NaN,
-      "volume": 7099547,
+      "close": 26.39,
+      "change_pct": -0.34,
+      "volume": 7099600,
       "name": "News Corp (Class A)",
       "sector": "Communication Services",
-      "market_cap_b": NaN
+      "market_cap_b": 14.19
     },
     {
       "ticker": "NXPI",
@@ -3907,12 +3907,12 @@
       "ticker": "OKTA",
       "status": "ok",
       "date": "2026-11-06",
-      "close": NaN,
-      "change_pct": NaN,
-      "volume": 5289897,
+      "close": 168.69,
+      "change_pct": -1.44,
+      "volume": 5290700,
       "name": "Okta, Inc.",
       "sector": "Information Technology",
-      "market_cap_b": NaN
+      "market_cap_b": 29.49
     },
     {
       "ticker": "OMC",
@@ -3962,12 +3962,12 @@
       "ticker": "OTIS",
       "status": "ok",
       "date": "2026-11-06",
-      "close": NaN,
-      "change_pct": NaN,
-      "volume": 4422870,
+      "close": 78.96,
+      "change_pct": -0.67,
+      "volume": 4422900,
       "name": "Otis Worldwide",
       "sector": "Industrials",
-      "market_cap_b": NaN
+      "market_cap_b": 30.06
     },
     {
       "ticker": "OXY",
@@ -3984,23 +3984,23 @@
       "ticker": "P",
       "status": "ok",
       "date": "2026-11-06",
-      "close": NaN,
-      "change_pct": NaN,
-      "volume": 3556212,
+      "close": 96.75,
+      "change_pct": 3.54,
+      "volume": 3556400,
       "name": "Everpure",
       "sector": "Information Technology",
-      "market_cap_b": NaN
+      "market_cap_b": 32.24
     },
     {
       "ticker": "PANW",
       "status": "ok",
       "date": "2026-11-06",
-      "close": NaN,
-      "change_pct": NaN,
-      "volume": 6243218,
+      "close": 313.84,
+      "change_pct": -0.26,
+      "volume": 6287000,
       "name": "Palo Alto Networks",
       "sector": "Information Technology",
-      "market_cap_b": NaN
+      "market_cap_b": 256.86
     },
     {
       "ticker": "PAYX",
@@ -4039,12 +4039,12 @@
       "ticker": "PDD",
       "status": "ok",
       "date": "2026-11-06",
-      "close": NaN,
-      "change_pct": NaN,
-      "volume": 6498991,
+      "close": 83.03,
+      "change_pct": -1.1,
+      "volume": 6502100,
       "name": null,
       "sector": null,
-      "market_cap_b": NaN
+      "market_cap_b": 118.18
     },
     {
       "ticker": "PEG",
@@ -4160,12 +4160,12 @@
       "ticker": "PLTR",
       "status": "ok",
       "date": "2026-11-06",
-      "close": NaN,
-      "change_pct": NaN,
-      "volume": 24277536,
+      "close": 160.38,
+      "change_pct": 3.48,
+      "volume": 24298100,
       "name": "Palantir Technologies",
       "sector": "Information Technology",
-      "market_cap_b": NaN
+      "market_cap_b": 386.44
     },
     {
       "ticker": "PM",
@@ -4270,12 +4270,12 @@
       "ticker": "PSX",
       "status": "ok",
       "date": "2026-11-06",
-      "close": NaN,
-      "change_pct": NaN,
-      "volume": 3068959,
+      "close": 245.72,
+      "change_pct": -0.53,
+      "volume": 3069000,
       "name": "Phillips 66",
       "sector": "Energy",
-      "market_cap_b": NaN
+      "market_cap_b": 95.85
     },
     {
       "ticker": "PTC",
@@ -4303,23 +4303,23 @@
       "ticker": "PYPL",
       "status": "ok",
       "date": "2026-11-06",
-      "close": NaN,
-      "change_pct": NaN,
-      "volume": 7439832,
+      "close": 59.24,
+      "change_pct": 0.47,
+      "volume": 7440300,
       "name": "PayPal",
       "sector": "Financials",
-      "market_cap_b": NaN
+      "market_cap_b": 49.21
     },
     {
       "ticker": "Q",
       "status": "ok",
       "date": "2026-11-06",
-      "close": NaN,
-      "change_pct": NaN,
-      "volume": 2531175,
+      "close": 117.0,
+      "change_pct": 6.32,
+      "volume": 2531500,
       "name": "Qnity Electronics",
       "sector": "Information Technology",
-      "market_cap_b": NaN
+      "market_cap_b": 24.46
     },
     {
       "ticker": "QCOM",
@@ -4347,12 +4347,12 @@
       "ticker": "RDDT",
       "status": "ok",
       "date": "2026-11-06",
-      "close": NaN,
-      "change_pct": NaN,
-      "volume": 5854120,
+      "close": 95.1,
+      "change_pct": 1.38,
+      "volume": 6289700,
       "name": "Reddit",
       "sector": "Communication Services",
-      "market_cap_b": NaN
+      "market_cap_b": 18.36
     },
     {
       "ticker": "REG",
@@ -4534,12 +4534,12 @@
       "ticker": "SHOP",
       "status": "ok",
       "date": "2026-11-06",
-      "close": NaN,
-      "change_pct": NaN,
-      "volume": 7971763,
+      "close": 148.91,
+      "change_pct": 3.59,
+      "volume": 7972800,
       "name": null,
       "sector": null,
-      "market_cap_b": NaN
+      "market_cap_b": 191.58
     },
     {
       "ticker": "SHW",
@@ -4611,12 +4611,12 @@
       "ticker": "SNDK",
       "status": "ok",
       "date": "2026-11-06",
-      "close": NaN,
-      "change_pct": NaN,
-      "volume": 17644533,
+      "close": 835.06,
+      "change_pct": 3.55,
+      "volume": 17692600,
       "name": "Sandisk",
       "sector": "Information Technology",
-      "market_cap_b": NaN
+      "market_cap_b": 118.82
     },
     {
       "ticker": "SNPS",
@@ -4644,12 +4644,12 @@
       "ticker": "SOLV",
       "status": "ok",
       "date": "2026-11-06",
-      "close": NaN,
-      "change_pct": NaN,
-      "volume": 3168916,
+      "close": 90.38,
+      "change_pct": 3.67,
+      "volume": 3168900,
       "name": "Solventum",
       "sector": "Health Care",
-      "market_cap_b": NaN
+      "market_cap_b": 15.38
     },
     {
       "ticker": "SPG",
@@ -4743,12 +4743,12 @@
       "ticker": "SW",
       "status": "ok",
       "date": "2026-11-06",
-      "close": NaN,
-      "change_pct": NaN,
-      "volume": 4868293,
+      "close": 44.09,
+      "change_pct": -0.94,
+      "volume": 4868300,
       "name": "Smurfit Westrock",
       "sector": "Materials",
-      "market_cap_b": NaN
+      "market_cap_b": 23.13
     },
     {
       "ticker": "SWK",
@@ -4776,12 +4776,12 @@
       "ticker": "SYF",
       "status": "ok",
       "date": "2026-11-06",
-      "close": NaN,
-      "change_pct": NaN,
-      "volume": 4899251,
+      "close": 73.74,
+      "change_pct": -0.45,
+      "volume": 4899300,
       "name": "Synchrony Financial",
       "sector": "Financials",
-      "market_cap_b": NaN
+      "market_cap_b": 23.99
     },
     {
       "ticker": "SYK",
@@ -5073,12 +5073,12 @@
       "ticker": "TWLO",
       "status": "ok",
       "date": "2026-11-06",
-      "close": NaN,
-      "change_pct": NaN,
-      "volume": 2100900,
+      "close": 202.02,
+      "change_pct": 0.53,
+      "volume": 2104700,
       "name": "Twilio",
       "sector": "Information Technology",
-      "market_cap_b": NaN
+      "market_cap_b": 31.26
     },
     {
       "ticker": "TXN",
@@ -5128,12 +5128,12 @@
       "ticker": "UBER",
       "status": "ok",
       "date": "2026-11-06",
-      "close": NaN,
-      "change_pct": NaN,
-      "volume": 18212794,
+      "close": 68.59,
+      "change_pct": -0.28,
+      "volume": 18279800,
       "name": "Uber",
       "sector": "Industrials",
-      "market_cap_b": NaN
+      "market_cap_b": 140.05
     },
     {
       "ticker": "UDR",
@@ -5238,23 +5238,23 @@
       "ticker": "VEEV",
       "status": "ok",
       "date": "2026-11-06",
-      "close": NaN,
-      "change_pct": NaN,
-      "volume": 1504205,
+      "close": 303.73,
+      "change_pct": -2.05,
+      "volume": 1746400,
       "name": "Veeva Systems",
       "sector": "Health Care",
-      "market_cap_b": NaN
+      "market_cap_b": 49.18
     },
     {
       "ticker": "VICI",
       "status": "ok",
       "date": "2026-11-06",
-      "close": NaN,
-      "change_pct": NaN,
-      "volume": 8542603,
+      "close": 24.79,
+      "change_pct": -1.67,
+      "volume": 8542800,
       "name": "Vici Properties",
       "sector": "Real Estate",
-      "market_cap_b": NaN
+      "market_cap_b": 27.3
     },
     {
       "ticker": "VLO",
@@ -5271,12 +5271,12 @@
       "ticker": "VLTO",
       "status": "ok",
       "date": "2026-11-06",
-      "close": NaN,
-      "change_pct": NaN,
-      "volume": 1899650,
+      "close": 117.09,
+      "change_pct": 0.46,
+      "volume": 1899700,
       "name": "Veralto",
       "sector": "Industrials",
-      "market_cap_b": NaN
+      "market_cap_b": 28.47
     },
     {
       "ticker": "VMC",
@@ -5326,12 +5326,12 @@
       "ticker": "VRT",
       "status": "ok",
       "date": "2026-11-06",
-      "close": NaN,
-      "change_pct": NaN,
-      "volume": 9617315,
+      "close": 182.86,
+      "change_pct": 3.47,
+      "volume": 9625500,
       "name": "Vertiv",
       "sector": "Industrials",
-      "market_cap_b": NaN
+      "market_cap_b": 70.41
     },
     {
       "ticker": "VRTX",
@@ -5348,12 +5348,12 @@
       "ticker": "VST",
       "status": "ok",
       "date": "2026-11-06",
-      "close": NaN,
-      "change_pct": NaN,
-      "volume": 12501439,
+      "close": 124.8,
+      "change_pct": 10.55,
+      "volume": 12511500,
       "name": "Vistra Corp.",
       "sector": "Utilities",
-      "market_cap_b": NaN
+      "market_cap_b": 41.89
     },
     {
       "ticker": "VTR",
@@ -5381,12 +5381,12 @@
       "ticker": "VYLR",
       "status": "ok",
       "date": "2026-11-06",
-      "close": NaN,
-      "change_pct": NaN,
-      "volume": 3488469,
+      "close": 70.14,
+      "change_pct": 2.35,
+      "volume": 3488500,
       "name": "Vylor",
       "sector": "Consumer Staples",
-      "market_cap_b": NaN
+      "market_cap_b": 46.8
     },
     {
       "ticker": "VZ",
@@ -5432,12 +5432,12 @@
       "ticker": "WDAY",
       "status": "ok",
       "date": "2026-11-06",
-      "close": NaN,
-      "change_pct": NaN,
-      "volume": 2028103,
+      "close": 192.9,
+      "change_pct": -3.63,
+      "volume": 2034900,
       "name": "Workday, Inc.",
       "sector": "Information Technology",
-      "market_cap_b": NaN
+      "market_cap_b": 46.49
     },
     {
       "ticker": "WDC",
@@ -5619,12 +5619,12 @@
       "ticker": "XYZ",
       "status": "ok",
       "date": "2026-11-06",
-      "close": NaN,
-      "change_pct": NaN,
-      "volume": 7756582,
+      "close": 85.48,
+      "change_pct": 1.71,
+      "volume": 7757300,
       "name": "Block, Inc.",
       "sector": "Financials",
-      "market_cap_b": NaN
+      "market_cap_b": 51.67
     },
     {
       "ticker": "YUM",
@@ -5663,23 +5663,23 @@
       "ticker": "ZS",
       "status": "ok",
       "date": "2026-11-06",
-      "close": NaN,
-      "change_pct": NaN,
-      "volume": 2701625,
+      "close": 197.66,
+      "change_pct": -3.05,
+      "volume": 2703600,
       "name": null,
       "sector": null,
-      "market_cap_b": NaN
+      "market_cap_b": 32.23
     },
     {
       "ticker": "ZTS",
       "status": "ok",
       "date": "2026-11-06",
-      "close": NaN,
-      "change_pct": NaN,
-      "volume": 5805016,
+      "close": 79.4,
+      "change_pct": -3.3,
+      "volume": 6023700,
       "name": "Zoetis",
       "sector": "Health Care",
-      "market_cap_b": NaN
+      "market_cap_b": 32.81
     }
   ]
 }
