@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-26T13:41:37.349238+09:00",
+  "last_updated": "2026-11-27T13:45:30.383963+09:00",
   "count": 517,
   "rows": [
     {
@@ -19,7 +19,7 @@
       "date": "2026-11-25",
       "close": 355.58,
       "change_pct": 0.43,
-      "volume": 54240100,
+      "volume": 54285300,
       "name": "Apple Inc.",
       "sector": "Information Technology",
       "market_cap_b": 5167.35
@@ -257,10 +257,14 @@
     },
     {
       "ticker": "ALLE",
-      "status": "no_data",
+      "status": "ok",
+      "date": "2026-11-25",
+      "close": 192.2,
+      "change_pct": 1.18,
+      "volume": 737900,
       "name": "Allegion",
       "sector": "Industrials",
-      "market_cap_b": null
+      "market_cap_b": 16.21
     },
     {
       "ticker": "ALNY",
@@ -279,7 +283,7 @@
       "date": "2026-11-25",
       "close": 311.18,
       "change_pct": -3.89,
-      "volume": 11700800,
+      "volume": 11719400,
       "name": "Applied Materials",
       "sector": "Information Technology",
       "market_cap_b": 246.95
@@ -301,7 +305,7 @@
       "date": "2026-11-25",
       "close": 406.03,
       "change_pct": -1.75,
-      "volume": 51340800,
+      "volume": 51632000,
       "name": "Advanced Micro Devices",
       "sector": "Information Technology",
       "market_cap_b": 672.01
@@ -356,7 +360,7 @@
       "date": "2026-11-25",
       "close": 244.43,
       "change_pct": -3.12,
-      "volume": 62276400,
+      "volume": 62479500,
       "name": "Amazon",
       "sector": "Consumer Discretionary",
       "market_cap_b": 2643.06
@@ -488,7 +492,7 @@
       "date": "2026-11-25",
       "close": 161.51,
       "change_pct": -0.03,
-      "volume": 8148000,
+      "volume": 8187900,
       "name": null,
       "sector": null,
       "market_cap_b": 172.82
@@ -521,7 +525,7 @@
       "date": "2026-11-25",
       "close": 300.86,
       "change_pct": -0.07,
-      "volume": 34256900,
+      "volume": 34349500,
       "name": "Broadcom",
       "sector": "Information Technology",
       "market_cap_b": 1436.19
@@ -598,7 +602,7 @@
       "date": "2026-11-25",
       "close": 48.54,
       "change_pct": -0.04,
-      "volume": 38275100,
+      "volume": 38285800,
       "name": "Bank of America",
       "sector": "Financials",
       "market_cap_b": 334.94
@@ -653,7 +657,7 @@
       "date": "2026-11-25",
       "close": 152.89,
       "change_pct": -2.25,
-      "volume": 18487300,
+      "volume": 18646400,
       "name": "Bloom Energy",
       "sector": "Industrials",
       "market_cap_b": 45.2
@@ -1181,7 +1185,7 @@
       "date": "2026-11-25",
       "close": 196.19,
       "change_pct": -0.03,
-      "volume": 9263600,
+      "volume": 9381500,
       "name": "Coherent Corp.",
       "sector": "Information Technology",
       "market_cap_b": 38.64
@@ -1192,7 +1196,7 @@
       "date": "2026-11-25",
       "close": 103.72,
       "change_pct": 1.34,
-      "volume": 9898800,
+      "volume": 9968400,
       "name": "Coinbase",
       "sector": "Financials",
       "market_cap_b": 27.46
@@ -1313,7 +1317,7 @@
       "date": "2026-11-25",
       "close": 209.3,
       "change_pct": -0.74,
-      "volume": 14517100,
+      "volume": 14571700,
       "name": "CrowdStrike",
       "sector": "Information Technology",
       "market_cap_b": 214.31
@@ -1489,7 +1493,7 @@
       "date": "2026-11-25",
       "close": 297.06,
       "change_pct": 0.6,
-      "volume": 26489800,
+      "volume": 26690500,
       "name": "Dell Technologies",
       "sector": "Information Technology",
       "market_cap_b": 188.87
@@ -1544,7 +1548,7 @@
       "date": "2026-11-25",
       "close": 125.6,
       "change_pct": 2.52,
-      "volume": 16344400,
+      "volume": 16355200,
       "name": "Walt Disney Company (The)",
       "sector": "Communication Services",
       "market_cap_b": 214.53
@@ -1980,7 +1984,7 @@
       "date": "2026-11-25",
       "close": 12.17,
       "change_pct": 1.84,
-      "volume": 49080300,
+      "volume": 49092000,
       "name": "Ford Motor Company",
       "sector": "Consumer Discretionary",
       "market_cap_b": 48.6
@@ -2332,7 +2336,7 @@
       "date": "2026-11-25",
       "close": 100.24,
       "change_pct": -1.6,
-      "volume": 9003200,
+      "volume": 9025300,
       "name": "Corning Inc.",
       "sector": "Information Technology",
       "market_cap_b": 86.35
@@ -2365,7 +2369,7 @@
       "date": "2026-11-25",
       "close": 270.98,
       "change_pct": -2.02,
-      "volume": 27832500,
+      "volume": 27916900,
       "name": "Alphabet Inc. (Class C)",
       "sector": "Communication Services",
       "market_cap_b": 3331.43
@@ -2376,7 +2380,7 @@
       "date": "2026-11-25",
       "close": 273.1,
       "change_pct": -2.13,
-      "volume": 41164500,
+      "volume": 41283700,
       "name": "Alphabet Inc. (Class A)",
       "sector": "Communication Services",
       "market_cap_b": 3357.49
@@ -2552,7 +2556,7 @@
       "date": "2026-11-25",
       "close": 65.78,
       "change_pct": 0.2,
-      "volume": 20069500,
+      "volume": 20255800,
       "name": "Robinhood Markets",
       "sector": "Financials",
       "market_cap_b": 59.23
@@ -2563,7 +2567,7 @@
       "date": "2026-11-25",
       "close": 40.82,
       "change_pct": 1.57,
-      "volume": 27559200,
+      "volume": 27644100,
       "name": "Hewlett Packard Enterprise",
       "sector": "Information Technology",
       "market_cap_b": 54.19
@@ -2574,7 +2578,7 @@
       "date": "2026-11-25",
       "close": 31.15,
       "change_pct": 11.49,
-      "volume": 39069000,
+      "volume": 39105300,
       "name": "HP Inc.",
       "sector": "Information Technology",
       "market_cap_b": 28.09
@@ -2629,7 +2633,7 @@
       "date": "2026-11-25",
       "close": 428.74,
       "change_pct": 1.57,
-      "volume": 511192,
+      "volume": 513245,
       "name": "Hubbell Incorporated",
       "sector": "Industrials",
       "market_cap_b": 22.65
@@ -2761,7 +2765,7 @@
       "date": "2026-11-25",
       "close": 54.47,
       "change_pct": -0.6,
-      "volume": 128605100,
+      "volume": 129277900,
       "name": "Intel",
       "sector": "Information Technology",
       "market_cap_b": 289.51
@@ -3058,7 +3062,7 @@
       "date": "2026-11-25",
       "close": 97.59,
       "change_pct": -0.03,
-      "volume": 24884900,
+      "volume": 24905500,
       "name": "Coca-Cola Company (The)",
       "sector": "Consumer Staples",
       "market_cap_b": 419.82
@@ -3157,7 +3161,7 @@
       "date": "2026-11-25",
       "close": 476.58,
       "change_pct": -2.16,
-      "volume": 5395100,
+      "volume": 5428900,
       "name": "Lumentum",
       "sector": "Information Technology",
       "market_cap_b": 43.22
@@ -3212,7 +3216,7 @@
       "date": "2026-11-25",
       "close": 185.01,
       "change_pct": -5.68,
-      "volume": 21472400,
+      "volume": 21505500,
       "name": "Lam Research",
       "sector": "Information Technology",
       "market_cap_b": 231.11
@@ -3410,7 +3414,7 @@
       "date": "2026-11-25",
       "close": 609.89,
       "change_pct": 3.4,
-      "volume": 18599400,
+      "volume": 18668200,
       "name": "Meta Platforms",
       "sector": "Communication Services",
       "market_cap_b": 1559.03
@@ -3531,7 +3535,7 @@
       "date": "2026-11-25",
       "close": 220.84,
       "change_pct": -2.88,
-      "volume": 6795600,
+      "volume": 6812900,
       "name": "Moderna",
       "sector": "Health Care",
       "market_cap_b": 89.36
@@ -3553,7 +3557,7 @@
       "date": "2026-11-25",
       "close": 130.93,
       "change_pct": -0.49,
-      "volume": 28539800,
+      "volume": 28713100,
       "name": "Marvell Technology",
       "sector": "Information Technology",
       "market_cap_b": 117.81
@@ -3586,7 +3590,7 @@
       "date": "2026-11-25",
       "close": 489.93,
       "change_pct": -1.25,
-      "volume": 26733600,
+      "volume": 26759500,
       "name": "Microsoft",
       "sector": "Information Technology",
       "market_cap_b": 3638.32
@@ -3608,7 +3612,7 @@
       "date": "2026-11-25",
       "close": 79.96,
       "change_pct": 3.11,
-      "volume": 29837700,
+      "volume": 30231600,
       "name": null,
       "sector": null,
       "market_cap_b": 33.85
@@ -3641,7 +3645,7 @@
       "date": "2026-11-25",
       "close": 601.25,
       "change_pct": -4.53,
-      "volume": 52470000,
+      "volume": 52988400,
       "name": "Micron Technology",
       "sector": "Information Technology",
       "market_cap_b": 680.27
@@ -3696,7 +3700,7 @@
       "date": "2026-11-25",
       "close": 101.44,
       "change_pct": 2.02,
-      "volume": 7971200,
+      "volume": 7992000,
       "name": "Newmont",
       "sector": "Materials",
       "market_cap_b": 105.42
@@ -3707,7 +3711,7 @@
       "date": "2026-11-25",
       "close": 59.41,
       "change_pct": 0.92,
-      "volume": 45693600,
+      "volume": 45756500,
       "name": "Netflix",
       "sector": "Communication Services",
       "market_cap_b": 243.96
@@ -3729,7 +3733,7 @@
       "date": "2026-11-25",
       "close": 36.66,
       "change_pct": 2.55,
-      "volume": 27945300,
+      "volume": 27974100,
       "name": "Nike, Inc.",
       "sector": "Consumer Discretionary",
       "market_cap_b": 54.45
@@ -3817,7 +3821,7 @@
       "date": "2026-11-25",
       "close": 149.3,
       "change_pct": -3.91,
-      "volume": 363377300,
+      "volume": 366571900,
       "name": "Nvidia",
       "sector": "Information Technology",
       "market_cap_b": 3605.15
@@ -3938,7 +3942,7 @@
       "date": "2026-11-25",
       "close": 103.88,
       "change_pct": -5.13,
-      "volume": 38324600,
+      "volume": 38491500,
       "name": "Oracle Corporation",
       "sector": "Information Technology",
       "market_cap_b": 323.87
@@ -3993,7 +3997,7 @@
       "date": "2026-11-25",
       "close": 356.14,
       "change_pct": 0.89,
-      "volume": 6657600,
+      "volume": 6690900,
       "name": "Palo Alto Networks",
       "sector": "Information Technology",
       "market_cap_b": 292.39
@@ -4070,7 +4074,7 @@
       "date": "2026-11-25",
       "close": 28.46,
       "change_pct": 0.0,
-      "volume": 27106200,
+      "volume": 27143400,
       "name": "Pfizer",
       "sector": "Health Care",
       "market_cap_b": 162.22
@@ -4158,7 +4162,7 @@
       "date": "2026-11-25",
       "close": 163.59,
       "change_pct": 1.5,
-      "volume": 21407000,
+      "volume": 21486000,
       "name": "Palantir Technologies",
       "sector": "Information Technology",
       "market_cap_b": 394.17
@@ -4323,7 +4327,7 @@
       "date": "2026-11-25",
       "close": 168.66,
       "change_pct": 2.24,
-      "volume": 14029400,
+      "volume": 14054400,
       "name": "Qualcomm",
       "sector": "Information Technology",
       "market_cap_b": 180.47
@@ -4411,7 +4415,7 @@
       "date": "2026-11-25",
       "close": 245.7,
       "change_pct": 0.93,
-      "volume": 1170400,
+      "volume": 1194100,
       "name": "ResMed",
       "sector": "Health Care",
       "market_cap_b": 34.56
@@ -4587,7 +4591,7 @@
       "date": "2026-11-25",
       "close": 23.31,
       "change_pct": 3.05,
-      "volume": 43194700,
+      "volume": 43383900,
       "name": "Supermicro",
       "sector": "Information Technology",
       "market_cap_b": 15.37
@@ -5027,7 +5031,7 @@
       "date": "2026-11-25",
       "close": 380.14,
       "change_pct": -1.18,
-      "volume": 34789900,
+      "volume": 34915800,
       "name": "Tesla, Inc.",
       "sector": "Consumer Discretionary",
       "market_cap_b": 1502.6
@@ -5126,7 +5130,7 @@
       "date": "2026-11-25",
       "close": 66.35,
       "change_pct": 2.55,
-      "volume": 19832100,
+      "volume": 19842500,
       "name": "Uber",
       "sector": "Industrials",
       "market_cap_b": 135.48
@@ -5324,7 +5328,7 @@
       "date": "2026-11-25",
       "close": 173.37,
       "change_pct": -0.26,
-      "volume": 7323900,
+      "volume": 7335700,
       "name": "Vertiv",
       "sector": "Industrials",
       "market_cap_b": 66.76
@@ -5441,7 +5445,7 @@
       "date": "2026-11-25",
       "close": 272.45,
       "change_pct": -0.55,
-      "volume": 6497300,
+      "volume": 6515100,
       "name": "Western Digital",
       "sector": "Information Technology",
       "market_cap_b": 101.98
@@ -5507,7 +5511,7 @@
       "date": "2026-11-25",
       "close": 131.94,
       "change_pct": -0.28,
-      "volume": 23603400,
+      "volume": 23619900,
       "name": "Walmart",
       "sector": "Consumer Staples",
       "market_cap_b": 1046.78
